@@ -1,0 +1,1870 @@
+1:"$Sreact.fragment"
+2:I[87830,["274","static/chunks/274-c88b5be990786de4.js","619","static/chunks/619-f072ac750404f9da.js","214","static/chunks/214-de4077ebac0b9f16.js","472","static/chunks/472-1542fbc46b2b2207.js","177","static/chunks/app/layout-04c2d03778e1a81b.js"],"default"]
+3:I[85496,["274","static/chunks/274-c88b5be990786de4.js","619","static/chunks/619-f072ac750404f9da.js","214","static/chunks/214-de4077ebac0b9f16.js","472","static/chunks/472-1542fbc46b2b2207.js","177","static/chunks/app/layout-04c2d03778e1a81b.js"],"default"]
+4:I[9766,[],""]
+5:I[98924,[],""]
+6:I[88743,["274","static/chunks/274-c88b5be990786de4.js","619","static/chunks/619-f072ac750404f9da.js","214","static/chunks/214-de4077ebac0b9f16.js","472","static/chunks/472-1542fbc46b2b2207.js","177","static/chunks/app/layout-04c2d03778e1a81b.js"],"default"]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/_next/static/css/203636aecdefe762.css","style"]
+:HL["/_next/static/css/5eacd01f773eed7f.css","style"]
+0:{"P":null,"b":"00VTh7-hGo956TpiOPgK-","p":"","c":["","guides","hero-information",""],"i":false,"f":[[["",{"children":["guides",{"children":[["slug","hero-information","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/203636aecdefe762.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{}],["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"className":"min-h-screen bg-dark-bg text-theme-text flex flex-col","children":[["$","$L3",null,{}],["$","main",null,{"className":"flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]}]}]]}]]}],{"children":["guides",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","hero-information","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[62182,["919","static/chunks/b78e3e00-1476d88e55e132e3.js","274","static/chunks/274-c88b5be990786de4.js","619","static/chunks/619-f072ac750404f9da.js","214","static/chunks/214-de4077ebac0b9f16.js","942","static/chunks/942-d9eaaa2589410be9.js","54","static/chunks/app/guides/%5Bslug%5D/page-9708505c0cd7ddf9.js"],"default"]
+13:T33b3,
+# دليل معلومات الأبطال 🦸
+
+فهم أبطالك أمر بالغ الأهمية للنجاح في DarkWar Survival. يغطي هذا الدليل الشامل جميع أنواع الأبطال وتخصصاتهم وكيفية استخدامهم بفعالية لتعزيز أسلوب لعبك.
+
+---
+
+## الأبطال الأزرق (B-Tier) 🔵
+
+الأبطال الأزرق ضرورية **لإنتاج الموارد وجمعها**. يجب ترقية هؤلاء الأبطال إلى **المستوى 30** على الأقل لتعظيم فوائد المهارة الثالثة.
+
+### أبطال إنتاج الموارد
+
+**ويلو (Willow)**
+- التخصص: تعزيز إنتاج الحديد
+- الغرض: يزيد من إنتاج الحديد من قاعدتك
+
+**روبي (Ruby)**
+- التخصص: تعزيز إنتاج الخشب
+- الغرض: يزيد من إنتاج الخشب من قاعدتك
+
+**سيلينا (Selena)**
+- التخصص: تعزيز إنتاج الكهرباء
+- الغرض: يزيد من إنتاج الكهرباء من قاعدتك
+
+### أبطال جمع الموارد
+
+**بوب (Bob)**
+- التخصص: تعزيز جمع الحديد
+- الغرض: يزيد من الحديد المجمع من بلاطات الحقل
+
+**موساشيمارو (Musashimaru)**
+- التخصص: تعزيز جمع الخشب
+- الغرض: يزيد من الخشب المجمع من بلاطات الحقل
+
+**جو (Joe)**
+- التخصص: تعزيز جمع الكهرباء
+- الغرض: يزيد من الكهرباء المجمعة من بلاطات الحقل
+
+**مهم:** ارفع مستوى هؤلاء الأبطال الستة إلى **المستوى 40** على الأقل لفتح مهاراتهم الرابعة. بينما تصل مهاراتهم الثالثة (تعزيزات الموارد) إلى الحد الأقصى عند المستوى 30، فإن الوصول إلى المستوى 40 يفتح المهارة الرابعة التي تزيد من سعة الوحدات عند إدراجها في التشكيلات، مما يعظم فائدتهم الإجمالية.
+
+---
+
+## الأبطال الأرجوانية (A-Tier) 🟣
+
+تنقسم الأبطال الأرجوانية إلى فئتين: **المنفعة** و**الدعم القتالي**.
+
+### أبطال المنفعة
+
+يوفر هؤلاء الأبطال تعزيزات اللعب الأساسية. ارفع مستواهم إلى **المستوى 40** على الأقل لفتح مهاراتهم الرابعة. بينما تصل مهاراتهم الثالثة (تعزيزات المنفعة) إلى الحد الأقصى عند المستوى 30، فإن الوصول إلى المستوى 40 يفتح المهارة الرابعة التي تزيد من سعة الوحدات، مما يجعلهم أكثر قيمة في التشكيلات.
+
+**أندريه (Andre)**
+- التخصص: تعزيز سرعة البحث
+- الأولوية: عالية - يسرع جميع أبحاث التكنولوجيا
+
+**فيكتور (Victor)**
+- التخصص: تقليل تكلفة الطاقة وتعزيز سرعة المسيرة ضد الوحوش
+- الأولوية: عالية - ضروري لصيد الوحوش بكفاءة
+
+**ليز (Liz)**
+- التخصص: تعزيز سرعة الشفاء
+- الأولوية: متوسطة - يقلل من وقت التعافي في المستشفى
+
+**بارنيت (Barnett)**
+- التخصص: تعزيز سرعة تدريب القوات
+- الأولوية: عالية - يسرع بناء الجيش
+
+### أبطال الدعم القتالي (قاعة الشهرة)
+
+يسمح نظام قاعة الشهرة **لأي بطل وصل إلى مستوى 5 نجوم** بالدخول وتوفير تعزيزات قتالية إضافية لفصيله المعني. عادة ما تستخدم الأبطال الأرجوانية لهذا الغرض لأنها أسهل في الحصول عليها وترقيتها إلى 5 نجوم.
+
+**أبطال أرجوانية شائعة لقاعة الشهرة:**
+
+**فصيل المقاتل:**
+- **فرهاد (Farhad)**
+
+**فصيل الرامي:**
+- **سيسيليا (Cecilia)**
+- **كايلي (Kylie)**
+
+**فصيل الراكب:**
+- **سكارليت (Scarlett)**
+- **إيدي (Eddie)**
+
+**نصيحة:** رفع مستوى أبطال قاعة الشهرة يزيد من فعالية قتال فصيلك. يمكن لأي بطل 5 نجوم دخول قاعة الشهرة - هؤلاء الأبطال الأرجوانية مجرد خيارات شائعة بسبب سهولة الوصول.
+
+---
+
+## الأبطال البرتقالية (S-Tier) 🟠
+
+الأبطال البرتقالية هم الأقوى ويتم تقسيمهم حسب الفصيل والدور.
+
+### فصيل المقاتل 🗡️
+
+#### أبطال المنفعة
+
+**كاثرين & ريكس (Catherine & Rex)**
+- التخصص: تعزيز عائد الطعام في مهام الرادار وكمية مهام الرادار المجانية
+- الاستخدام: انشرهما معًا لتحقيق أقصى كفاءة لمهمة الرادار
+
+**غاي (Guy)**
+- التخصص: طاقة مجانية، سرعة استعادة الطاقة، وتعزيز كسب الطعام الخامل
+- الاستخدام: ضروري لتوليد الموارد بمرور الوقت
+
+#### الأبطال القتالية (حسب الموسم)
+
+**تريستان (Tristan) - الموسم 1)**
+- التعزيزات: دفاع المقاتل، هجوم قوات المقاتل، وتعزيز ضرر المعركة
+- الأفضل لـ: التشكيلات الدفاعية مع هجمات مضادة قوية
+
+**فرانسيس (Francis) - الموسم 2)**
+- التعزيزات: صحة المقاتل وتعزيز ضرر المعركة
+- الأفضل لـ: التشكيلات المرتكزة على الدبابات مع قابلية البقاء العالية
+
+**لان (Lan) - الموسم 3)**
+- التعزيزات: هجوم المقاتل وتعزيز ضرر الهجوم المضاد
+- الأفضل لـ: استراتيجيات الهجوم المضاد العدوانية
+
+**نوح (Noah) - الموسم 4)**
+- التعزيزات: تعزيز ضرر المقاتل ويقلل من ضرر الهجوم المستلم
+- الأفضل لـ: الهجوم المتوازن وتخفيف الضرر
+
+**أنجيلا (Angela) - الموسم 5)**
+- التعزيزات: الهجمات العادية للمقاتل، الهجمات المضادة، وتعزيز ضرر المهارة
+- الأفضل لـ: أقصى إنتاج للضرر عبر جميع أنواع الهجوم
+
+---
+
+### فصيل الرامي 🏹
+
+#### أبطال المنفعة
+
+**إيفانز (Evans)**
+- التخصص: معدات مجانية وتعزيز ضرر المركبات
+- الاستخدام: ضروري لزراعة المعدات والهجمات القائمة على المركبات
+
+**ميغان (Megan)**
+- التخصص: مدة البناء المجانية، تعزيز سرعة البناء، وتقليل تكلفة موارد البناء
+- الاستخدام: حاسم لتطوير القاعدة وترقيات المباني
+
+#### الأبطال القتالية (حسب الموسم)
+
+**ناتاشا (Natasha) - الموسم 1)**
+- التعزيزات: دفاع الرامي، هجوم قوات الرامي، وتعزيز ضرر المعركة
+- الأفضل لـ: التشكيلات الدفاعية مع قوة نطاق قوية
+
+**مارغريت (Margaret) - الموسم 2)**
+- التعزيزات: صحة الرامي وتعزيز ضرر المعركة
+- الأفضل لـ: تشكيلات الرامي المتينة
+
+**داريان (Darian) - الموسم 3)**
+- التعزيزات: هجوم الرامي وتعزيز ضرر مهارة القوات
+- الأفضل لـ: استراتيجيات الضرر القائمة على المهارة
+
+**روزا (Rosa) - الموسم 4)**
+- التعزيزات: تعزيز ضرر الرامي وتقليل ضرر الهجوم المضاد
+- الأفضل لـ: التشكيلات الهجومية مع حماية الهجوم المضاد
+
+**شادو (Shadow) - الموسم 5)**
+- التعزيزات: الهجمات العادية للرامي، الهجمات المضادة، وتعزيز ضرر المهارة
+- الأفضل لـ: أقصى إنتاج للضرر عبر جميع أنواع الهجوم
+
+---
+
+### فصيل الراكب 🐎
+
+#### أبطال المنفعة
+
+**كوين (Quinn)**
+- التخصص: يقلل من تكاليف التدريب، تعزيز سرعة التدريب، وتعزيز نقاط مبارزة التحالف
+- الاستخدام: ضروري لبناء الجيش وأحداث التحالف
+
+**كورليوني (Corleone)**
+- التخصص: مدة البحث المجانية، تعزيز سرعة البحث، وتقليل تكلفة موارد البحث
+- الاستخدام: حاسم للتقدم التكنولوجي
+
+#### الأبطال القتالية (حسب الموسم)
+
+**سايروس (Cyrus) - الموسم 1)**
+- التعزيزات: دفاع الراكب، هجوم قوات الراكب، وتعزيز ضرر المعركة
+- الأفضل لـ: تشكيلات الفرسان الدفاعية
+
+**مارسيا (Marcia) - الموسم 2)**
+- التعزيزات: صحة الراكب وتعزيز ضرر المعركة
+- الأفضل لـ: جيوش الراكب عالية المتانة
+
+**كاترينا (Katrina) - الموسم 3)**
+- التعزيزات: هجوم الراكب وتعزيز ضرر الهجوم العادي للقوات
+- الأفضل لـ: استراتيجيات تركز على الهجوم الأساسي
+
+**لوكاس (Lucas) - الموسم 4)**
+- التعزيزات: تعزيز ضرر الراكب ويقلل من ضرر المهارة المستلم
+- الأفضل لـ: التشكيلات الهجومية مع حماية ضرر المهارة
+
+**ريان (Ryan) - الموسم 5)**
+- التعزيزات: الهجمات العادية للراكب، الهجمات المضادة، وتعزيز ضرر المهارة
+- الأفضل لـ: أقصى إنتاج للضرر عبر جميع أنواع الهجوم
+
+---
+
+## ملخص مرجعي سريع 📋
+
+```
+═══════════════════════════════════════
+         دليل معلومات الأبطال
+═══════════════════════════════════════
+
+🔵 الأبطال الأزرق (B-Tier، المستوى إلى 40)
+الموارد:
+✦ Willow (الحديد)، Ruby (الخشب)، Selena (الكهرباء)
+✦ Bob (الحديد)، Musashimaru (الخشب)، Joe (الكهرباء)
+
+🟣 الأبطال الأرجوانية (A-Tier، المستوى إلى 40)
+المنفعة:
+✦ Andre (البحث)، Victor (الطاقة/المسيرة)
+✦ Liz (الشفاء)، Barnett (التدريب)
+
+قاعة الشهرة:
+✦ المقاتل: Farhad
+✦ الرامي: Cecilia، Kylie
+✦ الراكب: Scarlett، Eddie
+
+🟠 الأبطال البرتقالية (S-Tier، حسب الفصيل)
+
+المقاتل 🗡️
+المنفعة: Catherine & Rex، Guy
+القتال: Tristan، Francis، Lan، Noah، Angela
+
+الرامي 🏹
+المنفعة: Evans، Megan
+القتال: Natasha، Margaret، Darian، Rosa، Shadow
+
+الراكب 🐎
+المنفعة: Quinn، Corleone
+القتال: Cyrus، Marcia، Katrina، Lucas، Ryan
+
+═══════════════════════════════════════
+```
+
+---
+
+## استراتيجية تحسين الطعام 🌾
+
+**قاعدة الخمسة الأوائل:**
+
+لتعظيم كفاءة الطعام (يستخدم الطعام لرفع مستوى الأبطال)، اتبع هذه الاستراتيجية:
+
+1. **أطعم أفضل 5 أبطال لديك فقط** - يجب أن يكونوا أقوى أبطالك الذين تستخدمهم في التشكيلات
+2. **استخدم مركز التدريب لجميع الأبطال الآخرين** - يساوي مركز التدريب تلقائيًا مستويات الأبطال الآخرين لتطابق أفضل 5 لديك دون إنفاق الطعام
+3. **قيود مركز التدريب** - الحد الأقصى 15 فتحة بطل متاحة
+
+**استثناء لأبطال المنفعة:**
+
+نظرًا لأن مركز التدريب لديه مساحة محدودة (15 فتحة)، يجب عليك **إطعام أبطال المنفعة الأزرق والأرجوانية يدويًا حتى المستوى 40** خارج مركز التدريب. يشمل هذا:
+- أبطال الموارد الزرقاء (Willow، Ruby، Selena، Bob، Musashimaru، Joe)
+- أبطال المنفعة الأرجوانية (Andre، Victor، Liz، Barnett)
+
+تضمن هذه الاستراتيجية الحفاظ على تعزيزات المنفعة القوية مع الحفاظ على الطعام لأبطالك القتاليين الرئيسيين.
+
+---
+
+**تذكر**: الأبطال هم أعظم أصولك! اختر بحكمة، واستثمر بشكل استراتيجي، وابنِ الفريق النهائي للسيطرة على الأراضي القاحلة!
+
+حظ سعيد، أيها القائد! 🦸
+14:T22a9,
+# Panduan Informasi Hero 🦸
+
+Memahami hero Anda sangat penting untuk sukses di DarkWar Survival. Panduan komprehensif ini mencakup semua tipe hero, spesialisasi mereka, dan cara menggunakannya secara efektif untuk meningkatkan gameplay Anda.
+
+---
+
+## Hero Blue (B-Tier) 🔵
+
+Hero blue sangat penting untuk **produksi dan pengumpulan resource**. Hero ini harus di-level hingga setidaknya **Level 30** untuk memaksimalkan manfaat skill ke-3 mereka.
+
+### Hero Produksi Resource
+
+**Willow**
+- Spesialisasi: Boost produksi besi
+- Tujuan: Meningkatkan output besi dari base Anda
+
+**Ruby**
+- Spesialisasi: Boost produksi kayu
+- Tujuan: Meningkatkan output kayu dari base Anda
+
+**Selena**
+- Spesialisasi: Boost produksi listrik
+- Tujuan: Meningkatkan output listrik dari base Anda
+
+### Hero Pengumpulan Resource
+
+**Bob**
+- Spesialisasi: Boost pengumpulan besi
+- Tujuan: Meningkatkan besi yang dikumpulkan dari field tiles
+
+**Musashimaru**
+- Spesialisasi: Boost pengumpulan kayu
+- Tujuan: Meningkatkan kayu yang dikumpulkan dari field tiles
+
+**Joe**
+- Spesialisasi: Boost pengumpulan listrik
+- Tujuan: Meningkatkan listrik yang dikumpulkan dari field tiles
+
+**Penting:** Level 6 hero ini hingga setidaknya **Level 40** untuk membuka skill ke-4 mereka. Meskipun skill ke-3 mereka (buff resource) maksimal di Level 30, mencapai Level 40 membuka skill ke-4 yang meningkatkan troop capacity ketika dimasukkan dalam formasi, memaksimalkan utilitas keseluruhan mereka.
+
+---
+
+## Hero Purple (A-Tier) 🟣
+
+Hero purple terbagi menjadi dua kategori: **Utility** dan **Combat Support**.
+
+### Hero Utility
+
+Hero ini memberikan boost gameplay yang esensial. Level mereka hingga setidaknya **Level 40** untuk membuka skill ke-4 mereka. Meskipun skill ke-3 mereka (buff utility) maksimal di Level 30, mencapai Level 40 membuka skill ke-4 yang meningkatkan unit capacity, membuat mereka lebih berharga dalam formasi.
+
+**Andre**
+- Spesialisasi: Boost kecepatan riset
+- Prioritas: Tinggi - Mempercepat semua riset teknologi
+
+**Victor**
+- Spesialisasi: Pengurangan biaya energy dan boost kecepatan march melawan monster
+- Prioritas: Tinggi - Esensial untuk perburuan monster yang efisien
+
+**Liz**
+- Spesialisasi: Boost kecepatan penyembuhan
+- Prioritas: Sedang - Mengurangi waktu pemulihan hospital
+
+**Barnett**
+- Spesialisasi: Boost kecepatan pelatihan pasukan
+- Prioritas: Tinggi - Mempercepat pembangunan tentara
+
+### Hero Combat Support (Hall of Fame)
+
+Sistem Hall of Fame memungkinkan **hero mana pun yang telah mencapai 5 star level** untuk masuk dan memberikan buff combat tambahan ke faction masing-masing. Hero purple umumnya digunakan untuk tujuan ini karena lebih mudah didapat dan di-upgrade ke 5 bintang.
+
+**Hero Purple Umum untuk Hall of Fame:**
+
+**Faction Fighter:**
+- **Farhad**
+
+**Faction Shooter:**
+- **Cecilia**
+- **Kylie**
+
+**Faction Rider:**
+- **Scarlett**
+- **Eddie**
+
+**Tip:** Meningkatkan level hero Hall of Fame meningkatkan efektivitas combat faction Anda. Hero 5 bintang mana pun dapat masuk Hall of Fame—hero purple ini hanya pilihan populer karena aksesibilitas.
+
+---
+
+## Hero Orange (S-Tier) 🟠
+
+Hero orange adalah yang paling kuat dan dibagi berdasarkan faction dan peran.
+
+### Faction Fighter 🗡️
+
+#### Hero Utility
+
+**Catherine & Rex**
+- Spesialisasi: Boost hasil makanan di misi radar dan jumlah tugas radar gratis
+- Penggunaan: Deploy bersama untuk efisiensi misi radar maksimum
+
+**Guy**
+- Spesialisasi: Energy gratis, kecepatan recovery energy, dan boost perolehan makanan idle
+- Penggunaan: Esensial untuk generasi resource seiring waktu
+
+#### Hero Combat (Berdasarkan Season)
+
+**Tristan (Season 1)**
+- Buff: Pertahanan fighter, serangan pasukan fighter, dan boost damage pertempuran
+- Terbaik Untuk: Formasi defensif dengan counterattack kuat
+
+**Francis (Season 2)**
+- Buff: HP fighter dan boost damage pertempuran
+- Terbaik Untuk: Formasi fokus tank dengan survivability tinggi
+
+**Lan (Season 3)**
+- Buff: Serangan fighter dan boost damage counterattack
+- Terbaik Untuk: Strategi counterattack agresif
+
+**Noah (Season 4)**
+- Buff: Boost damage fighter dan mengurangi damage serangan yang diterima
+- Terbaik Untuk: Offense seimbang dan mitigasi damage
+
+**Angela (Season 5)**
+- Buff: Serangan normal fighter, counterattack, dan boost damage skill
+- Terbaik Untuk: Output damage maksimum di semua tipe serangan
+
+---
+
+### Faction Shooter 🏹
+
+#### Hero Utility
+
+**Evans**
+- Spesialisasi: Gear gratis dan boost damage kendaraan
+- Penggunaan: Esensial untuk farming gear dan serangan berbasis kendaraan
+
+**Megan**
+- Spesialisasi: Durasi konstruksi gratis, boost kecepatan konstruksi, dan pengurangan biaya resource konstruksi
+- Penggunaan: Kritis untuk pengembangan base dan upgrade bangunan
+
+#### Hero Combat (Berdasarkan Season)
+
+**Natasha (Season 1)**
+- Buff: Pertahanan shooter, serangan pasukan shooter, dan boost damage pertempuran
+- Terbaik Untuk: Formasi defensif dengan kekuatan jarak jauh yang kuat
+
+**Margaret (Season 2)**
+- Buff: HP shooter dan boost damage pertempuran
+- Terbaik Untuk: Formasi shooter yang tahan lama
+
+**Darian (Season 3)**
+- Buff: Serangan shooter dan boost damage skill pasukan
+- Terbaik Untuk: Strategi damage berbasis skill
+
+**Rosa (Season 4)**
+- Buff: Boost damage shooter dan pengurangan damage counterattack
+- Terbaik Untuk: Formasi ofensif dengan perlindungan counterattack
+
+**Shadow (Season 5)**
+- Buff: Serangan normal shooter, counterattack, dan boost damage skill
+- Terbaik Untuk: Output damage maksimum di semua tipe serangan
+
+---
+
+### Faction Rider 🐎
+
+#### Hero Utility
+
+**Quinn**
+- Spesialisasi: Mengurangi biaya pelatihan, boost kecepatan pelatihan, dan boost poin duel aliansi
+- Penggunaan: Esensial untuk pembangunan tentara dan event aliansi
+
+**Corleone**
+- Spesialisasi: Durasi riset gratis, boost kecepatan riset, dan pengurangan biaya resource riset
+- Penggunaan: Kritis untuk kemajuan teknologi
+
+#### Hero Combat (Berdasarkan Season)
+
+**Cyrus (Season 1)**
+- Buff: Pertahanan rider, serangan pasukan rider, dan boost damage pertempuran
+- Terbaik Untuk: Formasi kavaleri defensif
+
+**Marcia (Season 2)**
+- Buff: HP rider dan boost damage pertempuran
+- Terbaik Untuk: Tentara rider dengan durabilitas tinggi
+
+**Katrina (Season 3)**
+- Buff: Serangan rider dan boost damage serangan normal pasukan
+- Terbaik Untuk: Strategi fokus serangan dasar
+
+**Lucas (Season 4)**
+- Buff: Boost damage rider dan mengurangi damage skill yang diterima
+- Terbaik Untuk: Formasi ofensif dengan perlindungan damage skill
+
+**Ryan (Season 5)**
+- Buff: Serangan normal rider, counterattack, dan boost damage skill
+- Terbaik Untuk: Output damage maksimum di semua tipe serangan
+
+---
+
+## Ringkasan Referensi Cepat 📋
+
+```
+═══════════════════════════════════════
+         PANDUAN INFORMASI HERO
+═══════════════════════════════════════
+
+🔵 HERO BLUE (B-Tier, Level ke 40)
+Resource:
+✦ Willow (Besi), Ruby (Kayu), Selena (Listrik)
+✦ Bob (Besi), Musashimaru (Kayu), Joe (Listrik)
+
+🟣 HERO PURPLE (A-Tier, Level ke 40)
+Utility:
+✦ Andre (Riset), Victor (Energy/March)
+✦ Liz (Penyembuhan), Barnett (Pelatihan)
+
+Hall of Fame:
+✦ Fighter: Farhad
+✦ Shooter: Cecilia, Kylie
+✦ Rider: Scarlett, Eddie
+
+🟠 HERO ORANGE (S-Tier, Berdasarkan Faction)
+
+FIGHTER 🗡️
+Utility: Catherine & Rex, Guy
+Combat: Tristan, Francis, Lan, Noah, Angela
+
+SHOOTER 🏹
+Utility: Evans, Megan
+Combat: Natasha, Margaret, Darian, Rosa, Shadow
+
+RIDER 🐎
+Utility: Quinn, Corleone
+Combat: Cyrus, Marcia, Katrina, Lucas, Ryan
+
+═══════════════════════════════════════
+```
+
+---
+
+## Strategi Optimasi Makanan 🌾
+
+**Aturan Top 5:**
+
+Untuk memaksimalkan efisiensi makanan (makanan digunakan untuk level up hero), ikuti strategi ini:
+
+1. **Beri makan hanya top 5 hero Anda** - Ini harus hero terkuat yang Anda gunakan dalam formasi
+2. **Gunakan Training Center untuk semua hero lainnya** - Training Center secara otomatis menyamakan level hero lain dengan top 5 Anda tanpa menghabiskan makanan
+3. **Keterbatasan Training Center** - Maksimum 15 slot hero tersedia
+
+**Pengecualian untuk Hero Utility:**
+
+Karena Training Center memiliki ruang terbatas (15 slot), Anda harus **secara manual memberi makan hero utility Blue dan Purple hingga Level 40** di luar Training Center. Ini termasuk:
+- Hero resource blue (Willow, Ruby, Selena, Bob, Musashimaru, Joe)
+- Hero utility purple (Andre, Victor, Liz, Barnett)
+
+Strategi ini memastikan Anda mempertahankan buff utility yang kuat sambil menyimpan makanan untuk hero combat utama Anda.
+
+---
+
+**Ingat**: Hero adalah aset terbesar Anda! Pilih dengan bijak, investasi secara strategis, dan bangun tim ultimate untuk dominasi di wasteland!
+
+Semoga beruntung, Commander! 🦸
+15:T2c47,
+# ヒーロー情報ガイド 🦸
+
+DarkWar Survivalで成功するには、ヒーローを理解することが重要です。この包括的なガイドは、すべてのヒーロータイプ、特化、そしてゲームプレイを向上させるために効果的に使用する方法をカバーしています。
+
+---
+
+## 青レアリティ英雄 (B-Tier) 🔵
+
+青レアリティ英雄は**資源生産と採集**に不可欠です。これらのヒーローは、3番目スキルの恩恵を最大化するために、最低でも**レベル30**までレベルアップする必要があります。
+
+### 資源生産ヒーロー
+
+**ウィロー (Willow)**
+- 特化: 鉄生産ブースト
+- 目的: 基地からの鉄の生産量を増加
+
+**ルビー (Ruby)**
+- 特化: 木材生産ブースト
+- 目的: 基地からの木材の生産量を増加
+
+**セレナ (Selena)**
+- 特化: 電力生産ブースト
+- 目的: 基地からの電力の生産量を増加
+
+### 資源採集ヒーロー
+
+**ボブ (Bob)**
+- 特化: 鉄採集ブースト
+- 目的: フィールドタイルから収集する鉄を増加
+
+**ムサシマル (Musashimaru)**
+- 特化: 木材採集ブースト
+- 目的: フィールドタイルから収集する木材を増加
+
+**ジョー (Joe)**
+- 特化: 電力採集ブースト
+- 目的: フィールドタイルから収集する電力を増加
+
+**重要:** これら6人のヒーローを最低**レベル40**までレベルアップして、4番目のスキルをアンロックしてください。3番目のスキル(資源バフ)はレベル30で最大化されますが、レベル40に達すると、編成に含まれている場合にユニット収容力を増加させる4番目のスキルがアンロックされ、全体的な有用性が最大化されます。
+
+---
+
+## 紫レアリティ英雄 (A-Tier) 🟣
+
+紫レアリティ英雄は、**ユーティリティ**と**戦闘サポート**の2つのカテゴリーに分かれます。
+
+### ユーティリティヒーロー
+
+これらのヒーローは必須のゲームプレイブーストを提供します。4番目のスキルをアンロックするために、最低**レベル40**までレベルアップしてください。3番目のスキル(ユーティリティバフ)はレベル30で最大化されますが、レベル40に達すると、ユニット収容力を増加させる4番目のスキルがアンロックされ、編成でより価値のあるものになります。
+
+**アンドレ (Andre)**
+- 特化: 研究速度ブースト
+- 優先度: 高 - すべての技術研究を加速
+
+**ビクター (Victor)**
+- 特化: エネルギーコスト削減とモンスターに対する行軍速度ブースト
+- 優先度: 高 - 効率的なモンスター狩りに不可欠
+
+**リズ (Liz)**
+- 特化: 治療速度ブースト
+- 優先度: 中 - 病院の回復時間を短縮
+
+**バーネット (Barnett)**
+- 特化: 部隊訓練速度ブースト
+- 優先度: 高 - 軍隊の構築を加速
+
+### 戦闘サポートヒーロー (名誉の殿堂)
+
+名誉の殿堂システムは、**5星レベルに達したすべてのヒーロー**が入場し、それぞれの陣営に追加の戦闘バフを提供することができます。紫レアリティ英雄は入手しやすく、5星にアップグレードしやすいため、この目的で一般的に使用されます。
+
+**名誉の殿堂のための一般的な紫レアリティ英雄:**
+
+**ファイター陣営:**
+- **ファハド (Farhad)**
+
+**シューター陣営:**
+- **セシリア (Cecilia)**
+- **カイリー (Kylie)**
+
+**ライダー陣営:**
+- **スカーレット (Scarlett)**
+- **エディ (Eddie)**
+
+**ヒント:** 名誉の殿堂ヒーローをレベルアップすると、陣営の戦闘効果が向上します。5星ヒーローは誰でも名誉の殿堂に入場でき、これらの紫レアリティ英雄は入手しやすさのために人気のある選択肢に過ぎません。
+
+---
+
+## オレンジレアリティ英雄 (S-Tier) 🟠
+
+オレンジレアリティ英雄は最も強力で、陣営と役割によって分けられます。
+
+### ファイター陣営 🗡️
+
+#### ユーティリティヒーロー
+
+**キャサリン & レックス (Catherine & Rex)**
+- 特化: レーダーミッションでの食料収穫量ブーストと無料レーダータスク数量
+- 使用法: 最大レーダーミッション効率のために一緒に配置
+
+**ガイ (Guy)**
+- 特化: 無料エネルギー、エネルギー回復速度、放置食料獲得ブースト
+- 使用法: 時間経過による資源生成に不可欠
+
+#### 戦闘ヒーロー (シーズン別)
+
+**トリスタン (Tristan) - シーズン1)**
+- バフ: ファイター防御、ファイター部隊攻撃、戦闘ダメージブースト
+- 最適化: 強力な反撃を持つ防御編成
+
+**フランシス (Francis) - シーズン2)**
+- バフ: ファイターHP、戦闘ダメージブースト
+- 最適化: 高い生存力を持つタンク中心編成
+
+**ラン (Lan) - シーズン3)**
+- バフ: ファイター攻撃、反撃ダメージブースト
+- 最適化: 攻撃的な反撃戦略
+
+**ノア (Noah) - シーズン4)**
+- バフ: ファイターダメージブースト、受ける攻撃ダメージ削減
+- 最適化: バランスの取れた攻撃とダメージ軽減
+
+**アンジェラ (Angela) - シーズン5)**
+- バフ: ファイター通常攻撃、反撃、スキルダメージブースト
+- 最適化: すべての攻撃タイプで最大ダメージ出力
+
+---
+
+### シューター陣営 🏹
+
+#### ユーティリティヒーロー
+
+**エヴァンス (Evans)**
+- 特化: 無料ギアと車両ダメージブースト
+- 使用法: ギアファーミングと車両ベースの攻撃に不可欠
+
+**メガン (Megan)**
+- 特化: 無料建設期間、建設速度ブースト、建設資源コスト削減
+- 使用法: 基地開発と建物アップグレードに重要
+
+#### 戦闘ヒーロー (シーズン別)
+
+**ナターシャ (Natasha) - シーズン1)**
+- バフ: シューター防御、シューター部隊攻撃、戦闘ダメージブースト
+- 最適化: 強力な遠距離火力を持つ防御編成
+
+**マーガレット (Margaret) - シーズン2)**
+- バフ: シューターHP、戦闘ダメージブースト
+- 最適化: 耐久性のあるシューター編成
+
+**ダリアン (Darian) - シーズン3)**
+- バフ: シューター攻撃、部隊スキルダメージブースト
+- 最適化: スキルベースのダメージ戦略
+
+**ローザ (Rosa) - シーズン4)**
+- バフ: シューターダメージブースト、反撃ダメージ削減
+- 最適化: 反撃保護を持つ攻撃編成
+
+**シャドウ (Shadow) - シーズン5)**
+- バフ: シューター通常攻撃、反撃、スキルダメージブースト
+- 最適化: すべての攻撃タイプで最大ダメージ出力
+
+---
+
+### ライダー陣営 🐎
+
+#### ユーティリティヒーロー
+
+**クイン (Quinn)**
+- 特化: 訓練コスト削減、訓練速度ブースト、同盟対決ポイントブースト
+- 使用法: 軍隊構築と同盟イベントに不可欠
+
+**コルレオーネ (Corleone)**
+- 特化: 無料研究期間、研究速度ブースト、研究資源コスト削減
+- 使用法: 技術進歩に重要
+
+#### 戦闘ヒーロー (シーズン別)
+
+**サイラス (Cyrus) - シーズン1)**
+- バフ: ライダー防御、ライダー部隊攻撃、戦闘ダメージブースト
+- 最適化: 防御騎兵編成
+
+**マルシア (Marcia) - シーズン2)**
+- バフ: ライダーHP、戦闘ダメージブースト
+- 最適化: 高い耐久性のライダー軍隊
+
+**カトリーナ (Katrina) - シーズン3)**
+- バフ: ライダー攻撃、部隊通常攻撃ダメージブースト
+- 最適化: 基本攻撃中心戦略
+
+**ルーカス (Lucas) - シーズン4)**
+- バフ: ライダーダメージブースト、受けるスキルダメージ削減
+- 最適化: スキルダメージ保護を持つ攻撃編成
+
+**ライアン (Ryan) - シーズン5)**
+- バフ: ライダー通常攻撃、反撃、スキルダメージブースト
+- 最適化: すべての攻撃タイプで最大ダメージ出力
+
+---
+
+## クイックリファレンス要約 📋
+
+```
+═══════════════════════════════════════
+         ヒーロー情報ガイド
+═══════════════════════════════════════
+
+🔵 青レアリティ英雄 (B-Tier、レベル40まで)
+資源:
+✦ ウィロー (鉄)、ルビー (木材)、セレナ (電力)
+✦ ボブ (鉄)、ムサシマル (木材)、ジョー (電力)
+
+🟣 紫レアリティ英雄 (A-Tier、レベル40まで)
+ユーティリティ:
+✦ アンドレ (研究)、ビクター (エネルギー/行軍)
+✦ リズ (治療)、バーネット (訓練)
+
+名誉の殿堂:
+✦ ファイター: ファハド
+✦ シューター: セシリア、カイリー
+✦ ライダー: スカーレット、エディ
+
+🟠 オレンジレアリティ英雄 (S-Tier、陣営別)
+
+ファイター 🗡️
+ユーティリティ: キャサリン & レックス、ガイ
+戦闘: トリスタン、フランシス、ラン、ノア、アンジェラ
+
+シューター 🏹
+ユーティリティ: エヴァンス、メガン
+戦闘: ナターシャ、マーガレット、ダリアン、ローザ、シャドウ
+
+ライダー 🐎
+ユーティリティ: クイン、コルレオーネ
+戦闘: サイラス、マルシア、カトリーナ、ルーカス、ライアン
+
+═══════════════════════════════════════
+```
+
+---
+
+## 食料最適化戦略 🌾
+
+**トップ5のルール:**
+
+食料効率を最大化するには(食料はヒーローのレベルアップに使用されます)、この戦略に従ってください:
+
+1. **トップ5のヒーローのみに食料を与える** - 編成で使用する最強のヒーローである必要があります
+2. **他のすべてのヒーローには訓練センターを使用** - 訓練センターは食料を消費せずに、他のヒーローのレベルをトップ5に自動的に均等化します
+3. **訓練センターの制限** - 最大15のヒーロースロットが利用可能
+
+**ユーティリティヒーローの例外:**
+
+訓練センターには限られたスペース(15スロット)があるため、**青と紫のユーティリティヒーローを訓練センターの外で手動でレベル40まで育成する必要があります**。これには以下が含まれます:
+- 青い資源ヒーロー (ウィロー、ルビー、セレナ、ボブ、ムサシマル、ジョー)
+- 紫のユーティリティヒーロー (アンドレ、ビクター、リズ、バーネット)
+
+この戦略は、主要な戦闘ヒーローのための食料を保存しながら、強力なユーティリティバフを維持することを保証します。
+
+---
+
+**覚えておいてください**: ヒーローはあなたの最大の資産です!賢く選択し、戦略的に投資し、荒野を支配するための究極のチームを構築しましょう!
+
+幸運を祈ります、コマンダー! 🦸
+16:T25dc,
+# 영웅 정보 가이드 🦸
+
+DarkWar Survival에서 성공하려면 영웅을 이해하는 것이 중요합니다. 이 종합 가이드는 모든 영웅 유형, 특성화 및 게임플레이를 향상시키기 위해 효과적으로 사용하는 방법을 다룹니다.
+
+---
+
+## 파란 등급 영웅 (B-Tier) 🔵
+
+파란 등급 영웅은 **자원 생산 및 채집**에 필수적입니다. 이 영웅들은 3번째 스킬 혜택을 최대화하려면 최소 **레벨 30**까지 레벨을 올려야 합니다.
+
+### 자원 생산 영웅
+
+**윌로우 (Willow)**
+- 특성화: 철 생산 증가
+- 목적: 기지에서 철 생산량 증가
+
+**루비 (Ruby)**
+- 특성화: 목재 생산 증가
+- 목적: 기지에서 목재 생산량 증가
+
+**셀레나 (Selena)**
+- 특성화: 전기 생산 증가
+- 목적: 기지에서 전기 생산량 증가
+
+### 자원 채집 영웅
+
+**밥 (Bob)**
+- 특성화: 철 채집 증가
+- 목적: 필드 타일에서 수집하는 철 증가
+
+**무사시마루 (Musashimaru)**
+- 특성화: 목재 채집 증가
+- 목적: 필드 타일에서 수집하는 목재 증가
+
+**조 (Joe)**
+- 특성화: 전기 채집 증가
+- 목적: 필드 타일에서 수집하는 전기 증가
+
+**중요:** 이 6명의 영웅을 최소 **레벨 40**까지 레벨업하여 4번째 스킬을 잠금 해제하세요. 3번째 스킬(자원 버프)은 레벨 30에 최대화되지만, 레벨 40에 도달하면 편성에 포함될 때 병력 수용량을 증가시키는 4번째 스킬이 잠금 해제되어 전체 유틸리티가 극대화됩니다.
+
+---
+
+## 보라 등급 영웅 (A-Tier) 🟣
+
+보라 등급 영웅은 **유틸리티**와 **전투 지원** 두 가지 카테고리로 나뉩니다.
+
+### 유틸리티 영웅
+
+이 영웅들은 필수 게임플레이 부스트를 제공합니다. 4번째 스킬을 잠금 해제하려면 최소 **레벨 40**까지 레벨업하세요. 3번째 스킬(유틸리티 버프)은 레벨 30에 최대화되지만, 레벨 40에 도달하면 병력 수용량을 증가시키는 4번째 스킬이 잠금 해제되어 편성에서 더 가치 있게 됩니다.
+
+**안드레 (Andre)**
+- 특성화: 연구 속도 증가
+- 우선순위: 높음 - 모든 기술 연구 속도 향상
+
+**빅터 (Victor)**
+- 특성화: 에너지 비용 감소 및 몬스터에 대한 행군 속도 증가
+- 우선순위: 높음 - 효율적인 몬스터 사냥에 필수
+
+**리즈 (Liz)**
+- 특성화: 치료 속도 증가
+- 우선순위: 중간 - 병원 회복 시간 단축
+
+**바넷 (Barnett)**
+- 특성화: 병력 훈련 속도 증가
+- 우선순위: 높음 - 군대 구축 가속
+
+### 전투 지원 영웅 (명예의 전당)
+
+명예의 전당 시스템은 **5성급에 도달한 모든 영웅**이 입장하여 각 진영에 추가 전투 버프를 제공할 수 있습니다. 보라 등급 영웅은 5성으로 획득 및 업그레이드가 쉽기 때문에 이 목적으로 일반적으로 사용됩니다.
+
+**명예의 전당을 위한 일반적인 보라 등급 영웅:**
+
+**파이터 진영:**
+- **파하드 (Farhad)**
+
+**슈터 진영:**
+- **세실리아 (Cecilia)**
+- **카일리 (Kylie)**
+
+**라이더 진영:**
+- **스칼렛 (Scarlett)**
+- **에디 (Eddie)**
+
+**팁:** 명예의 전당 영웅을 레벨업하면 진영의 전투 효과가 증가합니다. 5성급 영웅은 누구나 명예의 전당에 입장할 수 있으며, 이 보라 등급 영웅들은 접근성 때문에 인기 있는 선택일 뿐입니다.
+
+---
+
+## 주황 등급 영웅 (S-Tier) 🟠
+
+주황 등급 영웅은 가장 강력하며 진영과 역할로 나뉩니다.
+
+### 파이터 진영 🗡️
+
+#### 유틸리티 영웅
+
+**캐서린 & 렉스 (Catherine & Rex)**
+- 특성화: 레이더 임무에서 식량 수확량 증가 및 무료 레이더 작업 수량
+- 사용법: 최대 레이더 임무 효율을 위해 함께 배치
+
+**카이 (Guy)**
+- 특성화: 무료 에너지, 에너지 회복 속도 및 방치 식량 획득 증가
+- 사용법: 시간 경과에 따른 자원 생성에 필수
+
+#### 전투 영웅 (시즌별)
+
+**트리스탄 (Tristan) - 시즌 1**
+- 버프: 파이터 방어력, 파이터 병력 공격력 및 전투 피해 증가
+- 최적화: 강력한 반격을 가진 방어 편성
+
+**프란시스 (Francis) - 시즌 2**
+- 버프: 파이터 체력 및 전투 피해 증가
+- 최적화: 높은 생존력을 가진 탱크 중심 편성
+
+**란 (Lan) - 시즌 3**
+- 버프: 파이터 공격력 및 반격 피해 증가
+- 최적화: 공격적인 반격 전략
+
+**노아 (Noah) - 시즌 4**
+- 버프: 파이터 피해 증가 및 받는 공격 피해 감소
+- 최적화: 균형 잡힌 공격 및 피해 완화
+
+**안젤라 (Angela) - 시즌 5**
+- 버프: 파이터 일반 공격, 반격 및 스킬 피해 증가
+- 최적화: 모든 공격 유형에서 최대 피해량
+
+---
+
+### 슈터 진영 🏹
+
+#### 유틸리티 영웅
+
+**에반스 (Evans)**
+- 특성화: 무료 기어 및 차량 피해 증가
+- 사용법: 기어 파밍 및 차량 기반 공격에 필수
+
+**메간 (Megan)**
+- 특성화: 무료 건설 기간, 건설 속도 증가 및 건설 자원 비용 감소
+- 사용법: 기지 개발 및 건물 업그레이드에 중요
+
+#### 전투 영웅 (시즌별)
+
+**나타샤 (Natasha) - 시즌 1**
+- 버프: 슈터 방어력, 슈터 병력 공격력 및 전투 피해 증가
+- 최적화: 강력한 원거리 화력을 가진 방어 편성
+
+**마가릿 (Margaret) - 시즌 2**
+- 버프: 슈터 체력 및 전투 피해 증가
+- 최적화: 내구성 있는 슈터 편성
+
+**다리안 (Darian) - 시즌 3**
+- 버프: 슈터 공격력 및 병력 스킬 피해 증가
+- 최적화: 스킬 기반 피해 전략
+
+**로사 (Rosa) - 시즌 4**
+- 버프: 슈터 피해 증가 및 반격 피해 감소
+- 최적화: 반격 보호를 가진 공격 편성
+
+**섀도우 (Shadow) - 시즌 5**
+- 버프: 슈터 일반 공격, 반격 및 스킬 피해 증가
+- 최적화: 모든 공격 유형에서 최대 피해량
+
+---
+
+### 라이더 진영 🐎
+
+#### 유틸리티 영웅
+
+**퀸 (Quinn)**
+- 특성화: 훈련 비용 감소, 훈련 속도 증가 및 연맹 대결 포인트 증가
+- 사용법: 군대 구축 및 연맹 이벤트에 필수
+
+**클리앙 (Corleone)**
+- 특성화: 무료 연구 기간, 연구 속도 증가 및 연구 자원 비용 감소
+- 사용법: 기술 발전에 중요
+
+#### 전투 영웅 (시즌별)
+
+**사이러스 (Cyrus) - 시즌 1**
+- 버프: 라이더 방어력, 라이더 병력 공격력 및 전투 피해 증가
+- 최적화: 방어 기병 편성
+
+**마르시아 (Marcia) - 시즌 2**
+- 버프: 라이더 체력 및 전투 피해 증가
+- 최적화: 높은 내구성의 라이더 군대
+
+**카트리나 (Katrina) - 시즌 3**
+- 버프: 라이더 공격력 및 병력 일반 공격 피해 증가
+- 최적화: 기본 공격 중심 전략
+
+**루카스 (Lucas) - 시즌 4**
+- 버프: 라이더 피해 증가 및 받는 스킬 피해 감소
+- 최적화: 스킬 피해 보호를 가진 공격 편성
+
+**라이언 (Ryan) - 시즌 5**
+- 버프: 라이더 일반 공격, 반격 및 스킬 피해 증가
+- 최적화: 모든 공격 유형에서 최대 피해량
+
+---
+
+## 빠른 참조 요약 📋
+
+```
+═══════════════════════════════════════
+         영웅 정보 가이드
+═══════════════════════════════════════
+
+🔵 파란 등급 영웅 (B-Tier, 레벨 40까지)
+자원:
+✦ 윌로우 (철), 루비 (목재), 셀레나 (전기)
+✦ 밥 (철), 무사시마루 (목재), 조 (전기)
+
+🟣 보라 등급 영웅 (A-Tier, 레벨 40까지)
+유틸리티:
+✦ 안드레 (연구), 빅터 (에너지/행군)
+✦ 리즈 (치료), 바넷 (훈련)
+
+명예의 전당:
+✦ 파이터: 파하드
+✦ 슈터: 세실리아, 카일리
+✦ 라이더: 스카렛, 에디
+
+🟠 주황 등급 영웅 (S-Tier, 진영별)
+
+파이터 🗡️
+유틸리티: 캐서린 & 렉스, 가이
+전투: 트리스탄, 프란시스, 란, 노아, 안젤라
+
+슈터 🏹
+유틸리티: 에반스, 메건
+전투: 나타샤, 마가릿, 다리안, 로사, 섀도우
+
+라이더 🐎
+유틸리티: 퀸, 코를레오네
+전투: 사이러스, 마르시아, 카트리나, 루카스, 라이언
+
+═══════════════════════════════════════
+```
+
+---
+
+## 식량 최적화 전략 🌾
+
+**상위 5명 규칙:**
+
+식량 효율을 최대화하려면(식량은 영웅 레벨업에 사용됨) 다음 전략을 따르세요:
+
+1. **상위 5명의 영웅만 먹이기** - 편성에 사용하는 가장 강력한 영웅이어야 합니다
+2. **다른 모든 영웅에 대해 훈련 센터 사용** - 훈련 센터는 식량을 소비하지 않고 다른 영웅의 레벨을 상위 5명과 자동으로 동일하게 만듭니다
+3. **훈련 센터 제한** - 최대 15개의 영웅 슬롯 사용 가능
+
+**유틸리티 영웅 예외:**
+
+훈련 센터는 제한된 공간(15슬롯)을 가지고 있으므로 **파란 등급 및 보라 등급 유틸리티 영웅을 훈련 센터 밖에서 수동으로 레벨 40까지 먹여야 합니다**. 여기에는 다음이 포함됩니다:
+- 파란 등급 자원 영웅 (윌로우, 루비, 셀레나, 밥, 무사시마루, 조)
+- 보라 등급 유틸리티 영웅 (안드레, 빅터, 리즈, 바넷)
+
+이 전략은 주요 전투 영웅을 위한 식량을 보존하면서 강력한 유틸리티 버프를 유지하도록 보장합니다.
+
+---
+
+**기억하세요**: 영웅은 당신의 가장 큰 자산입니다! 현명하게 선택하고, 전략적으로 투자하며, 황무지를 지배할 최고의 팀을 구축하세요!
+
+행운을 빕니다, 커맨더! 🦸
+17:T212a,
+# Hero Information Guide 🦸
+
+Understanding your heroes is crucial for success in DarkWar Survival. This comprehensive guide covers all hero types, their specializations, and how to use them effectively to boost your gameplay.
+
+---
+
+## Blue Heroes (B-Tier) 🔵
+
+Blue heroes are essential for **resource production and gathering**. These heroes should be leveled to at least **Level 30** to maximize their 3rd skill benefits.
+
+### Resource Production Heroes
+
+**Willow**
+- Specialization: Iron production boost
+- Purpose: Increases iron output from your base
+
+**Ruby**
+- Specialization: Wood production boost
+- Purpose: Increases wood output from your base
+
+**Selena**
+- Specialization: Electricity production boost
+- Purpose: Increases electricity output from your base
+
+### Resource Gathering Heroes
+
+**Bob**
+- Specialization: Iron gathering boost
+- Purpose: Increases iron collected from field tiles
+
+**Musashimaru**
+- Specialization: Wood gathering boost
+- Purpose: Increases wood collected from field tiles
+
+**Joe**
+- Specialization: Electricity gathering boost
+- Purpose: Increases electricity collected from field tiles
+
+**Important:** Level these 6 heroes to at least **Level 40** to unlock their 4th skills. While their 3rd skills (resource buffs) max out at Level 30, reaching Level 40 unlocks the 4th skill which increases unit capacity when included in formations, maximizing their overall utility.
+
+---
+
+## Purple Heroes (A-Tier) 🟣
+
+Purple heroes split into two categories: **Utility** and **Combat Support**.
+
+### Utility Heroes
+
+These heroes provide essential gameplay boosts. Level them to at least **Level 40** to unlock their 4th skills. While their 3rd skills (utility buffs) max out at Level 30, reaching Level 40 unlocks the 4th skill which increases unit capacity, making them more valuable in formations.
+
+**Andre**
+- Specialization: Research speed boost
+- Priority: High - Speeds up all technology research
+
+**Victor**
+- Specialization: Energy cost reduction and march speed boost against monsters
+- Priority: High - Essential for efficient monster hunting
+
+**Liz**
+- Specialization: Healing speed boost
+- Priority: Medium - Reduces hospital recovery time
+
+**Barnett**
+- Specialization: Troop training speed boost
+- Priority: High - Accelerates army building
+
+### Combat Support Heroes (Hall of Fame)
+
+The Hall of Fame system allows **any hero who has reached 5-star level** to enter and provide additional combat buffs to their respective faction. Purple heroes are commonly used for this purpose as they're easier to obtain and upgrade to 5 stars.
+
+**Common Purple Heroes for Hall of Fame:**
+
+**Fighter Faction:**
+- **Farhad**
+
+**Shooter Faction:**
+- **Cecilia**
+- **Kylie**
+
+**Rider Faction:**
+- **Scarlett**
+- **Eddie**
+
+**Tip:** Leveling up Hall of Fame heroes increases your faction's combat effectiveness. Any 5-star hero can enter the Hall of Fame—these purple heroes are just popular choices due to accessibility.
+
+---
+
+## Orange Heroes (S-Tier) 🟠
+
+Orange heroes are the most powerful and are divided by faction and role.
+
+### Fighter Faction 🗡️
+
+#### Utility Heroes
+
+**Catherine & Rex**
+- Specialization: Food yield boost in radar missions and free radar task quantity
+- Usage: Deploy together for maximum radar mission efficiency
+
+**Guy**
+- Specialization: Free energy, energy recovery speed, and idle food gain boost
+- Usage: Essential for resource generation over time
+
+#### Combat Heroes (By Season)
+
+**Tristan (Season 1)**
+- Buffs: Fighter defense, fighter troop attack, and battle damage boost
+- Best For: Defensive formations with strong counterattacks
+
+**Francis (Season 2)**
+- Buffs: Fighter HP and battle damage boost
+- Best For: Tank-focused formations with high survivability
+
+**Lan (Season 3)**
+- Buffs: Fighter attack and counterattack damage boost
+- Best For: Aggressive counterattack strategies
+
+**Noah (Season 4)**
+- Buffs: Fighter damage boost and reduces attack damage taken
+- Best For: Balanced offense and damage mitigation
+
+**Angela (Season 5)**
+- Buffs: Fighter normal attacks, counterattacks, and skill damage boost
+- Best For: Maximum damage output across all attack types
+
+---
+
+### Shooter Faction 🏹
+
+#### Utility Heroes
+
+**Evans**
+- Specialization: Free gears and vehicle damage boost
+- Usage: Essential for gear farming and vehicle-based attacks
+
+**Megan**
+- Specialization: Free construction duration, construction speed boost, and construction resource cost reduction
+- Usage: Critical for base development and building upgrades
+
+#### Combat Heroes (By Season)
+
+**Natasha (Season 1)**
+- Buffs: Shooter defense, shooter troop attack, and battle damage boost
+- Best For: Defensive formations with strong ranged power
+
+**Margaret (Season 2)**
+- Buffs: Shooter HP and battle damage boost
+- Best For: Durable shooter formations
+
+**Darian (Season 3)**
+- Buffs: Shooter attack and troop skill damage boost
+- Best For: Skill-based damage strategies
+
+**Rosa (Season 4)**
+- Buffs: Shooter damage boost and counterattack damage reduction
+- Best For: Offensive formations with counterattack protection
+
+**Shadow (Season 5)**
+- Buffs: Shooter normal attacks, counterattacks, and skill damage boost
+- Best For: Maximum damage output across all attack types
+
+---
+
+### Rider Faction 🐎
+
+#### Utility Heroes
+
+**Quinn**
+- Specialization: Reduces training costs, training speed boost, and alliance duel point boost
+- Usage: Essential for army building and alliance events
+
+**Corleone**
+- Specialization: Free research duration, research speed boost, and research resource cost reduction
+- Usage: Critical for technology advancement
+
+#### Combat Heroes (By Season)
+
+**Cyrus (Season 1)**
+- Buffs: Rider defense, rider troop attack, and battle damage boost
+- Best For: Defensive cavalry formations
+
+**Marcia (Season 2)**
+- Buffs: Rider HP and battle damage boost
+- Best For: High-durability rider armies
+
+**Katrina (Season 3)**
+- Buffs: Rider attack and troop normal attack damage boost
+- Best For: Basic attack-focused strategies
+
+**Lucas (Season 4)**
+- Buffs: Rider damage boost and reduces skill damage taken
+- Best For: Offensive formations with skill damage protection
+
+**Ryan (Season 5)**
+- Buffs: Rider normal attacks, counterattacks, and skill damage boost
+- Best For: Maximum damage output across all attack types
+
+---
+
+## Quick Reference Summary 📋
+
+```
+═══════════════════════════════════════
+         HERO INFORMATION GUIDE
+═══════════════════════════════════════
+
+🔵 BLUE HEROES (B-Tier, Level to 40)
+Resources:
+✦ Willow (Iron), Ruby (Wood), Selena (Electricity)
+✦ Bob (Iron), Musashimaru (Wood), Joe (Electricity)
+
+🟣 PURPLE HEROES (A-Tier, Level to 40)
+Utility:
+✦ Andre (Research), Victor (Energy/March)
+✦ Liz (Healing), Barnett (Training)
+
+Hall of Fame:
+✦ Fighter: Farhad
+✦ Shooter: Cecilia, Kylie
+✦ Rider: Scarlett, Eddie
+
+🟠 ORANGE HEROES (S-Tier, By Faction)
+
+FIGHTER 🗡️
+Utility: Catherine & Rex, Guy
+Combat: Tristan, Francis, Lan, Noah, Angela
+
+SHOOTER 🏹
+Utility: Evans, Megan
+Combat: Natasha, Margaret, Darian, Rosa, Shadow
+
+RIDER 🐎
+Utility: Quinn, Corleone
+Combat: Cyrus, Marcia, Katrina, Lucas, Ryan
+
+═══════════════════════════════════════
+```
+
+---
+
+## Food Optimization Strategy 🌾
+
+**The Top 5 Rule:**
+
+To maximize food efficiency (food is used to level up heroes), follow this strategy:
+
+1. **Feed only your top 5 heroes** - These should be your strongest heroes that you use in formations
+2. **Use the Training Center for all other heroes** - The Training Center automatically equalizes other heroes' levels to match your top 5 without spending food
+3. **Training Center limitation** - Maximum 15 hero slots available
+
+**Exception for Utility Heroes:**
+
+Since the Training Center has limited space (15 slots), you should **manually feed Blue and Purple utility heroes to Level 40** outside the Training Center. This includes:
+- Blue resource heroes (Willow, Ruby, Selena, Bob, Musashimaru, Joe)
+- Purple utility heroes (Andre, Victor, Liz, Barnett)
+
+This strategy ensures you maintain strong utility buffs while preserving food for your main combat heroes.
+
+---
+
+**Remember**: Heroes are your greatest asset! Choose wisely, invest strategically, and build the ultimate team for dominance in the wasteland!
+
+Good luck, Surivor! 🦸
+18:T22d3,
+# Hero Information Guide 🦸
+
+Pag-intindi sa heroes mo ay crucial para sa success sa DarkWar Survival. Ang comprehensive guide na ito ay sumasaklaw sa lahat ng hero types, ang kanilang specializations, at paano gamitin sila effectively para i-boost ang gameplay mo.
+
+---
+
+## Blue Heroes (B-Tier) 🔵
+
+Ang Blue heroes ay essential para sa **resource production at gathering**. Dapat i-level ang heroes na ito to at least **Level 30** para ma-maximize ang 3rd skill benefits nila.
+
+### Resource Production Heroes
+
+**Willow**
+- Specialization: Iron production boost
+- Purpose: Dagdag ang iron output from your base
+
+**Ruby**
+- Specialization: Wood production boost
+- Purpose: Dagdag ang wood output from your base
+
+**Selena**
+- Specialization: Electricity production boost
+- Purpose: Dagdag ang electricity output from your base
+
+### Resource Gathering Heroes
+
+**Bob**
+- Specialization: Iron gathering boost
+- Purpose: Dagdag ang iron na nakukuha from field tiles
+
+**Musashimaru**
+- Specialization: Wood gathering boost
+- Purpose: Dagdag ang wood na nakukuha from field tiles
+
+**Joe**
+- Specialization: Electricity gathering boost
+- Purpose: Dagdag ang electricity na nakukuha from field tiles
+
+**Important:** I-level ang 6 heroes na ito to at least **Level 40** para ma-unlock ang 4th skills nila. Kahit ang 3rd skills nila (resource buffs) ay nag-max out sa Level 30, pag nag-reach ng Level 40 ay mag-unlock ang 4th skill na nagdadagdag ng unit capacity kapag kasama sa formations, na nag-ma-maximize ng overall utility nila.
+
+---
+
+## Purple Heroes (A-Tier) 🟣
+
+Ang Purple heroes ay nahahati sa dalawang categories: **Utility** at **Combat Support**.
+
+### Utility Heroes
+
+Ang heroes na ito ay nagbibigay ng essential gameplay boosts. I-level sila to at least **Level 40** para ma-unlock ang 4th skills nila. Kahit ang 3rd skills nila (utility buffs) ay nag-max out sa Level 30, pag nag-reach ng Level 40 ay mag-unlock ang 4th skill na nagdadagdag ng unit capacity, making them more valuable sa formations.
+
+**Andre**
+- Specialization: Research speed boost
+- Priority: High - Nagpapabilis ng lahat ng technology research
+
+**Victor**
+- Specialization: Energy cost reduction at march speed boost against monsters
+- Priority: High - Essential para sa efficient monster hunting
+
+**Liz**
+- Specialization: Healing speed boost
+- Priority: Medium - Binabawasan ang hospital recovery time
+
+**Barnett**
+- Specialization: Troop training speed boost
+- Priority: High - Nagpapabilis ng army building
+
+### Combat Support Heroes (Hall of Fame)
+
+Ang Hall of Fame system ay nag-aallow sa **any hero na nag-reach ng 5-star level** na pumasok at mag-provide ng additional combat buffs sa respective faction nila. Purple heroes ay commonly ginagamit para sa purpose na ito dahil mas madali silang makuha at ma-upgrade to 5 stars.
+
+**Common Purple Heroes para sa Hall of Fame:**
+
+**Fighter Faction:**
+- **Farhad**
+
+**Shooter Faction:**
+- **Cecilia**
+- **Kylie**
+
+**Rider Faction:**
+- **Scarlett**
+- **Eddie**
+
+**Tip:** Pag-level up ng Hall of Fame heroes ay nagpapataas ng faction's combat effectiveness mo. Kahit anong 5-star hero ay pwedeng pumasok sa Hall of Fame—ang purple heroes na ito ay popular choices lang dahil sa accessibility.
+
+---
+
+## Orange Heroes (S-Tier) 🟠
+
+Ang Orange heroes ay the most powerful at divided by faction and role.
+
+### Fighter Faction 🗡️
+
+#### Utility Heroes
+
+**Catherine & Rex**
+- Specialization: Food yield boost sa radar missions at free radar task quantity
+- Usage: I-deploy together para sa maximum radar mission efficiency
+
+**Guy**
+- Specialization: Free energy, energy recovery speed, at idle food gain boost
+- Usage: Essential para sa resource generation over time
+
+#### Combat Heroes (By Season)
+
+**Tristan (Season 1)**
+- Buffs: Fighter defense, fighter troop attack, at battle damage boost
+- Best For: Defensive formations na may strong counterattacks
+
+**Francis (Season 2)**
+- Buffs: Fighter HP at battle damage boost
+- Best For: Tank-focused formations na may high survivability
+
+**Lan (Season 3)**
+- Buffs: Fighter attack at counterattack damage boost
+- Best For: Aggressive counterattack strategies
+
+**Noah (Season 4)**
+- Buffs: Fighter damage boost at binabawasan ang attack damage taken
+- Best For: Balanced offense at damage mitigation
+
+**Angela (Season 5)**
+- Buffs: Fighter normal attacks, counterattacks, at skill damage boost
+- Best For: Maximum damage output across all attack types
+
+---
+
+### Shooter Faction 🏹
+
+#### Utility Heroes
+
+**Evans**
+- Specialization: Free gears at vehicle damage boost
+- Usage: Essential para sa gear farming at vehicle-based attacks
+
+**Megan**
+- Specialization: Free construction duration, construction speed boost, at construction resource cost reduction
+- Usage: Critical para sa base development at building upgrades
+
+#### Combat Heroes (By Season)
+
+**Natasha (Season 1)**
+- Buffs: Shooter defense, shooter troop attack, at battle damage boost
+- Best For: Defensive formations na may strong ranged power
+
+**Margaret (Season 2)**
+- Buffs: Shooter HP at battle damage boost
+- Best For: Durable shooter formations
+
+**Darian (Season 3)**
+- Buffs: Shooter attack at troop skill damage boost
+- Best For: Skill-based damage strategies
+
+**Rosa (Season 4)**
+- Buffs: Shooter damage boost at counterattack damage reduction
+- Best For: Offensive formations na may counterattack protection
+
+**Shadow (Season 5)**
+- Buffs: Shooter normal attacks, counterattacks, at skill damage boost
+- Best For: Maximum damage output across all attack types
+
+---
+
+### Rider Faction 🐎
+
+#### Utility Heroes
+
+**Quinn**
+- Specialization: Binabawasan ang training costs, training speed boost, at alliance duel point boost
+- Usage: Essential para sa army building at alliance events
+
+**Corleone**
+- Specialization: Free research duration, research speed boost, at research resource cost reduction
+- Usage: Critical para sa technology advancement
+
+#### Combat Heroes (By Season)
+
+**Cyrus (Season 1)**
+- Buffs: Rider defense, rider troop attack, at battle damage boost
+- Best For: Defensive cavalry formations
+
+**Marcia (Season 2)**
+- Buffs: Rider HP at battle damage boost
+- Best For: High-durability rider armies
+
+**Katrina (Season 3)**
+- Buffs: Rider attack at troop normal attack damage boost
+- Best For: Basic attack-focused strategies
+
+**Lucas (Season 4)**
+- Buffs: Rider damage boost at binabawasan ang skill damage taken
+- Best For: Offensive formations na may skill damage protection
+
+**Ryan (Season 5)**
+- Buffs: Rider normal attacks, counterattacks, at skill damage boost
+- Best For: Maximum damage output across all attack types
+
+---
+
+## Quick Reference Summary 📋
+
+```
+═══════════════════════════════════════
+         HERO INFORMATION GUIDE
+═══════════════════════════════════════
+
+🔵 BLUE HEROES (B-Tier, Level to 40)
+Resources:
+✦ Willow (Iron), Ruby (Wood), Selena (Electricity)
+✦ Bob (Iron), Musashimaru (Wood), Joe (Electricity)
+
+🟣 PURPLE HEROES (A-Tier, Level to 40)
+Utility:
+✦ Andre (Research), Victor (Energy/March)
+✦ Liz (Healing), Barnett (Training)
+
+Hall of Fame:
+✦ Fighter: Farhad
+✦ Shooter: Cecilia, Kylie
+✦ Rider: Scarlett, Eddie
+
+🟠 ORANGE HEROES (S-Tier, By Faction)
+
+FIGHTER 🗡️
+Utility: Catherine & Rex, Guy
+Combat: Tristan, Francis, Lan, Noah, Angela
+
+SHOOTER 🏹
+Utility: Evans, Megan
+Combat: Natasha, Margaret, Darian, Rosa, Shadow
+
+RIDER 🐎
+Utility: Quinn, Corleone
+Combat: Cyrus, Marcia, Katrina, Lucas, Ryan
+
+═══════════════════════════════════════
+```
+
+---
+
+## Food Optimization Strategy 🌾
+
+**The Top 5 Rule:**
+
+Para ma-maximize ang food efficiency (food ay ginagamit para i-level up ang heroes), sundin ang strategy na ito:
+
+1. **Feed lang ang top 5 heroes mo** - Dapat ang pinaka-strongest heroes mo na ginagamit sa formations
+2. **Gamitin ang Training Center para sa lahat ng ibang heroes** - Ang Training Center ay automatic na nag-e-equalize ng level ng ibang heroes para tumugma sa top 5 mo nang hindi gumagastos ng food
+3. **Training Center limitation** - Maximum 15 hero slots available lang
+
+**Exception para sa Utility Heroes:**
+
+Dahil ang Training Center ay may limited space (15 slots), dapat mong **manually feed ang Blue at Purple utility heroes to Level 40** outside ng Training Center. Kasama dito:
+- Blue resource heroes (Willow, Ruby, Selena, Bob, Musashimaru, Joe)
+- Purple utility heroes (Andre, Victor, Liz, Barnett)
+
+Ang strategy na ito ay nagsisiguro na nag-maintain ka ng strong utility buffs habang nag-preserve ng food para sa main combat heroes mo.
+
+---
+
+**Remember**: Ang heroes ay greatest asset mo! Pumili nang matalino, mag-invest strategically, at bumuo ng ultimate team para sa dominance sa wasteland!
+
+Good luck, Commander! 🦸
+19:T1fbd,
+# 英雄信息指南 🦸
+
+在DarkWar Survival中取得成功,理解你的英雄至关重要。本综合指南涵盖所有英雄类型、专业化以及如何有效使用它们来提升你的游戏玩法。
+
+---
+
+## 蓝色稀有度英雄 (B-Tier) 🔵
+
+蓝色稀有度英雄对于**资源生产和采集**至关重要。这些英雄应该升级到至少**30级**以最大化其第3技能收益。
+
+### 资源生产英雄
+
+**薇洛 (Willow)**
+- 专业化: 铁矿生产加成
+- 用途: 增加基地的铁矿产出
+
+**露比 (Ruby)**
+- 专业化: 木材生产加成
+- 用途: 增加基地的木材产出
+
+**塞莱娜 (Selena)**
+- 专业化: 电力生产加成
+- 用途: 增加基地的电力产出
+
+### 资源采集英雄
+
+**鲍勃 (Bob)**
+- 专业化: 铁矿采集加成
+- 用途: 增加从野外地块收集的铁矿
+
+**武藏丸 (Musashimaru)**
+- 专业化: 木材采集加成
+- 用途: 增加从野外地块收集的木材
+
+**乔 (Joe)**
+- 专业化: 电力采集加成
+- 用途: 增加从野外地块收集的电力
+
+**重要:** 将这6个英雄至少升级到**40级**以解锁第4技能。虽然第3技能(资源增益)在30级达到最大,但达到40级会解锁第4技能,该技能在编入队伍时增加部队容量,最大化其整体实用性。
+
+---
+
+## 紫色稀有度英雄 (A-Tier) 🟣
+
+紫色稀有度英雄分为两类:**实用型**和**战斗支援**。
+
+### 实用型英雄
+
+这些英雄提供必要的游戏增益。将它们升级到至少**40级**以解锁第4技能。虽然第3技能(实用增益)在30级达到最大,但达到40级会解锁增加部队容量的第4技能,使它们在编队中更有价值。
+
+**安德烈 (Andre)**
+- 专业化: 研究速度加成
+- 优先级: 高 - 加速所有科技研究
+
+**维克多 (Victor)**
+- 专业化: 能量成本降低和对怪物的行军速度加成
+- 优先级: 高 - 高效猎怪的必备英雄
+
+**莉兹 (Liz)**
+- 专业化: 治疗速度加成
+- 优先级: 中 - 减少医院恢复时间
+
+**巴内特 (Barnett)**
+- 专业化: 部队训练速度加成
+- 优先级: 高 - 加速军队建设
+
+### 战斗支援英雄 (名誉殿堂)
+
+名誉殿堂系统允许**任何达到5星级的英雄**进入并为各自的兵种提供额外的战斗增益。紫色英雄因为更容易获得和升级到5星而通常用于此目的。
+
+**常用的名誉殿堂紫色英雄:**
+
+**战士兵种:**
+- **法哈德 (Farhad)**
+
+**射手兵种:**
+- **塞西莉亚 (Cecilia)**
+- **凯莉 (Kylie)**
+
+**骑兵兵种:**
+- **斯嘉丽 (Scarlett)**
+- **艾迪 (Eddie)**
+
+**提示:** 升级名誉殿堂英雄会提高你兵种的战斗效果。任何5星英雄都可以进入名誉殿堂——这些紫色英雄只是因为易获得性而成为热门选择。
+
+---
+
+## 橙色稀有度英雄 (S-Tier) 🟠
+
+橙色英雄是最强大的,按兵种和角色划分。
+
+### 战士兵种 🗡️
+
+#### 实用型英雄
+
+**凯瑟琳 & 雷克斯 (Catherine & Rex)**
+- 专业化: 雷达任务中的食物收获加成和免费雷达任务数量
+- 用途: 一起部署以实现最大雷达任务效率
+
+**盖伊 (Guy)**
+- 专业化: 免费能量、能量恢复速度和闲置食物获得加成
+- 用途: 随时间推移的资源生成必备
+
+#### 战斗英雄 (按赛季)
+
+**特里斯坦 (Tristan) - 赛季1)**
+- 增益: 战士防御、战士部队攻击和战斗伤害加成
+- 最适合: 具有强大反击的防御阵型
+
+**弗朗西斯 (Francis) - 赛季2)**
+- 增益: 战士生命值和战斗伤害加成
+- 最适合: 以坦克为中心的高生存力阵型
+
+**兰 (Lan) - 赛季3)**
+- 增益: 战士攻击和反击伤害加成
+- 最适合: 进攻性反击策略
+
+**诺亚 (Noah) - 赛季4)**
+- 增益: 战士伤害加成并减少受到的攻击伤害
+- 最适合: 平衡的进攻和伤害缓解
+
+**安吉拉 (Angela) - 赛季5)**
+- 增益: 战士普通攻击、反击和技能伤害加成
+- 最适合: 所有攻击类型的最大伤害输出
+
+---
+
+### 射手兵种 🏹
+
+#### 实用型英雄
+
+**埃文斯 (Evans)**
+- 专业化: 免费装备和车辆伤害加成
+- 用途: 装备农场和基于车辆的攻击必备
+
+**梅根 (Megan)**
+- 专业化: 免费建设时间、建设速度加成和建设资源成本降低
+- 用途: 对基地发展和建筑升级至关重要
+
+#### 战斗英雄 (按赛季)
+
+**娜塔莎 (Natasha) - 赛季1)**
+- 增益: 射手防御、射手部队攻击和战斗伤害加成
+- 最适合: 具有强大远程火力的防御阵型
+
+**玛格丽特 (Margaret) - 赛季2)**
+- 增益: 射手生命值和战斗伤害加成
+- 最适合: 持久的射手阵型
+
+**达里安 (Darian) - 赛季3)**
+- 增益: 射手攻击和部队技能伤害加成
+- 最适合: 基于技能的伤害策略
+
+**罗莎 (Rosa) - 赛季4)**
+- 增益: 射手伤害加成并减少反击伤害
+- 最适合: 具有反击保护的进攻阵型
+
+**暗影 (Shadow) - 赛季5)**
+- 增益: 射手普通攻击、反击和技能伤害加成
+- 最适合: 所有攻击类型的最大伤害输出
+
+---
+
+### 骑兵兵种 🐎
+
+#### 实用型英雄
+
+**奎因 (Quinn)**
+- 专业化: 降低训练成本、训练速度加成和联盟对决积分加成
+- 用途: 军队建设和联盟活动必备
+
+**科里昂 (Corleone)**
+- 专业化: 免费研究时间、研究速度加成和研究资源成本降低
+- 用途: 对技术进步至关重要
+
+#### 战斗英雄 (按赛季)
+
+**塞勒斯 (Cyrus) - 赛季1)**
+- 增益: 骑兵防御、骑兵部队攻击和战斗伤害加成
+- 最适合: 防御性骑兵阵型
+
+**玛西娅 (Marcia) - 赛季2)**
+- 增益: 骑兵生命值和战斗伤害加成
+- 最适合: 高耐久性的骑兵军队
+
+**卡特琳娜 (Katrina) - 赛季3)**
+- 增益: 骑兵攻击和部队普通攻击伤害加成
+- 最适合: 基本攻击为中心的策略
+
+**卢卡斯 (Lucas) - 赛季4)**
+- 增益: 骑兵伤害加成并减少受到的技能伤害
+- 最适合: 具有技能伤害保护的进攻阵型
+
+**瑞安 (Ryan) - 赛季5)**
+- 增益: 骑兵普通攻击、反击和技能伤害加成
+- 最适合: 所有攻击类型的最大伤害输出
+
+---
+
+## 快速参考总结 📋
+
+```
+═══════════════════════════════════════
+         英雄信息指南
+═══════════════════════════════════════
+
+🔵 蓝色稀有度英雄 (B-Tier,升至40级)
+资源:
+✦ 薇洛 (铁矿)、露比 (木材)、塞莱娜 (电力)
+✦ 鲍勃 (铁矿)、武藏丸 (木材)、乔 (电力)
+
+🟣 紫色稀有度英雄 (A-Tier,升至40级)
+实用型:
+✦ 安德烈 (研究)、维克多 (能量/行军)
+✦ 莉兹 (治疗)、巴内特 (训练)
+
+名誉殿堂:
+✦ 战士: 法哈德
+✦ 射手: 塞西莉亚、凯莉
+✦ 骑兵: 斯嘉丽、艾迪
+
+🟠 橙色稀有度英雄 (S-Tier,按兵种)
+
+战士 🗡️
+实用型: 凯瑟琳 & 雷克斯、盖伊
+战斗: 特里斯坦、弗朗西斯、兰、诺亚、安吉拉
+
+射手 🏹
+实用型: 埃文斯、梅根
+战斗: 娜塔莎、玛格丽特、达里安、罗莎、暗影
+
+骑兵 🐎
+实用型: 奎因、科里昂
+战斗: 塞勒斯、玛西娅、卡特琳娜、卢卡斯、瑞安
+
+═══════════════════════════════════════
+```
+
+---
+
+## 食物优化策略 🌾
+
+**前5名法则:**
+
+要最大化食物效率(食物用于英雄升级),遵循此策略:
+
+1. **只喂养前5名英雄** - 应该是你在编队中使用的最强英雄
+2. **对所有其他英雄使用训练中心** - 训练中心自动将其他英雄的等级均衡到前5名,无需消耗食物
+3. **训练中心限制** - 最多可用15个英雄位
+
+**实用型英雄例外:**
+
+由于训练中心空间有限(15个位置),你应该**手动喂养蓝色和紫色实用型英雄到40级**,不使用训练中心。包括:
+- 蓝色资源英雄 (薇洛、露比、塞莱娜、鲍勃、武藏丸、乔)
+- 紫色实用型英雄 (安德烈、维克多、莉兹、巴内特)
+
+此策略确保你在为主要战斗英雄保留食物的同时,保持强大的实用增益。
+
+---
+
+**记住**: 英雄是你最大的资产!明智选择,战略投资,打造终极团队以主宰荒野!
+
+祝你好运,指挥官! 🦸
+7:["$","$L12",null,{"slug":"hero-information","versions":{"ar":{"slug":"hero-information","metadata":{"title":"دليل معلومات الأبطال","description":"دليل شامل لجميع الأبطال في DarkWar Survival - افهم أدوار الأبطال والتخصصات والأبطال الذين يجب إعطاؤهم الأولوية لتحقيق أقصى كفاءة.","category":"beginner","tags":["heroes","guide","utility","combat","resources"],"publishedAt":"2026-01-27","difficulty":"beginner","estimatedReadTime":8,"featured":true,"locale":"ar"},"content":"$13","headings":[{"id":"الأبطال-الأزرق-b-tier","text":"الأبطال الأزرق (B-Tier) 🔵","level":2},{"id":"أبطال-إنتاج-الموارد","text":"أبطال إنتاج الموارد","level":3},{"id":"أبطال-جمع-الموارد","text":"أبطال جمع الموارد","level":3},{"id":"الأبطال-الأرجوانية-a-tier","text":"الأبطال الأرجوانية (A-Tier) 🟣","level":2},{"id":"أبطال-المنفعة","text":"أبطال المنفعة","level":3},{"id":"أبطال-الدعم-القتالي-قاعة-الشهرة","text":"أبطال الدعم القتالي (قاعة الشهرة)","level":3},{"id":"الأبطال-البرتقالية-s-tier","text":"الأبطال البرتقالية (S-Tier) 🟠","level":2},{"id":"فصيل-المقاتل","text":"فصيل المقاتل 🗡️","level":3},{"id":"فصيل-الرامي","text":"فصيل الرامي 🏹","level":3},{"id":"فصيل-الراكب","text":"فصيل الراكب 🐎","level":3},{"id":"ملخص-مرجعي-سريع","text":"ملخص مرجعي سريع 📋","level":2},{"id":"استراتيجية-تحسين-الطعام","text":"استراتيجية تحسين الطعام 🌾","level":2}]},"id":{"slug":"hero-information","metadata":{"title":"Panduan Informasi Hero","description":"Panduan lengkap untuk semua hero di DarkWar Survival - pahami peran hero, spesialisasi, dan hero mana yang harus diprioritaskan untuk efisiensi maksimum.","category":"beginner","tags":["heroes","guide","utility","combat","resources"],"publishedAt":"2026-01-27","difficulty":"beginner","estimatedReadTime":8,"featured":true,"locale":"id"},"content":"$14","headings":[{"id":"hero-blue-b-tier","text":"Hero Blue (B-Tier) 🔵","level":2},{"id":"hero-produksi-resource","text":"Hero Produksi Resource","level":3},{"id":"hero-pengumpulan-resource","text":"Hero Pengumpulan Resource","level":3},{"id":"hero-purple-a-tier","text":"Hero Purple (A-Tier) 🟣","level":2},{"id":"hero-utility","text":"Hero Utility","level":3},{"id":"hero-combat-support-hall-of-fame","text":"Hero Combat Support (Hall of Fame)","level":3},{"id":"hero-orange-s-tier","text":"Hero Orange (S-Tier) 🟠","level":2},{"id":"faction-fighter","text":"Faction Fighter 🗡️","level":3},{"id":"faction-shooter","text":"Faction Shooter 🏹","level":3},{"id":"faction-rider","text":"Faction Rider 🐎","level":3},{"id":"ringkasan-referensi-cepat","text":"Ringkasan Referensi Cepat 📋","level":2},{"id":"strategi-optimasi-makanan","text":"Strategi Optimasi Makanan 🌾","level":2}]},"ja":{"slug":"hero-information","metadata":{"title":"ヒーロー情報ガイド","description":"DarkWar Survivalのすべてのヒーローに関する完全ガイド - ヒーローの役割、特化、最大効率のために優先すべきヒーローを理解します。","category":"beginner","tags":["heroes","guide","utility","combat","resources"],"publishedAt":"2026-01-27","difficulty":"beginner","estimatedReadTime":8,"featured":true,"locale":"ja"},"content":"$15","headings":[{"id":"青レアリティ英雄-b-tier","text":"青レアリティ英雄 (B-Tier) 🔵","level":2},{"id":"資源生産ヒーロー","text":"資源生産ヒーロー","level":3},{"id":"資源採集ヒーロー","text":"資源採集ヒーロー","level":3},{"id":"紫レアリティ英雄-a-tier","text":"紫レアリティ英雄 (A-Tier) 🟣","level":2},{"id":"ユーティリティヒーロー","text":"ユーティリティヒーロー","level":3},{"id":"戦闘サポートヒーロー-名誉の殿堂","text":"戦闘サポートヒーロー (名誉の殿堂)","level":3},{"id":"オレンジレアリティ英雄-s-tier","text":"オレンジレアリティ英雄 (S-Tier) 🟠","level":2},{"id":"ファイター陣営","text":"ファイター陣営 🗡️","level":3},{"id":"シューター陣営","text":"シューター陣営 🏹","level":3},{"id":"ライダー陣営","text":"ライダー陣営 🐎","level":3},{"id":"クイックリファレンス要約","text":"クイックリファレンス要約 📋","level":2},{"id":"食料最適化戦略","text":"食料最適化戦略 🌾","level":2}]},"ko":{"slug":"hero-information","metadata":{"title":"영웅 정보 가이드","description":"DarkWar Survival의 모든 영웅에 대한 완벽한 가이드 - 영웅 역할, 특성화 및 최대 효율성을 위해 우선순위를 둘 영웅을 이해합니다.","category":"beginner","tags":["heroes","guide","utility","combat","resources"],"publishedAt":"2026-01-27","difficulty":"beginner","estimatedReadTime":8,"featured":true,"locale":"ko"},"content":"$16","headings":[{"id":"파란-등급-영웅-b-tier","text":"파란 등급 영웅 (B-Tier) 🔵","level":2},{"id":"자원-생산-영웅","text":"자원 생산 영웅","level":3},{"id":"자원-채집-영웅","text":"자원 채집 영웅","level":3},{"id":"보라-등급-영웅-a-tier","text":"보라 등급 영웅 (A-Tier) 🟣","level":2},{"id":"유틸리티-영웅","text":"유틸리티 영웅","level":3},{"id":"전투-지원-영웅-명예의-전당","text":"전투 지원 영웅 (명예의 전당)","level":3},{"id":"주황-등급-영웅-s-tier","text":"주황 등급 영웅 (S-Tier) 🟠","level":2},{"id":"파이터-진영","text":"파이터 진영 🗡️","level":3},{"id":"슈터-진영","text":"슈터 진영 🏹","level":3},{"id":"라이더-진영","text":"라이더 진영 🐎","level":3},{"id":"빠른-참조-요약","text":"빠른 참조 요약 📋","level":2},{"id":"식량-최적화-전략","text":"식량 최적화 전략 🌾","level":2}]},"en":{"slug":"hero-information","metadata":{"title":"Hero Information Guide","description":"Complete guide to all heroes in DarkWar Survival - understand hero roles, specializations, and which heroes to prioritize for maximum efficiency.","category":"beginner","tags":["heroes","guide","utility","combat","resources"],"publishedAt":"2026-01-27","difficulty":"beginner","estimatedReadTime":8,"featured":true,"locale":"en"},"content":"$17","headings":[{"id":"blue-heroes-b-tier","text":"Blue Heroes (B-Tier) 🔵","level":2},{"id":"resource-production-heroes","text":"Resource Production Heroes","level":3},{"id":"resource-gathering-heroes","text":"Resource Gathering Heroes","level":3},{"id":"purple-heroes-a-tier","text":"Purple Heroes (A-Tier) 🟣","level":2},{"id":"utility-heroes","text":"Utility Heroes","level":3},{"id":"combat-support-heroes-hall-of-fame","text":"Combat Support Heroes (Hall of Fame)","level":3},{"id":"orange-heroes-s-tier","text":"Orange Heroes (S-Tier) 🟠","level":2},{"id":"fighter-faction","text":"Fighter Faction 🗡️","level":3},{"id":"shooter-faction","text":"Shooter Faction 🏹","level":3},{"id":"rider-faction","text":"Rider Faction 🐎","level":3},{"id":"quick-reference-summary","text":"Quick Reference Summary 📋","level":2},{"id":"food-optimization-strategy","text":"Food Optimization Strategy 🌾","level":2}]},"tl":{"slug":"hero-information","metadata":{"title":"Hero Information Guide","description":"Complete guide sa lahat ng heroes sa DarkWar Survival - intindihin ang hero roles, specializations, at kung aling heroes ang dapat i-prioritize para sa maximum efficiency.","category":"beginner","tags":["heroes","guide","utility","combat","resources"],"publishedAt":"2026-01-27","difficulty":"beginner","estimatedReadTime":8,"featured":true,"locale":"tl"},"content":"$18","headings":[{"id":"blue-heroes-b-tier","text":"Blue Heroes (B-Tier) 🔵","level":2},{"id":"resource-production-heroes","text":"Resource Production Heroes","level":3},{"id":"resource-gathering-heroes","text":"Resource Gathering Heroes","level":3},{"id":"purple-heroes-a-tier","text":"Purple Heroes (A-Tier) 🟣","level":2},{"id":"utility-heroes","text":"Utility Heroes","level":3},{"id":"combat-support-heroes-hall-of-fame","text":"Combat Support Heroes (Hall of Fame)","level":3},{"id":"orange-heroes-s-tier","text":"Orange Heroes (S-Tier) 🟠","level":2},{"id":"fighter-faction","text":"Fighter Faction 🗡️","level":3},{"id":"shooter-faction","text":"Shooter Faction 🏹","level":3},{"id":"rider-faction","text":"Rider Faction 🐎","level":3},{"id":"quick-reference-summary","text":"Quick Reference Summary 📋","level":2},{"id":"food-optimization-strategy","text":"Food Optimization Strategy 🌾","level":2}]},"zh":{"slug":"hero-information","metadata":{"title":"英雄信息指南","description":"DarkWar Survival所有英雄的完整指南 - 理解英雄角色、专业化以及如何优先选择英雄以实现最大效率。","category":"beginner","tags":["heroes","guide","utility","combat","resources"],"publishedAt":"2026-01-27","difficulty":"beginner","estimatedReadTime":8,"featured":true,"locale":"zh"},"content":"$19","headings":[{"id":"蓝色稀有度英雄-b-tier","text":"蓝色稀有度英雄 (B-Tier) 🔵","level":2},{"id":"资源生产英雄","text":"资源生产英雄","level":3},{"id":"资源采集英雄","text":"资源采集英雄","level":3},{"id":"紫色稀有度英雄-a-tier","text":"紫色稀有度英雄 (A-Tier) 🟣","level":2},{"id":"实用型英雄","text":"实用型英雄","level":3},{"id":"战斗支援英雄-名誉殿堂","text":"战斗支援英雄 (名誉殿堂)","level":3},{"id":"橙色稀有度英雄-s-tier","text":"橙色稀有度英雄 (S-Tier) 🟠","level":2},{"id":"战士兵种","text":"战士兵种 🗡️","level":3},{"id":"射手兵种","text":"射手兵种 🏹","level":3},{"id":"骑兵兵种","text":"骑兵兵种 🐎","level":3},{"id":"快速参考总结","text":"快速参考总结 📋","level":2},{"id":"食物优化策略","text":"食物优化策略 🌾","level":2}]}}}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+1a:I[80622,[],"IconMark"]
+b:{"metadata":[["$","title","0",{"children":"DWS Planner"}],["$","meta","1",{"name":"description","content":"DarkWarSurvival Planner - Plan your SP and AD activities"}],["$","link","2",{"rel":"icon","href":"/favicon.png"}],["$","$L1a","3",{}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"

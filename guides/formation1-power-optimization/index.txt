@@ -1,0 +1,1149 @@
+1:"$Sreact.fragment"
+2:I[87830,["274","static/chunks/274-c88b5be990786de4.js","619","static/chunks/619-f072ac750404f9da.js","214","static/chunks/214-de4077ebac0b9f16.js","472","static/chunks/472-1542fbc46b2b2207.js","177","static/chunks/app/layout-04c2d03778e1a81b.js"],"default"]
+3:I[85496,["274","static/chunks/274-c88b5be990786de4.js","619","static/chunks/619-f072ac750404f9da.js","214","static/chunks/214-de4077ebac0b9f16.js","472","static/chunks/472-1542fbc46b2b2207.js","177","static/chunks/app/layout-04c2d03778e1a81b.js"],"default"]
+4:I[9766,[],""]
+5:I[98924,[],""]
+6:I[88743,["274","static/chunks/274-c88b5be990786de4.js","619","static/chunks/619-f072ac750404f9da.js","214","static/chunks/214-de4077ebac0b9f16.js","472","static/chunks/472-1542fbc46b2b2207.js","177","static/chunks/app/layout-04c2d03778e1a81b.js"],"default"]
+8:I[24431,[],"OutletBoundary"]
+a:I[15278,[],"AsyncMetadataOutlet"]
+c:I[24431,[],"ViewportBoundary"]
+e:I[24431,[],"MetadataBoundary"]
+f:"$Sreact.suspense"
+11:I[57150,[],""]
+:HL["/_next/static/css/203636aecdefe762.css","style"]
+:HL["/_next/static/css/5eacd01f773eed7f.css","style"]
+0:{"P":null,"b":"00VTh7-hGo956TpiOPgK-","p":"","c":["","guides","formation1-power-optimization",""],"i":false,"f":[[["",{"children":["guides",{"children":[["slug","formation1-power-optimization","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/203636aecdefe762.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{}],["$","body",null,{"children":["$","$L2",null,{"children":["$","div",null,{"className":"min-h-screen bg-dark-bg text-theme-text flex flex-col","children":[["$","$L3",null,{}],["$","main",null,{"className":"flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]}]}]]}]]}],{"children":["guides",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","formation1-power-optimization","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5eacd01f773eed7f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9",["$","$La",null,{"promise":"$@b"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Lc",null,{"children":"$Ld"}],null],["$","$Le",null,{"children":["$","div",null,{"hidden":true,"children":["$","$f",null,{"fallback":null,"children":"$L10"}]}]}]]}],false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[62182,["919","static/chunks/b78e3e00-1476d88e55e132e3.js","274","static/chunks/274-c88b5be990786de4.js","619","static/chunks/619-f072ac750404f9da.js","214","static/chunks/214-de4077ebac0b9f16.js","942","static/chunks/942-d9eaaa2589410be9.js","54","static/chunks/app/guides/%5Bslug%5D/page-9708505c0cd7ddf9.js"],"default"]
+13:T198c,
+# تحسين قوة القوات الأولى ⚔️
+
+تعظيم قوتك القتالية يتطلب التركيز على أربعة مجالات رئيسية: **كمية القوات**، **جودة القوات**، **التعزيزات**، **تحسين الطعام**. اتبع هذه الاستراتيجيات الأساسية لبناء أقوى جيش ممكن.
+
+---
+
+## 1. كمية القوات (Quantity of Units) 🏰
+
+زد العدد الإجمالي للقوات التي يمكنك نشرها:
+
+### الإجراءات الرئيسية
+
+**ترقية المركز العسكري**
+  - يزيد مباشرة من قدرة قواتك
+
+**بحث زيادة سعة القوات**
+  - موجود في مركز البحث
+  - كل مستوى يزيد من السعة القصوى للقوات
+
+**ترقية معدات الأبطال البرتقالية بنوى الطاقة**
+  - استخدم نوى الطاقة لترقية المعدات الأسطورية (البرتقالية)
+  - توفر مكافآت إضافية لسعة القوات
+
+**رفع مستويات نجوم الأبطال**
+  - زد تصنيفات نجوم الأبطال
+  - المستويات النجمية الأعلى تعزز سعة القوات
+
+---
+
+## 2. جودة القوات (Quality of Units) 🎯
+
+ركز أبحاثك لتعظيم الفعالية:
+
+### قاعدة التخصص
+
+**ابحث فقط لفصيل رئيسي واحد:**
+- المقاتل
+- الرامي
+- الراكب
+
+**لا تبحث جميع الفصائل بالتساوي.** اختر فصيلك الرئيسي وكرس كل الأبحاث العسكرية لذلك الفصيل الواحد للحصول على أقصى قوة.
+
+---
+
+## 3. التعزيزات (Buffs) 💪
+
+ضاعف قوتك القتالية بالتعزيزات الاستراتيجية:
+
+### معدات الأبطال البرتقالية
+
+**معدات الأبطال توفر مكافآت لهجوم القوات وسعة القوات**
+- ركز فقط على معدات أفضل 5 أبطال رئيسيين لتحسين استخدام نوى الطاقة والبلورات الزرقاء
+
+### الأسلحة الحصرية
+
+**الأسلحة الحصرية توفر مكافآت لهجوم القوات (DMG) وصحة القوات (HP)**
+- استخدم دائمًا الأبطال الذين لديهم أسلحة حصرية في تشكيلتك
+
+### تعظيم المهارة الثالثة
+
+الأبطال التاليون لديهم تعزيزات قوية متعلقة بالقوات في مهاراتهم الثالثة:
+
+**فصيل المقاتل:**
+- **تريستان**
+- **فرانسيس**
+- **لان**
+
+**فصيل الرامي:**
+- **ناتاشا**
+- **مارغريت**
+- **داريان**
+
+**فصيل الراكب:**
+- **سايروس**
+- **مارسيا**
+- **كاترينا**
+
+**الأولوية:** عظّم مستويات المهارة الثالثة لهؤلاء الأبطال إلى أعلى مستوى ممكن.
+
+### مناصب العاصمة
+
+**استخدم المناصب العاصمة مثل المارشال الأعلى لتعظيم CP مؤقتًا**
+- قدم لهذه المناصب قبل المعارك أو الأحداث المهمة
+
+---
+
+## 4. تحسين الطعام (Food Optimization) 🌾
+
+أدر الطعام بكفاءة لتعظيم قوة الأبطال:
+
+### قاعدة أفضل 5
+
+**أطعم فقط أفضل 5 أبطال لديك**
+- لا تضيع الطعام على الأبطال خارج أفضل 5 لديك
+
+### مركز التدريب
+
+**استخدم مركز التدريب لمساواة مستويات الأبطال الآخرين بأفضل 5 أبطال لديك**
+- هذا يسمح لك بأن يكون لديك العديد من الأبطال في مستويات تنافسية دون إطعامهم جميعًا
+
+### حدود مستوى الأبطال حسب الندرة
+
+**الأبطال الأزرق (نادر):**
+- أطعم فقط حتى **المستوى 40**
+- توقف عن الترقية عند 40
+
+**الأبطال الأرجوانية (ملحمي):**
+- أطعم الأبطال الأرجوانية المفيدة فقط حتى **المستوى 40**
+- مثال: أندريه
+- لا يستحق استثمار الطعام بعد المستوى 40
+
+### استخراج الطعام
+
+**يمكنك استخراج الطعام الذي تم إطعامه للأبطال في مركز التدريب**
+- يسمح لك باسترداد الطعام من الأبطال الذين لم تعد تستخدمهم
+- استخدم هذا لإعادة تخصيص الموارد لأبطال أفضل
+
+---
+
+## ملخص مرجعي سريع 📋
+
+```
+═══════════════════════════════════════
+        تحسين قوة القوات
+═══════════════════════════════════════
+
+1️⃣ الكمية
+✦ ترقية المركز العسكري
+✦ بحث زيادة سعة القوات
+✦ ترقية المعدات البرتقالية بنوى الطاقة
+✦ رفع مستويات نجوم الأبطال
+
+2️⃣ الجودة
+✦ اختر فصيل واحد (المقاتل/الرامي/الراكب)
+✦ ابحث فقط فصيلك الرئيسي
+
+3️⃣ التعزيزات
+✦ ترقية والتركيز على معدات أفضل 5 أبطال البرتقالية
+✦ استخدم الأبطال بالأسلحة الحصرية
+✦ عظّم مستويات المهارة الثالثة:
+  - المقاتل: تريستان، فرانسيس، لان
+  - الرامي: ناتاشا، مارغريت، داريان
+  - الراكب: سايروس، مارسيا، كاترينا
+✦ استخدم مناصب العاصمة (المارشال الأعلى)
+
+4️⃣ تحسين الطعام
+✦ أطعم فقط أفضل 5 أبطال
+✦ استخدم مركز التدريب لمساواة الآخرين
+✦ الأبطال الأزرق: حد عند المستوى 40
+✦ الأبطال الأرجوانية: حد عند المستوى 40 (مثال: أندريه)
+✦ استخرج الطعام من الأبطال غير المستخدمة
+
+═══════════════════════════════════════
+```
+
+---
+
+**تذكر**: ركز على فصيل واحد، استثمر في أفضل أبطالك، واستخدم كل تعزيز متاح. هذه المبادئ الأساسية ستعظم فعاليتك القتالية!
+
+حظ سعيد، أيها الناجي! ⚔️
+14:T126d,
+# Optimasi Kekuatan Pasukan Utama ⚔️
+
+Memaksimalkan kekuatan tempur Anda memerlukan fokus pada empat area utama: **Jumlah Pasukan**, **Kualitas Pasukan**, **Buff**, dan **Optimasi Makanan**. Ikuti strategi penting ini untuk membangun pasukan terkuat.
+
+---
+
+## 1. Jumlah Pasukan (Quantity of Units) 🏰
+
+Tingkatkan jumlah total pasukan yang dapat Anda kirim ke pertempuran:
+
+### Tindakan Utama
+
+**Upgrade Military Center**
+  - Langsung meningkatkan kapasitas pasukan Anda
+
+**Riset Peningkatan Kapasitas Pasukan**
+  - Ditemukan di Research Center
+  - Setiap level meningkatkan kapasitas pasukan maksimum
+
+**Promosikan Equipment Hero Orange dengan Power Core**
+  - Gunakan power core untuk upgrade equipment legendaris (orange)
+  - Memberikan bonus kapasitas pasukan tambahan
+
+**Naikkan Level Bintang Hero**
+  - Tingkatkan rating bintang hero
+  - Level bintang yang lebih tinggi meningkatkan kapasitas pasukan
+
+---
+
+## 2. Kualitas Pasukan (Quality of Units) 🎯
+
+Fokuskan riset Anda untuk memaksimalkan efektivitas:
+
+### Aturan Spesialisasi
+
+**Riset hanya untuk SATU faksi utama:**
+- Fighter
+- Shooter
+- Rider
+
+**JANGAN riset semua faksi secara merata.** Pilih faksi utama Anda dan dedikasikan semua riset militer untuk faksi tunggal itu untuk kekuatan maksimum.
+
+---
+
+## 3. Buff 💪
+
+Gandakan kekuatan tempur Anda dengan buff strategis:
+
+### Equipment Hero Orange
+
+**Equipment Hero memberikan bonus Troop DMG dan Troop Capacity**
+- Fokus hanya pada equipment 5 hero utama untuk mengoptimalkan penggunaan power core dan blue crystal
+
+### Senjata Eksklusif
+
+**Senjata eksklusif memberikan bonus Troop DMG dan Troop HP**
+- Selalu gunakan hero yang memiliki senjata eksklusif dalam formasi Anda
+
+### Maksimalkan Skill ke-3
+
+Hero berikut memiliki buff terkait pasukan yang kuat di skill ke-3 mereka:
+
+**Faksi Fighter:**
+- **Tristan**
+- **Francis**
+- **Lan**
+
+**Faksi Shooter:**
+- **Natasha**
+- **Margaret**
+- **Darian**
+
+**Faksi Rider:**
+- **Sirus**
+- **Marcia**
+- **Katrina**
+
+**Prioritas:** Maksimalkan level skill ke-3 hero-hero ini ke level tertinggi yang memungkinkan.
+
+### Jabatan Ibu Kota
+
+**Gunakan posisi ibu kota seperti Marsekal Agung untuk memaksimalkan CP sementara**
+- Ajukan untuk jabatan ini sebelum pertempuran atau event penting
+
+---
+
+## 4. Optimasi Makanan (Food Optimization) 🌾
+
+Kelola makanan secara efisien untuk memaksimalkan kekuatan hero:
+
+### Aturan Top 5
+
+**Hanya beri makan 5 hero teratas Anda**
+- Jangan buang makanan untuk hero di luar 5 utama Anda
+
+### Training Center
+
+**Gunakan Training Center untuk menyamakan level hero lain dengan 5 hero teratas Anda**
+- Ini memungkinkan Anda memiliki banyak hero di level kompetitif tanpa memberi makan semuanya
+
+### Batas Level Hero Berdasarkan Rarity
+
+**Hero Blue (Rare):**
+- Beri makan hanya sampai **Level 40**
+- Berhenti leveling di 40
+
+**Hero Purple (Epic):**
+- Beri makan hero purple yang berguna hanya sampai **Level 40**
+- Contoh: Andre
+- Tidak worth menginvestasikan makanan melebihi level 40
+
+### Ekstraksi Makanan
+
+**Anda dapat mengekstrak makanan yang telah diberikan ke hero di Training Center**
+- Memungkinkan Anda untuk memulihkan makanan dari hero yang tidak lagi Anda gunakan
+- Gunakan ini untuk mengalokasikan kembali sumber daya ke hero yang lebih baik
+
+---
+
+## Ringkasan Referensi Cepat 📋
+
+```
+═══════════════════════════════════════
+     OPTIMASI KEKUATAN PASUKAN
+═══════════════════════════════════════
+
+1️⃣ JUMLAH
+✦ Upgrade Military Center
+✦ Riset Peningkatan Kapasitas Pasukan
+✦ Promosikan equipment orange dengan power core
+✦ Naikkan level bintang hero
+
+2️⃣ KUALITAS
+✦ Pilih SATU faksi (Fighter/Shooter/Rider)
+✦ Riset HANYA faksi utama Anda
+
+3️⃣ BUFF
+✦ Upgrade dan fokus pada equipment orange 5 hero teratas
+✦ Gunakan hero dengan senjata eksklusif
+✦ Maksimalkan level skill ke-3:
+  - Fighter: Tristan, Francis, Lan
+  - Shooter: Natasha, Margaret, Darian
+  - Rider: Sirus, Marcia, Katrina
+✦ Gunakan jabatan ibu kota (Marsekal Agung)
+
+4️⃣ OPTIMASI MAKANAN
+✦ Beri makan HANYA 5 hero teratas
+✦ Gunakan Training Center untuk menyamakan yang lain
+✦ Hero blue: Batas di level 40
+✦ Hero purple: Batas di level 40 (contoh: Andre)
+✦ Ekstrak makanan dari hero yang tidak digunakan
+
+═══════════════════════════════════════
+```
+
+---
+
+**Ingat**: Fokus pada satu faksi, investasi pada hero terbaik Anda, dan gunakan setiap buff yang tersedia. Prinsip-prinsip inti ini akan memaksimalkan efektivitas tempur Anda!
+
+Semoga beruntung, Survivor! ⚔️
+15:T1554,
+# 1軍戦闘力最適化 ⚔️
+
+戦闘力を最大化するには、4つの重要な領域に集中する必要があります：**部隊数量**、**部隊品質**、**バフ**、**食料最適化**。これらの必須戦略に従って最強の軍隊を構築しましょう。
+
+---
+
+## 1. 部隊数量（Quantity of Units）🏰
+
+出撃可能な部隊の総数を増やす：
+
+### 主要行動
+
+**軍事センターをアップグレード**
+  - 部隊収容力を直接増加させます
+
+**部隊収容力増加の研究**
+  - 研究センターで実施
+  - 各レベルごとに最大部隊収容力が増加します
+
+**パワーコアでオレンジ英雄装備を昇格**
+  - パワーコアを使用して伝説（オレンジ）装備をアップグレード
+  - 追加の部隊収容力ボーナスを提供
+
+**英雄の星レベルを上げる**
+  - 英雄の星評価を上げる
+  - 高い星レベルは部隊収容力を増加させます
+
+---
+
+## 2. 部隊品質（Quality of Units）🎯
+
+効率性を最大化するために研究に集中：
+
+### 専門化の法則
+
+**1つの主力兵種のみ研究する：**
+- ファイター
+- シューター
+- ライダー
+
+**すべての兵種を均等に研究しないでください。** 主力兵種を選択し、すべての軍事研究をその単一兵種に集中して最大の戦闘力を得ましょう。
+
+---
+
+## 3. バフ（Buffs）💪
+
+戦略的バフで戦闘力を倍増：
+
+### オレンジ英雄装備
+
+**英雄装備は部隊攻撃力と部隊収容力ボーナスを提供します**
+- パワーコアとブルークリスタルの使用を最適化するために、トップ5の主力英雄の装備のみに集中
+
+### 専用武器
+
+**専用武器は部隊攻撃力（DMG）と部隊体力（HP）ボーナスを提供します**
+- 常に専用武器を持つ英雄を編成に使用してください
+
+### 3番目スキルの最大化
+
+以下の英雄は3番目スキルに強力な部隊関連バフを持っています：
+
+**ファイター兵種：**
+- **トリスタン**
+- **フランシス**
+- **ラン**
+
+**シューター兵種：**
+- **ナターシャ**
+- **マーガレット**
+- **ダリアン**
+
+**ライダー兵種：**
+- **サイラス**
+- **マルシア**
+- **カトリーナ**
+
+**優先順位：** これらの英雄の3番目スキルレベルを可能な限り最高レベルまで最優先で上げてください。
+
+### 首都官職
+
+**大元帥などの首都官職を活用して戦闘力（CP）を一時的に最大化**
+- 重要な戦闘やイベントの前にこれらの官職に申請してください
+
+---
+
+## 4. 食料最適化（Food Optimization）🌾
+
+食料を効率的に管理して英雄の力を最大化：
+
+### トップ5の法則
+
+**トップ5の英雄にのみ食料を集中投資**
+- 主力5名以外の英雄に食料を無駄にしないでください
+
+### 訓練センター
+
+**訓練センターを使用して他の英雄のレベルをトップ5と同じにする**
+- すべての英雄に食料を与えずに競争力のあるレベルを維持できます
+
+### レアリティ別英雄レベル制限
+
+**青レアリティ英雄（レア）：**
+- **レベル40まで**のみ育成
+- 40でレベルアップを停止
+
+**紫レアリティ英雄（エピック）：**
+- 有用な紫レアリティ英雄のみ**レベル40まで**育成
+- 例：アンドレ
+- レベル40以上に食料を投資する価値はありません
+
+### 食料回収
+
+**訓練センターで英雄に投入した食料を回収できます**
+- もう使用しない英雄から食料を回収できます
+- より良い英雄にリソースを再配分するために使用してください
+
+---
+
+## クイックリファレンス要約 📋
+
+```
+═══════════════════════════════════════
+        1軍戦闘力最適化
+═══════════════════════════════════════
+
+1️⃣ 部隊数量
+✦ 軍事センターをアップグレード
+✦ 部隊収容力増加の研究
+✦ パワーコアでオレンジ装備を昇格
+✦ 英雄の星レベルを上げる
+
+2️⃣ 部隊品質
+✦ 1つの兵種を選択（ファイター/シューター/ライダー）
+✦ 主力兵種のみ研究
+
+3️⃣ バフ
+✦ トップ5英雄のオレンジ装備をアップグレードして集中
+✦ 専用武器を持つ英雄を使用
+✦ 3番目スキルレベルを最大化：
+  - ファイター：トリスタン、フランシス、ラン
+  - シューター：ナターシャ、マーガレット、ダリアン
+  - ライダー：サイラス、マルシア、カトリーナ
+✦ 首都官職を活用（大元帥）
+
+4️⃣ 食料最適化
+✦ トップ5英雄にのみ食料を投資
+✦ 訓練センターで他の英雄レベルを均等化
+✦ 青英雄：レベル40制限
+✦ 紫英雄：レベル40制限（例：アンドレ）
+✦ 未使用英雄から食料を回収
+
+═══════════════════════════════════════
+```
+
+---
+
+**覚えておいてください**：1つの兵種に集中し、最高の英雄に投資し、利用可能なすべてのバフを活用してください。これらの核心原則があなたの戦闘効率を最大化します！
+
+幸運を祈ります、生存者！ ⚔️
+16:T1462,
+# 1군 전투력 최적화 ⚔️
+
+전투력을 극대화하려면 네 가지 핵심 영역에 집중해야 합니다: **병력 수량**, **병력 품질**, **버프**, **식량 최적화**. 이 필수 전략들을 따라 최강의 군대를 구축하세요.
+
+---
+
+## 1. 병력 수량 (Quantity of Units) 🏰
+
+출격 가능한 병력의 총 수를 늘리세요:
+
+### 주요 행동
+
+- **군사 센터 업그레이드**
+  - 병력 수용량을 직접적으로 증가시킵니다
+
+- **병력 수용량 증가 연구**
+  - 연구 센터에서 진행
+  - 각 레벨마다 최대 병력 수용량이 증가합니다
+
+- **에너지 코어로 주황 영웅 장비 승급**
+  - 에너지 코어를 사용하여 전설(주황) 장비를 업그레이드
+  - 추가 병력 수용량 보너스 제공
+
+- **영웅 성급(★) 상승**
+  - 영웅 성급 등급 증가
+  - 높은 성급은 병력 수용량을 증가시킵니다
+
+---
+
+## 2. 병력 품질 (Quality of Units) 🎯
+
+효율성을 극대화하기 위해 연구에 집중하세요:
+
+### 특화 법칙
+
+**단 하나의 주력 병종에 대해서만 연구하세요:**
+- 파이터
+- 슈터
+- 라이더
+
+**모든 병종을 균등하게 연구하지 마세요.** 주력 병종을 선택하고 모든 군사 연구를 그 단일 병종에 집중하여 최대 전투력을 얻으세요.
+
+---
+
+## 3. 버프 (Buffs) 💪
+
+전략적 버프로 전투력을 배가시키세요:
+
+### 주황 영웅 장비
+
+**영웅 장비는 병력 공격력과 병력 수용량 보너스를 제공합니다**
+- 에너지 코어와 블루 크리스탈 사용을 최적화하기 위해 상위 5명의 주력 영웅 장비에만 집중하세요
+
+### 전용 무기
+
+**전용 무기는 병력 공격력(DMG)과 병력 체력(HP) 보너스를 제공합니다**
+- 항상 전용 무기를 보유한 영웅을 편성에 사용하세요
+
+### 3번째 스킬 극대화
+
+다음 영웅들은 3번째 스킬에 강력한 병력 관련 버프를 보유하고 있습니다:
+
+**파이터 병종:**
+- **트리스탄**
+- **프란시스**
+- **란**
+
+**슈터 병종:**
+- **나타샤**
+- **마가릿**
+- **다리안**
+
+**라이더 병종:**
+- **사이러스**
+- **마르시아**
+- **카트리나**
+
+**우선순위:** 이 영웅들의 3번째 스킬 레벨을 가능한 최고 레벨까지 최우선으로 올리세요.
+
+### 수도 관직
+
+- **대원수 등의 수도 관직을 활용하여 전투력(CP)을 일시적으로 극대화하세요**
+- 중요한 전투나 이벤트 전에 이 관직에 신청하세요
+
+---
+
+## 4. 식량 최적화 (Food Optimization) 🌾
+
+식량을 효율적으로 관리하여 영웅의 힘을 극대화하세요:
+
+### 상위 5명 법칙
+
+- **상위 5명의 영웅에게만 식량을 집중 투자하세요**
+- 주력 5명 외의 영웅에게 식량을 낭비하지 마세요
+
+### 훈련 센터
+
+- **훈련 센터를 사용하여 다른 영웅들의 레벨을 상위 5명과 동일하게 맞추세요**
+- 모든 영웅에게 식량을 주지 않고도 경쟁력 있는 레벨을 유지할 수 있습니다
+
+### 등급별 영웅 레벨 제한
+
+**파란 등급 영웅 (일반):**
+- **레벨 40까지만** 육성
+- 40에서 레벨업 중단
+
+**보라 등급 영웅 (희귀):**
+- 유용한 보라 등급 영웅만 **레벨 40까지** 육성
+- 예시: 안드레이
+- 레벨 40 이상으로 식량을 투자할 가치가 없습니다
+
+### 식량 회수
+
+- **훈련 센터에서 영웅에게 투입한 식량을 회수할 수 있습니다**
+- 더 이상 사용하지 않는 영웅에게서 식량을 회수할 수 있습니다
+- 더 나은 영웅에게 자원을 재분배하는 데 사용하세요
+
+---
+
+## 빠른 참조 요약 📋
+
+```
+═══════════════════════════════════════
+        병력 전투력 최적화
+═══════════════════════════════════════
+
+1️⃣ 병력 수량
+✦ 군사 센터 업그레이드
+✦ 병력 수용량 증가 연구
+✦ 에너지 코어로 주황 장비 승급
+✦ 영웅 성급 상승
+
+2️⃣ 병력 품질
+✦ 하나의 병종 선택 (파이터/슈터/라이더)
+✦ 주력 병종에 대해서만 연구
+
+3️⃣ 버프
+✦ 상위 5명 영웅의 주황 장비 업그레이드 및 집중
+✦ 전용 무기 보유 영웅 사용
+✦ 3번째 스킬 레벨 극대화:
+  - 파이터: 트리스탄, 프란시스, 란
+  - 슈터: 나타샤, 마가릿, 다리안
+  - 라이더: 사이러스, 마르시아, 카트리나
+✦ 수도 관직 활용 (대원수)
+
+4️⃣ 식량 최적화
+✦ 상위 5명 영웅에게만 식량 투자
+✦ 훈련 센터로 다른 영웅 레벨 동일화
+✦ 파란 영웅: 레벨 40 제한
+✦ 보라 영웅: 레벨 40 제한 (예: 안드레이)
+✦ 미사용 영웅에게서 식량 회수
+
+═══════════════════════════════════════
+```
+
+---
+
+**기억하세요**: 하나의 병종에 집중하고, 최고의 영웅에게 투자하며, 사용 가능한 모든 버프를 활용하세요. 이러한 핵심 원칙들이 당신의 전투 효율성을 극대화할 것입니다!
+
+행운을 빕니다, 생존자님! ⚔️
+17:T10be,
+# Formation1 Power Optimization ⚔️
+
+Maximizing your combat power requires focusing on four key areas: **Quantity**, **Quality**, **Buffs**, and **Food Optimization**. Follow these essential strategies to build the strongest army possible.
+
+---
+
+## 1. Quantity of Units 🏰
+
+Increase the total number of troops you can field:
+
+### Key Actions
+
+**Upgrade Military Center**
+  - Directly increases your troop capacity
+
+**Research Troop Cap Increase**
+  - Found in the Research Center
+  - Each level increases maximum troop capacity
+
+**Promote Orange Hero Equipment with Power Cores**
+  - Use power cores to upgrade legendary (orange) equipment
+  - Provides additional troop capacity bonuses
+
+**Level Up Heroes' Star Levels**
+  - Increase hero star ratings
+  - Higher star levels boost troop capacity
+
+---
+
+## 2. Quality of Units 🎯
+
+Focus your research to maximize effectiveness:
+
+### The Specialization Rule
+
+**Research only for ONE main faction:**
+- Fighter
+- Shooter
+- Rider
+
+**Do NOT research all factions equally.** Choose your main faction and dedicate all military research to that single faction for maximum power.
+
+---
+
+## 3. Buffs 💪
+
+Multiply your combat power with strategic buffs:
+
+### Orange Hero Equipments
+
+**Hero Equipments provide Troop DMG and Troop Capacity bonuses**
+- Focus on top 5 main heroes' equipments only to optimize the use of power cores and blue crystals
+
+### Exclusive Weapons
+
+**Exclusive weapons provide Troop DMG and Troop HP bonuses**
+- Always use heroes that have exclusive weapons in your formation
+
+### 3rd Skill Maximization
+
+The following heroes have powerful troop-related buffs in their 3rd skills:
+
+**Fighter Faction:**
+- **Tristan**
+- **Francis**
+- **Lan**
+
+**Shooter Faction:**
+- **Natasha**
+- **Margaret**
+- **Darian**
+
+**Rider Faction:**
+- **Sirus**
+- **Marcia**
+- **Katrina**
+
+**Priority:** Maximize the 3rd skill levels of these heroes to the highest level possible.
+
+### Capital Seats
+
+**Use capital positions like Grand Marshall to maximize CP temporarily**
+- Apply for these seats before important battles or events
+
+---
+
+## 4. Food Optimization 🌾
+
+Manage food efficiently to maximize hero strength:
+
+### The Top 5 Rule
+
+**Only feed your top 5 heroes**
+- Don't waste food on heroes outside your main 5
+
+### Training Center
+
+**Use Training Center to equalize other heroes' levels to your top 5 heroes**
+- This allows you to have many heroes at competitive levels without feeding them all
+
+### Hero Level Caps by Rarity
+
+**Blue Heroes (Rare):**
+- Feed only until **Level 40**
+- Stop leveling at 40
+
+**Purple Heroes (Epic):**
+- Feed useful purple heroes only until **Level 40**
+- Example: Andre
+- Not worth investing food beyond level 40
+
+### Food Extraction
+
+**You can extract food that was fed to heroes at the Training Center**
+- Allows you to recover food from heroes you no longer use
+- Use this to reallocate resources to better heroes
+
+---
+
+## Quick Reference Summary 📋
+
+```
+═══════════════════════════════════════
+     TROOP POWER OPTIMIZATION
+═══════════════════════════════════════
+
+1️⃣ QUANTITY
+✦ Upgrade Military Center
+✦ Research Troop Cap Increase
+✦ Promote orange equipment with power cores
+✦ Level up heroes' star levels
+
+2️⃣ QUALITY
+✦ Choose ONE faction (Fighter/Shooter/Rider)
+✦ Research ONLY your main faction
+
+3️⃣ BUFFS
+✦ Upgrade and focus on top 5 heroes' orange equipments
+✦ Use heroes with exclusive weapons
+✦ Maximize 3rd skill levels:
+  - Fighter: Tristan, Francis, Lan
+  - Shooter: Natasha, Margaret, Darian
+  - Rider: Sirus, Marcia, Katrina
+✦ Use capital seats (Grand Marshall)
+
+4️⃣ FOOD OPTIMIZATION
+✦ Feed ONLY top 5 heroes
+✦ Use Training Center to equalize others
+✦ Blue heroes: Cap at level 40
+✦ Purple heroes: Cap at level 40 (e.g., Andre)
+✦ Extract food from unused heroes
+
+═══════════════════════════════════════
+```
+
+---
+
+**Remember**: Focus on one faction, invest in your best heroes, and use every buff available. These core principles will maximize your combat effectiveness!
+
+Good luck, Survivor! ⚔️
+18:T1125,
+# Troop Power Optimization ⚔️
+
+Para ma-maximize ang combat power mo, kailangan mong mag-focus sa apat na key areas: **Quantity**, **Quality**, **Buffs**, at **Food Optimization**. Sundin ang essential strategies na ito para bumuo ng pinakamalakas na army.
+
+---
+
+## 1. Quantity of Units 🏰
+
+Dagdagan ang total number ng troops na pwede mong i-deploy:
+
+### Key Actions
+
+**Upgrade ang Military Center**
+  - Directly increases your troop capacity
+
+**Research ang Troop Cap Increase**
+  - Found sa Research Center
+  - Each level increases maximum troop capacity
+
+**Promote Orange Hero Equipment using Power Cores**
+  - Use power cores para i-upgrade ang legendary (orange) equipment
+  - Provides additional troop capacity bonuses
+
+**Level Up ang Heroes' Star Levels**
+  - Increase hero star ratings
+  - Higher star levels boost troop capacity
+
+---
+
+## 2. Quality of Units 🎯
+
+Focus ang research para ma-maximize ang effectiveness:
+
+### The Specialization Rule
+
+**Research lang para sa ONE main faction:**
+- Fighter
+- Shooter
+- Rider
+
+**HUWAG mag-research ng all factions equally.** Choose your main faction at dedicate all military research sa single faction na yan para sa maximum power.
+
+---
+
+## 3. Buffs 💪
+
+Multiply ang combat power mo using strategic buffs:
+
+### Orange Hero Equipments
+
+**Hero Equipments provide Troop DMG and Troop Capacity bonuses**
+- Focus lang sa top 5 main heroes' equipments para ma-optimize ang use ng power cores and blue crystals
+
+### Exclusive Weapons
+
+**Exclusive weapons provide Troop DMG and Troop HP bonuses**
+- Always use heroes na may exclusive weapons sa formation mo
+
+### 3rd Skill Maximization
+
+Ang mga heroes na ito may powerful troop-related buffs sa kanilang 3rd skills:
+
+**Fighter Faction:**
+- **Tristan**
+- **Francis**
+- **Lan**
+
+**Shooter Faction:**
+- **Natasha**
+- **Margaret**
+- **Darian**
+
+**Rider Faction:**
+- **Sirus**
+- **Marcia**
+- **Katrina**
+
+**Priority:** Maximize ang 3rd skill levels ng heroes na ito to the highest level possible.
+
+### Capital Seats
+
+**Use capital positions like Grand Marshal para i-maximize ang CP temporarily**
+- Apply for these seats before important battles or events
+
+---
+
+## 4. Food Optimization 🌾
+
+Manage food efficiently para ma-maximize ang hero strength:
+
+### The Top 5 Rule
+
+**Feed lang ang top 5 heroes mo**
+- Don't waste food sa heroes outside your main 5
+
+### Training Center
+
+**Use Training Center para i-equalize ang other heroes' levels sa top 5 heroes mo**
+- This allows you to have many heroes at competitive levels without feeding them all
+
+### Hero Level Caps by Rarity
+
+**Blue Heroes (Rare):**
+- Feed lang until **Level 40**
+- Stop leveling at 40
+
+**Purple Heroes (Epic):**
+- Feed useful purple heroes lang until **Level 40**
+- Example: Andre
+- Not worth investing food beyond level 40
+
+### Food Extraction
+
+**You can extract food na na-feed sa heroes at the Training Center**
+- Allows you to recover food from heroes na hindi mo na ginagamit
+- Use this para i-reallocate resources to better heroes
+
+---
+
+## Quick Reference Summary 📋
+
+```
+═══════════════════════════════════════
+     TROOP POWER OPTIMIZATION
+═══════════════════════════════════════
+
+1️⃣ QUANTITY
+✦ Upgrade Military Center
+✦ Research Troop Cap Increase
+✦ Promote orange equipment with power cores
+✦ Level up heroes' star levels
+
+2️⃣ QUALITY
+✦ Choose ONE faction (Fighter/Shooter/Rider)
+✦ Research ONLY your main faction
+
+3️⃣ BUFFS
+✦ Upgrade and focus on top 5 heroes' orange equipments
+✦ Use heroes with exclusive weapons
+✦ Maximize 3rd skill levels:
+  - Fighter: Tristan, Francis, Lan
+  - Shooter: Natasha, Margaret, Darian
+  - Rider: Sirus, Marcia, Katrina
+✦ Use capital seats (Grand Marshal)
+
+4️⃣ FOOD OPTIMIZATION
+✦ Feed ONLY top 5 heroes
+✦ Use Training Center to equalize others
+✦ Blue heroes: Cap at level 40
+✦ Purple heroes: Cap at level 40 (e.g., Andre)
+✦ Extract food from unused heroes
+
+═══════════════════════════════════════
+```
+
+---
+
+**Remember**: Focus sa one faction, invest sa best heroes mo, and use every available buff. These core principles will maximize your combat effectiveness!
+
+Good luck, Survivor! ⚔️
+19:T101c,
+# 1军战斗力优化 ⚔️
+
+战斗力最大化需要专注于四个关键领域：**部队数量**、**部队质量**、**增益**、**食物优化**。遵循这些核心策略构建最强大的军队。
+
+---
+
+## 1. 部队数量（Quantity of Units）🏰
+
+增加你能出战的部队总数：
+
+### 关键行动
+
+**升级军事中心**
+  - 直接增加部队容量
+
+**研究部队容量增加**
+  - 在研究中心进行
+  - 每个等级都会增加最大部队容量
+
+**用能量核心升级橙色英雄装备**
+  - 使用能量核心升级传说（橙色）装备
+  - 提供额外的部队容量加成
+
+**提升英雄星级**
+  - 提高英雄星级评价
+  - 更高的星级会增加部队容量
+
+---
+
+## 2. 部队质量（Quality of Units）🎯
+
+专注研究以最大化效率：
+
+### 专业化法则
+
+**只研究一个主力兵种：**
+- 战士
+- 射手
+- 骑兵
+
+**不要平均研究所有兵种。** 选择你的主力兵种，将所有军事研究投入到这单一兵种以获得最大战斗力。
+
+---
+
+## 3. 增益（Buffs）💪
+
+用战略性增益倍增战斗力：
+
+### 橙色英雄装备
+
+**英雄装备提供部队攻击力和部队容量加成**
+- 专注于前5名主力英雄的装备，以优化能量核心和蓝色水晶的使用
+
+### 专属装备
+
+**专属武器提供部队攻击力（DMG）和部队生命值（HP）加成**
+- 始终在编队中使用拥有专属武器的英雄
+
+### 第3技能最大化
+
+以下英雄的第3技能拥有强大的部队相关增益：
+
+**战士兵种：**
+- **特里斯坦**
+- **弗朗西斯**
+- **兰**
+
+**射手兵种：**
+- **娜塔莎**
+- **玛格丽特**
+- **达里安**
+
+**骑兵兵种：**
+- **塞勒斯**
+- **玛西娅**
+- **卡特琳娜**
+
+**优先级：** 优先将这些英雄的第3技能等级提升到最高级别。
+
+### 首都官职
+
+**利用大元帅等首都官职临时最大化战斗力（CP）**
+- 在重要战斗或活动前申请这些官职
+
+---
+
+## 4. 食物优化（Food Optimization）🌾
+
+高效管理食物以最大化英雄实力：
+
+### 前5名法则
+
+**只给前5名英雄喂食**
+- 不要在主力5名以外的英雄上浪费食物
+
+### 训练中心
+
+**使用训练中心将其他英雄的等级调整到与前5名相同**
+- 这样可以在不给所有英雄喂食的情况下保持竞争力的等级
+
+### 稀有度别英雄等级上限
+
+**蓝色稀有度英雄（稀有）：**
+- 只培养到**40级**
+- 在40级停止升级
+
+**紫色稀有度英雄（史诗）：**
+- 只培养有用的紫色稀有度英雄到**40级**
+- 例如：安德烈
+- 投资食物超过40级不值得
+
+### 食物回收
+
+**可以在训练中心回收喂给英雄的食物**
+- 可以从不再使用的英雄那里回收食物
+- 用于重新分配资源给更好的英雄
+
+---
+
+## 快速参考总结 📋
+
+```
+═══════════════════════════════════════
+        1军战斗力优化
+═══════════════════════════════════════
+
+1️⃣ 部队数量
+✦ 升级军事中心
+✦ 研究部队容量增加
+✦ 用能量核心升级橙色装备
+✦ 提升英雄星级
+
+2️⃣ 部队质量
+✦ 选择一个兵种（战士/射手/骑兵）
+✦ 只研究主力兵种
+
+3️⃣ 增益
+✦ 升级并专注于前5名英雄的橙色装备
+✦ 使用拥有专属武器的英雄
+✦ 最大化第3技能等级：
+  - 战士：特里斯坦、弗朗西斯、兰
+  - 射手：娜塔莎、玛格丽特、达里安
+  - 骑兵：塞勒斯、玛西娅、卡特琳娜
+✦ 利用首都官职（大元帅）
+
+4️⃣ 食物优化
+✦ 只给前5名英雄喂食
+✦ 使用训练中心调整其他英雄等级
+✦ 蓝色英雄：40级上限
+✦ 紫色英雄：40级上限（例如：安德烈）
+✦ 从未使用英雄回收食物
+
+═══════════════════════════════════════
+```
+
+---
+
+**记住**：专注于一个兵种，投资最好的英雄，利用所有可用的增益。这些核心原则将最大化你的战斗效率！
+
+祝你好运，幸存者！ ⚔️
+7:["$","$L12",null,{"slug":"formation1-power-optimization","versions":{"ar":{"slug":"formation1-power-optimization","metadata":{"title":"تحسين قوة القوات الأولى","description":"استراتيجيات أساسية لتعظيم قوتك القتالية من خلال كمية القوات والجودة والتعزيزات وإدارة الطعام الفعالة","category":"strategy","tags":["troops","combat","power","optimization","heroes","buffs"],"publishedAt":"2026-01-23","difficulty":"intermediate","estimatedReadTime":6,"featured":true,"locale":"ar"},"content":"$13","headings":[{"id":"1-كمية-القوات-quantity-of-units","text":"1. كمية القوات (Quantity of Units) 🏰","level":2},{"id":"الإجراءات-الرئيسية","text":"الإجراءات الرئيسية","level":3},{"id":"2-جودة-القوات-quality-of-units","text":"2. جودة القوات (Quality of Units) 🎯","level":2},{"id":"قاعدة-التخصص","text":"قاعدة التخصص","level":3},{"id":"3-التعزيزات-buffs","text":"3. التعزيزات (Buffs) 💪","level":2},{"id":"معدات-الأبطال-البرتقالية","text":"معدات الأبطال البرتقالية","level":3},{"id":"الأسلحة-الحصرية","text":"الأسلحة الحصرية","level":3},{"id":"تعظيم-المهارة-الثالثة","text":"تعظيم المهارة الثالثة","level":3},{"id":"مناصب-العاصمة","text":"مناصب العاصمة","level":3},{"id":"4-تحسين-الطعام-food-optimization","text":"4. تحسين الطعام (Food Optimization) 🌾","level":2},{"id":"قاعدة-أفضل-5","text":"قاعدة أفضل 5","level":3},{"id":"مركز-التدريب","text":"مركز التدريب","level":3},{"id":"حدود-مستوى-الأبطال-حسب-الندرة","text":"حدود مستوى الأبطال حسب الندرة","level":3},{"id":"استخراج-الطعام","text":"استخراج الطعام","level":3},{"id":"ملخص-مرجعي-سريع","text":"ملخص مرجعي سريع 📋","level":2}]},"id":{"slug":"formation1-power-optimization","metadata":{"title":"Optimasi Kekuatan Pasukan Utama","description":"Strategi penting untuk memaksimalkan kekuatan tempur melalui jumlah pasukan, kualitas, buff, dan manajemen makanan yang efisien","category":"strategy","tags":["troops","combat","power","optimization","heroes","buffs"],"publishedAt":"2026-01-23","difficulty":"intermediate","estimatedReadTime":6,"featured":true,"locale":"id"},"content":"$14","headings":[{"id":"1-jumlah-pasukan-quantity-of-units","text":"1. Jumlah Pasukan (Quantity of Units) 🏰","level":2},{"id":"tindakan-utama","text":"Tindakan Utama","level":3},{"id":"2-kualitas-pasukan-quality-of-units","text":"2. Kualitas Pasukan (Quality of Units) 🎯","level":2},{"id":"aturan-spesialisasi","text":"Aturan Spesialisasi","level":3},{"id":"3-buff","text":"3. Buff 💪","level":2},{"id":"equipment-hero-orange","text":"Equipment Hero Orange","level":3},{"id":"senjata-eksklusif","text":"Senjata Eksklusif","level":3},{"id":"maksimalkan-skill-ke-3","text":"Maksimalkan Skill ke-3","level":3},{"id":"jabatan-ibu-kota","text":"Jabatan Ibu Kota","level":3},{"id":"4-optimasi-makanan-food-optimization","text":"4. Optimasi Makanan (Food Optimization) 🌾","level":2},{"id":"aturan-top-5","text":"Aturan Top 5","level":3},{"id":"training-center","text":"Training Center","level":3},{"id":"batas-level-hero-berdasarkan-rarity","text":"Batas Level Hero Berdasarkan Rarity","level":3},{"id":"ekstraksi-makanan","text":"Ekstraksi Makanan","level":3},{"id":"ringkasan-referensi-cepat","text":"Ringkasan Referensi Cepat 📋","level":2}]},"ja":{"slug":"formation1-power-optimization","metadata":{"title":"1軍戦闘力最適化","description":"部隊数量、品質、バフ、効率的な食料管理を通じて戦闘力を最大化する重要な戦略","category":"strategy","tags":["troops","combat","power","optimization","heroes","buffs"],"publishedAt":"2026-01-23","difficulty":"intermediate","estimatedReadTime":6,"featured":true,"locale":"ja"},"content":"$15","headings":[{"id":"1-部隊数量quantity-of-units","text":"1. 部隊数量（Quantity of Units）🏰","level":2},{"id":"主要行動","text":"主要行動","level":3},{"id":"2-部隊品質quality-of-units","text":"2. 部隊品質（Quality of Units）🎯","level":2},{"id":"専門化の法則","text":"専門化の法則","level":3},{"id":"3-バフbuffs","text":"3. バフ（Buffs）💪","level":2},{"id":"オレンジ英雄装備","text":"オレンジ英雄装備","level":3},{"id":"専用武器","text":"専用武器","level":3},{"id":"3番目スキルの最大化","text":"3番目スキルの最大化","level":3},{"id":"首都官職","text":"首都官職","level":3},{"id":"4-食料最適化food-optimization","text":"4. 食料最適化（Food Optimization）🌾","level":2},{"id":"トップ5の法則","text":"トップ5の法則","level":3},{"id":"訓練センター","text":"訓練センター","level":3},{"id":"レアリティ別英雄レベル制限","text":"レアリティ別英雄レベル制限","level":3},{"id":"食料回収","text":"食料回収","level":3},{"id":"クイックリファレンス要約","text":"クイックリファレンス要約 📋","level":2}]},"ko":{"slug":"formation1-power-optimization","metadata":{"title":"1군 전투력 최적화","description":"병력 수량, 품질, 버프, 효율적인 식량 관리를 통해 전투력을 극대화하는 핵심 전략","category":"strategy","tags":["troops","combat","power","optimization","heroes","buffs"],"publishedAt":"2026-01-23","difficulty":"intermediate","estimatedReadTime":6,"featured":true,"locale":"ko"},"content":"$16","headings":[{"id":"1-병력-수량-quantity-of-units","text":"1. 병력 수량 (Quantity of Units) 🏰","level":2},{"id":"주요-행동","text":"주요 행동","level":3},{"id":"2-병력-품질-quality-of-units","text":"2. 병력 품질 (Quality of Units) 🎯","level":2},{"id":"특화-법칙","text":"특화 법칙","level":3},{"id":"3-버프-buffs","text":"3. 버프 (Buffs) 💪","level":2},{"id":"주황-영웅-장비","text":"주황 영웅 장비","level":3},{"id":"전용-무기","text":"전용 무기","level":3},{"id":"3번째-스킬-극대화","text":"3번째 스킬 극대화","level":3},{"id":"수도-관직","text":"수도 관직","level":3},{"id":"4-식량-최적화-food-optimization","text":"4. 식량 최적화 (Food Optimization) 🌾","level":2},{"id":"상위-5명-법칙","text":"상위 5명 법칙","level":3},{"id":"훈련-센터","text":"훈련 센터","level":3},{"id":"등급별-영웅-레벨-제한","text":"등급별 영웅 레벨 제한","level":3},{"id":"식량-회수","text":"식량 회수","level":3},{"id":"빠른-참조-요약","text":"빠른 참조 요약 📋","level":2}]},"en":{"slug":"formation1-power-optimization","metadata":{"title":"Formation1 Power Optimization","description":"Essential strategies to maximize your combat power through troop quantity, quality, buffs, and efficient food management in DarkWar Survival.","category":"strategy","tags":["troops","combat","power","optimization","heroes","buffs"],"publishedAt":"2026-01-23","difficulty":"intermediate","estimatedReadTime":6,"featured":true,"locale":"en"},"content":"$17","headings":[{"id":"1-quantity-of-units","text":"1. Quantity of Units 🏰","level":2},{"id":"key-actions","text":"Key Actions","level":3},{"id":"2-quality-of-units","text":"2. Quality of Units 🎯","level":2},{"id":"the-specialization-rule","text":"The Specialization Rule","level":3},{"id":"3-buffs","text":"3. Buffs 💪","level":2},{"id":"orange-hero-equipments","text":"Orange Hero Equipments","level":3},{"id":"exclusive-weapons","text":"Exclusive Weapons","level":3},{"id":"3rd-skill-maximization","text":"3rd Skill Maximization","level":3},{"id":"capital-seats","text":"Capital Seats","level":3},{"id":"4-food-optimization","text":"4. Food Optimization 🌾","level":2},{"id":"the-top-5-rule","text":"The Top 5 Rule","level":3},{"id":"training-center","text":"Training Center","level":3},{"id":"hero-level-caps-by-rarity","text":"Hero Level Caps by Rarity","level":3},{"id":"food-extraction","text":"Food Extraction","level":3},{"id":"quick-reference-summary","text":"Quick Reference Summary 📋","level":2}]},"tl":{"slug":"formation1-power-optimization","metadata":{"title":"Troop Power Optimization","description":"Essential strategies para ma-maximize ang combat power through troop quantity, quality, buffs, and efficient food management","category":"strategy","tags":["troops","combat","power","optimization","heroes","buffs"],"publishedAt":"2026-01-23","difficulty":"intermediate","estimatedReadTime":6,"featured":true,"locale":"tl"},"content":"$18","headings":[{"id":"1-quantity-of-units","text":"1. Quantity of Units 🏰","level":2},{"id":"key-actions","text":"Key Actions","level":3},{"id":"2-quality-of-units","text":"2. Quality of Units 🎯","level":2},{"id":"the-specialization-rule","text":"The Specialization Rule","level":3},{"id":"3-buffs","text":"3. Buffs 💪","level":2},{"id":"orange-hero-equipments","text":"Orange Hero Equipments","level":3},{"id":"exclusive-weapons","text":"Exclusive Weapons","level":3},{"id":"3rd-skill-maximization","text":"3rd Skill Maximization","level":3},{"id":"capital-seats","text":"Capital Seats","level":3},{"id":"4-food-optimization","text":"4. Food Optimization 🌾","level":2},{"id":"the-top-5-rule","text":"The Top 5 Rule","level":3},{"id":"training-center","text":"Training Center","level":3},{"id":"hero-level-caps-by-rarity","text":"Hero Level Caps by Rarity","level":3},{"id":"food-extraction","text":"Food Extraction","level":3},{"id":"quick-reference-summary","text":"Quick Reference Summary 📋","level":2}]},"zh":{"slug":"formation1-power-optimization","metadata":{"title":"1军战斗力优化","description":"通过部队数量、质量、增益和高效食物管理实现战斗力最大化的核心策略","category":"strategy","tags":["troops","combat","power","optimization","heroes","buffs"],"publishedAt":"2026-01-23","difficulty":"intermediate","estimatedReadTime":6,"featured":true,"locale":"zh"},"content":"$19","headings":[{"id":"1-部队数量quantity-of-units","text":"1. 部队数量（Quantity of Units）🏰","level":2},{"id":"关键行动","text":"关键行动","level":3},{"id":"2-部队质量quality-of-units","text":"2. 部队质量（Quality of Units）🎯","level":2},{"id":"专业化法则","text":"专业化法则","level":3},{"id":"3-增益buffs","text":"3. 增益（Buffs）💪","level":2},{"id":"橙色英雄装备","text":"橙色英雄装备","level":3},{"id":"专属装备","text":"专属装备","level":3},{"id":"第3技能最大化","text":"第3技能最大化","level":3},{"id":"首都官职","text":"首都官职","level":3},{"id":"4-食物优化food-optimization","text":"4. 食物优化（Food Optimization）🌾","level":2},{"id":"前5名法则","text":"前5名法则","level":3},{"id":"训练中心","text":"训练中心","level":3},{"id":"稀有度别英雄等级上限","text":"稀有度别英雄等级上限","level":3},{"id":"食物回收","text":"食物回收","level":3},{"id":"快速参考总结","text":"快速参考总结 📋","level":2}]}}}]
+d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+1a:I[80622,[],"IconMark"]
+b:{"metadata":[["$","title","0",{"children":"DWS Planner"}],["$","meta","1",{"name":"description","content":"DarkWarSurvival Planner - Plan your SP and AD activities"}],["$","link","2",{"rel":"icon","href":"/favicon.png"}],["$","$L1a","3",{}]],"error":null,"digest":"$undefined"}
+10:"$b:metadata"
