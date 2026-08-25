@@ -178,6 +178,16 @@ Two independent gates keep non-`main` branches from deploying:
 1. Trigger is `push: branches: [main]`.
 2. The `github-pages` environment has a deployment branch policy allowing **only `main`**.
 
+**`deploy.sh` is retired** (decision 2026-08-25). It lived in the lost source project and
+force-pushed a fresh history over `main` on every run (`rm -rf out/.git; git init; push -f`) —
+which is why history is one commit and old deployment SHAs dangle. **Never reintroduce it:** it
+would destroy this repo's history and any uncommitted work in it.
+
+Remote is SSH via the pre-existing `github-personal` alias (`ssh.github.com:443`, key
+`id_ed25519` = XronAce). Port 22 is blocked by corporate ZTNA on this machine, and HTTPS/OAuth
+pushes are refused for commits touching `.github/workflows/*` unless the token carries the
+`workflow` scope — so SSH is the only working path, not merely a preference.
+
 Pages config: `build_type: workflow`, source `main` `/`, no CNAME, HTTPS enforced,
 `custom_404: true`. Concurrency group `pages-deploy` with `cancel-in-progress`.
 
@@ -188,24 +198,54 @@ public URL. Analysis artifacts belong in `../dws-wiki` or a scratch dir, never i
 **`.nojekyll` is load-bearing.** Without it Pages runs Jekyll, which ignores `_next/` for its
 leading underscore and takes the whole site down. Never delete it.
 
-## Blocker: no source
+## Working without source
 
-There is no `package.json`, no `next.config.*`, no test runner, and no component source —
-only minified chunks under `_next/static/chunks/` and per-route hydration skeletons. Checked
-the siblings under `~/Projects/dws/`: `dws-wiki` is Markdown + Python extractors,
-`pou/shelter-placement` and `SoS` are Python map generators. None is this app.
+The Next.js source is **permanently gone** (confirmed 2026-08-25). It lived at
+`~/Projects/dws/pou-rocks-site`, was last active 09:52-10:00 that morning, and is not on disk,
+in Trash, or in any reachable backup. **This repo is the only artifact.** Do not plan work that
+assumes the source reappears, and do not re-litigate this.
 
-Consequences, in priority order:
+What it was, recovered from a session transcript: Next.js 15.1.3, React 18.3.1, TypeScript 5.6,
+Tailwind 3.4, i18next 23 + react-i18next 14 + browser-languagedetector, zustand 4.5,
+react-markdown 10 (remark-gfm/emoji, rehype-slug/autolink/highlight), recharts 2.12,
+gray-matter. Tree: `app/ components/ content/ i18n/ lib/ store/ types/ public/`. It also held an
+**unpublished `app/bulletin` route** that never shipped.
 
-- **Rule 3 cannot be honored.** No runner, nothing to write a unit test against.
-- **Edits here are write-only.** Patching minified output works but is clobbered by the next
-  export from the real source.
-- Only smoke-level checks are possible today: route status codes, `buildId` consistency across
-  `index.html` / `index.txt`, presence of `.nojekyll`, internal link integrity.
+### How changes are made now
 
-**Resolving this is prerequisite to normal development.** Locate the source project (another
-machine, another remote, or a private repo) before any non-trivial change. If it is truly lost,
-reconstructing it from this export is the alternative, and a much larger job.
+Changes are patches to build output: minified chunks in `_next/static/chunks/`, pre-rendered
+HTML, and RSC payloads (`index.txt`).
+
+- **Never hand-author a webpack chunk.** Chunk loading runs through the runtime manifest
+  (`webpack-*.js`, `_buildManifest.js`); a new chunk file will simply never load. Where new
+  code-splitting is needed, use plain static files plus a runtime `fetch` instead.
+- The two 360 KB chunks are **vendor, not app code** — `994` is Recharts, `942` is
+  react-markdown/remark/rehype/highlight.js. Actual app code is only ~60-80 KB minified, which
+  is what makes bundle surgery tractable at all.
+- Prefer edits that are *additive and inspectable* (a new static file) over edits that rewrite
+  minified logic. Every rewrite of minified code is a permanent maintenance cost.
+
+### Where tooling goes
+
+The deploy workflow runs `rm -rf .git .github` **before** uploading the artifact, so anything
+under **`.github/` is stripped from the published site**. That is the only place in this repo
+where build and test tooling can live without becoming a public URL. Everything else committed
+is served.
+
+### What TDD means here (rule 3)
+
+With nothing unit-testable, tests run against the artifact. Build this harness under `.github/`
+*before* further bundle surgery — it is what makes rule 3 real rather than aspirational:
+
+| Check | Asserts |
+|---|---|
+| Syntax gate | every patched `.js` chunk parses (`node --check`) |
+| i18n parity | every locale exposes the same key set as `en`; every `locales/*.json` is valid |
+| Boot check | headless browser loads each route in each locale: no console error, root is not the loading skeleton |
+| Route integrity | every internal href resolves to a file that exists |
+| Payload budget | fail if a per-locale payload exceeds its ceiling |
+
+Red-green still applies: write the failing check first, then patch the bundle.
 
 ## Site structure
 
@@ -271,9 +311,6 @@ translation of site-authored prose.
 
 ## Known issues
 
-- **Push auth is broken.** Active `gh` account `dong-gi-yang_ktdev` has `push: false` on this
-  repo (pull only); account `XronAce` — author of every commit — fails keyring login. Pushes
-  will be rejected until this is fixed. Resolve *before* the first deploy, not during it.
 - **All pages share one `<title>`** (`DWS Planner`) and one description. Metadata is defined
   only in the root layout; no per-page `generateMetadata`, so guides have no distinct titles
   for search or link previews despite carrying localized `title`/`description` in frontmatter.
