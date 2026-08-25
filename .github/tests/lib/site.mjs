@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url'
 export const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..', '..', '..')
 
 export const TARGET_LOCALES = [
-  'en', 'ko', 'ja', 'zh-Hans', 'zh-Hant', 'ar', 'id', 'th',
+  'en', 'ko', 'ja', 'zh', 'zh-Hant', 'ar', 'id', 'th',
   'vi', 'tr', 'de', 'fr', 'es', 'pt', 'it', 'ru',
 ]
 

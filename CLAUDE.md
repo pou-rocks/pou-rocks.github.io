@@ -87,7 +87,7 @@ language's own blob), so the picker matches what members see in-game. Counts are
 | `en` | English | 6 | 33,044 | Authoring language; `fallbackLng` |
 | `ko` | 한국어 | 15 | 33,041 | Closest to game terms already (4 of 24 differ) |
 | `ja` | 日本語 | 12 | 33,039 | |
-| `zh-Hans` | 简体中文 | 14 | 35,073 | Game's source language |
+| `zh` | 简体中文 | 14 | 35,073 | Game's source language. Bare `zh` (not `zh-Hans`) so existing users' stored `language:"zh"` keeps matching |
 | `zh-Hant` | 繁體中文 | 11 | 35,235 | Label from game string `391083` |
 | `ar` | اللغة العربية | 13 | 33,043 | **RTL** — the only one in the set |
 | `id` | Bahasa Indonesia | 9 | 33,044 | |
@@ -245,7 +245,9 @@ With nothing unit-testable, tests run against the artifact. Build this harness u
 | Route integrity | every internal href resolves to a file that exists |
 | Payload budget | fail if a per-locale payload exceeds its ceiling |
 
-Run it with `node --test .github/tests/` — zero dependencies, uses the built-in Node runner.
+Run it with `node --test .github/tests/*.test.mjs` — the glob is required, Node's runner will
+not descend into a dot-directory. Zero dependencies; `boot.test.mjs` drives headless Chrome
+over CDP using Node's built-in WebSocket and skips itself if Chrome is absent (~50s).
 `invariants.test.mjs` guards what must not break; `i18n.test.mjs` encodes the target state and
 is expected to be red until the work lands.
 
