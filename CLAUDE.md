@@ -78,19 +78,53 @@ follows the game, not a literal translation of the site's English.
 Author in **English first**, then ship *full* localization for every supported locale in the
 same change. A locale that lags is a bug, not a backlog item.
 
-| Site locale | Game blob | Notes |
-|---|---|---|
-| `en` | 6 | Authoring language; `fallbackLng` |
-| `ko` | 15 | |
-| `zh-Hans` | 14 | Game's source language; blob is ~2,000 strings longer than the rest |
-| `zh-Hant` | 11 | **To add** — the game ships it as a separate language |
-| `ja` | 12 | |
-| `id` | 9 | |
-| `ar` | 13 | **RTL** — the only one; `dir` is set client-side from the list `["ar"]` |
-| ~~`tl`~~ | — | **Remove.** Tagalog is not a game language (decision, 2026-08-25) |
+**Target: all 16.** Endonyms below are the game's own (string `390752`+, read from each
+language's own blob), so the picker matches what members see in-game. Counts are parsed
+`id=text` pairs at build 1.250.661.
 
-Nine further game languages are unused and available if the alliance ever needs them:
-`ru` (incomplete in-game), `tr`, `de`, `pt`, `vi`, `it`, `fr`, `es`, `th`.
+| Locale | Endonym | Blob | Strings | Notes |
+|---|---|---|---|---|
+| `en` | English | 6 | 33,044 | Authoring language; `fallbackLng` |
+| `ko` | 한국어 | 15 | 33,041 | Closest to game terms already (4 of 24 differ) |
+| `ja` | 日本語 | 12 | 33,039 | |
+| `zh-Hans` | 简体中文 | 14 | 35,073 | Game's source language |
+| `zh-Hant` | 繁體中文 | 11 | 35,235 | Label from game string `391083` |
+| `ar` | اللغة العربية | 13 | 33,043 | **RTL** — the only one in the set |
+| `id` | Bahasa Indonesia | 9 | 33,044 | |
+| `th` | ไทย | 10 | 33,044 | **To add** |
+| `vi` | Tiếng Việt | 4 | 33,041 | **To add** |
+| `tr` | Türkçe | 1 | 33,041 | **To add** |
+| `de` | Deutsch | 2 | 33,043 | **To add** |
+| `fr` | Français | 7 | 33,044 | **To add** |
+| `es` | Español | 8 | 33,044 | **To add** — Latin American (`Ustedes`, `Tomar`) |
+| `pt` | Português | 3 | 33,044 | **To add** — Brazilian (`Você`, `Equipe`) |
+| `it` | Italiano | 5 | 33,044 | **To add** |
+| `ru` | Русский | 0 | **11,765** | **To add** — see caveat below |
+| ~~`tl`~~ | — | — | — | **Remove.** Not a game language (decision, 2026-08-25) |
+
+**Russian is only 33.5% translated in-game** — 11,765 of 33,044 ids, 21,964 missing. Its blob
+also carries a stray untranslated header line (`RU包保存列`), which suggests work in progress
+rather than a shipped language. Terminology rule 2 (fall back to the game's English) will fire
+constantly here. **Open question: is Russian even selectable in the game's own settings?** If
+it is not, reconsider shipping it. Do not treat 33.5% coverage as a translation bug on our side.
+
+`zh-Hans` and `zh-Hant` share the endonym `中文` (`390759`) in-game; the table uses the explicit
+forms so the picker is unambiguous. `繁體中文` is game-sourced, `简体中文` is conventional.
+
+### Payload budget — this is a mobile-first constraint
+
+The current architecture inlines **every locale into every payload**. That does not survive
+going to 16:
+
+| Artifact | Now (7 locales) | Projected (16) |
+|---|---|---|
+| `guides/index.txt` | 360 KB | **~800 KB** |
+| `layout-*.js` (UI strings) | 88 KB | ~180 KB |
+
+A member reading Korean on a phone currently downloads six languages they cannot read; at 16 it
+would be fifteen. **Adding locales without changing this is a regression against the
+mobile-first rule.** Load locale bundles on demand (dynamic import per locale, or split the
+guides payload per locale) *before* or *with* the expansion — not after.
 
 **Terminology rules:**
 
@@ -226,8 +260,14 @@ rows. Binding them to official terms goes through `score_list` `name_ref` config
 (dws-wiki `write_visible.py` territory), not string matching. Not yet done.
 
 **Blocked on source.** Removing `tl` is two surgical edits to the minified bundle and is
-patchable. Adding `zh-Hant` is not: it needs 234 new UI keys plus all 4 guides re-rendered
-into the RSC payloads (`index.txt`) and pre-rendered HTML. That is a build, not a patch.
+patchable. The 10-locale expansion is not: it needs 10 x 234 = 2,340 new UI strings plus
+4 guides x 10 = 40 new guide documents, all re-rendered into the RSC payloads (`index.txt`)
+and pre-rendered HTML, plus the lazy-loading change the payload budget requires. That is a
+build, not a patch.
+
+Scope at the 16-locale target: **3,744 UI strings** (16 x 234) and **64 guide documents**
+(16 x 4). Terminology rules 1-2 bind only the ~24 game nouns per locale; the rest is ordinary
+translation of site-authored prose.
 
 ## Known issues
 
