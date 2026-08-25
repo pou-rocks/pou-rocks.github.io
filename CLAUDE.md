@@ -245,6 +245,10 @@ With nothing unit-testable, tests run against the artifact. Build this harness u
 | Route integrity | every internal href resolves to a file that exists |
 | Payload budget | fail if a per-locale payload exceeds its ceiling |
 
+Run it with `node --test .github/tests/` — zero dependencies, uses the built-in Node runner.
+`invariants.test.mjs` guards what must not break; `i18n.test.mjs` encodes the target state and
+is expected to be red until the work lands.
+
 Red-green still applies: write the failing check first, then patch the bundle.
 
 ## Site structure
