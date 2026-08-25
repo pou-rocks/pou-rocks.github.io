@@ -127,7 +127,7 @@
  "theme_names": {
   "shelter_expansion": "셸터 건설",
   "hero_initiative": "영웅 육성",
-  "unit_training": "유닛 집중 훈련",
+  "unit_training": "유닛 훈련",
   "age_of_science": "과학기술 연구",
   "arms_expert": "전쟁 대비 달인",
   "keep_progressing": "매일 향상",
@@ -172,7 +172,7 @@
   "Frankenstein": "프랑켄슈타인",
   "Zombie Siege": "좀비 진격",
   "Capital Clash": "수도 쟁탈전",
-  "Armory Assault": "군기계고 습격",
+  "Armory Assault": "군 기계고 쟁탈전",
   "BlackGold Battlefield": "블랙머니전장"
  },
  "event_rounds": {

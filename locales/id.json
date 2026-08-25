@@ -97,12 +97,12 @@
  "theme_names": {
   "shelter_expansion": "Bangun Shelter",
   "hero_initiative": "Upgrade Hero",
-  "unit_training": "Pelatihan Unit",
+  "unit_training": "Latih Prajurit",
   "age_of_science": "Teliti Teknologi",
   "arms_expert": "Ahli Persenjataan",
   "keep_progressing": "Terus Maju",
   "holistic_growth": "Perkembangan Total",
-  "enemy_buster": "Pembasmi Musuh",
+  "enemy_buster": "Kalahkan Pasukan Musuh",
   "day_off": "Hari Libur"
  },
  "actions": {
@@ -141,8 +141,8 @@
  "event_names": {
   "Frankenstein": "Frankenstein",
   "Zombie Siege": "Pengepungan Zombie",
-  "Capital Clash": "Pertempuran Ibu Kota",
-  "Armory Assault": "Serangan Gudang Senjata",
+  "Capital Clash": "Bentrokan Ibu Kota",
+  "Armory Assault": "Perang Perebutan Gudang Senjata",
   "BlackGold Battlefield": "BlackGold Battlefield"
  },
  "official_titles": {

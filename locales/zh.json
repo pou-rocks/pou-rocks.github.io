@@ -95,14 +95,14 @@
  },
  "chart_server_time": "服务器时间 (UTC-02)",
  "theme_names": {
-  "shelter_expansion": "庇护所扩建",
+  "shelter_expansion": "建设避难所",
   "hero_initiative": "培养英雄",
-  "unit_training": "部队训练",
+  "unit_training": "训练士兵",
   "age_of_science": "研究科技",
   "arms_expert": "战备达人",
   "keep_progressing": "与日俱进",
   "holistic_growth": "全面发展",
-  "enemy_buster": "歼敌先锋",
+  "enemy_buster": "击败敌军",
   "day_off": "休息日"
  },
  "actions": {
@@ -141,8 +141,8 @@
  "event_names": {
   "Frankenstein": "弗兰肯斯坦",
   "Zombie Siege": "丧尸临城",
-  "Capital Clash": "总统冲突",
-  "Armory Assault": "军械库袭击",
+  "Capital Clash": "总统府争霸战",
+  "Armory Assault": "军械库争夺战",
   "BlackGold Battlefield": "黑金战场"
  },
  "official_titles": {

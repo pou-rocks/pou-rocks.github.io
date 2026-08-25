@@ -125,14 +125,14 @@
  "days": "days",
  "chart_server_time": "Server Time (UTC-02)",
  "theme_names": {
-  "shelter_expansion": "Shelter Expansion",
+  "shelter_expansion": "สร้างที่หลบภัย",
   "hero_initiative": "พัฒนาฮีโร่",
-  "unit_training": "Unit Training",
+  "unit_training": "ฝึกฝนทหาร",
   "age_of_science": "วิจัยเทคโนโลยี",
   "arms_expert": "คนดังเตรียมสงคราม",
   "keep_progressing": "พัฒนายิ่งขึ้น",
   "holistic_growth": "พัฒนาครบด้าน",
-  "enemy_buster": "Enemy Buster",
+  "enemy_buster": "เอาชนะศัตรู",
   "day_off": "Day Off"
  },
  "actions": {
@@ -171,8 +171,8 @@
  "event_names": {
   "Frankenstein": "แฟรงเกนสไตน์",
   "Zombie Siege": "เมืองซอมบี้",
-  "Capital Clash": "Capital Clash",
-  "Armory Assault": "Armory Assault",
+  "Capital Clash": "ศึกช่วงชิงเมืองหลวง",
+  "Armory Assault": "ศึกช่วงชิงคลังอาวุธ",
   "BlackGold Battlefield": "BlackGold Battlefield"
  },
  "event_rounds": {
@@ -193,7 +193,7 @@
   "Day Off": "Alliance Duel rests. Focus purely on SP rotations or prep for Monday."
  },
  "official_titles": {
-  "president": "President",
+  "president": "ประธานาธิบดี",
   "vice_president": "รองประธานาธิบดี",
   "blade_of_dominion": "ดาบแห่งการพิชิต",
   "scale_of_law": "ตาชั่งลำดับ",

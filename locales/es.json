@@ -125,14 +125,14 @@
  "days": "days",
  "chart_server_time": "Server Time (UTC-02)",
  "theme_names": {
-  "shelter_expansion": "Shelter Expansion",
+  "shelter_expansion": "Construir el Refugio",
   "hero_initiative": "Cultivar héroes",
-  "unit_training": "Unit Training",
+  "unit_training": "Entrenamiento de Unidad",
   "age_of_science": "Investigar Tecnologías",
   "arms_expert": "Experto en Armamento",
   "keep_progressing": "Seguir Progresando",
   "holistic_growth": "Desarrollo integral",
-  "enemy_buster": "Enemy Buster",
+  "enemy_buster": "Derrotar Enemigos",
   "day_off": "Day Off"
  },
  "actions": {
@@ -171,8 +171,8 @@
  "event_names": {
   "Frankenstein": "Frankenstein",
   "Zombie Siege": "Asedio Zombi",
-  "Capital Clash": "Capital Clash",
-  "Armory Assault": "Armory Assault",
+  "Capital Clash": "Batalla por la Capital",
+  "Armory Assault": "Asalto del Arsenal",
   "BlackGold Battlefield": "BlackGold Battlefield"
  },
  "event_rounds": {
@@ -193,7 +193,7 @@
   "Day Off": "Alliance Duel rests. Focus purely on SP rotations or prep for Monday."
  },
  "official_titles": {
-  "president": "President",
+  "president": "Presidente",
   "vice_president": "Vicepresidente",
   "blade_of_dominion": "Espada de la Conquista.",
   "scale_of_law": "Balanza del Orden",

@@ -125,14 +125,14 @@
  "days": "days",
  "chart_server_time": "Server Time (UTC-02)",
  "theme_names": {
-  "shelter_expansion": "Shelter Expansion",
+  "shelter_expansion": "Xây Dựng Nơi Trú Ẩn",
   "hero_initiative": "Bồi Dưỡng Tướng",
-  "unit_training": "Unit Training",
+  "unit_training": "Huấn Luyện Lính",
   "age_of_science": "Nghiên cứu Công Nghệ",
   "arms_expert": "Cao Thủ Chiến Bị",
   "keep_progressing": "Tiến Bộ Không Ngừng",
   "holistic_growth": "Phát Triển Toàn Diện",
-  "enemy_buster": "Enemy Buster",
+  "enemy_buster": "Đánh bại quân địch",
   "day_off": "Day Off"
  },
  "actions": {
@@ -171,8 +171,8 @@
  "event_names": {
   "Frankenstein": "Frankenstein",
   "Zombie Siege": "Zombie Vây Thành",
-  "Capital Clash": "Capital Clash",
-  "Armory Assault": "Armory Assault",
+  "Capital Clash": "Tranh Bá Thủ Đô",
+  "Armory Assault": "Tranh Đoạt Kho Vũ Khí",
   "BlackGold Battlefield": "BlackGold Battlefield"
  },
  "event_rounds": {
@@ -193,7 +193,7 @@
   "Day Off": "Alliance Duel rests. Focus purely on SP rotations or prep for Monday."
  },
  "official_titles": {
-  "president": "President",
+  "president": "Tổng Thống",
   "vice_president": "Phó Tổng Thống",
   "blade_of_dominion": "Kiếm Chinh Phục",
   "scale_of_law": "Cân Bằng Trật Tự",

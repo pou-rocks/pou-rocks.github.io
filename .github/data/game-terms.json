@@ -18,14 +18,8 @@
   "it": "Italiano",
   "ru": "Русский"
  },
- "ambiguous": [
-  "event_names.Armory Assault",
-  "event_names.Capital Clash",
-  "official_titles.president",
-  "theme_names.enemy_buster",
-  "theme_names.shelter_expansion",
-  "theme_names.unit_training"
- ],
+ "resolutionPolicy": "Ambiguous English->multiple ids resolved by (1) existing site translation matching a candidate, then (2) cross-locale majority, then (3) lowest id. Marked provisional; an in-game screenshot supersedes.",
+ "ambiguous": [],
  "unmatched": [
   "actions.S-class truck escorts",
   "actions.complete new unit batches",
@@ -489,6 +483,249 @@
     "pt": "Ministro da Defesa",
     "it": "Ministro della difesa",
     "ru": "Министр обороны"
+   }
+  },
+  "theme_names.shelter_expansion": {
+   "en": "Shelter Expansion",
+   "ids": [
+    "370026"
+   ],
+   "locales": {
+    "en": "Shelter Expansion",
+    "ko": "셸터 건설",
+    "ja": "避難所建設",
+    "zh": "建设避难所",
+    "zh-Hant": "建設避難所",
+    "ar": "بناء ملجأ",
+    "id": "Bangun Shelter",
+    "th": "สร้างที่หลบภัย",
+    "vi": "Xây Dựng Nơi Trú Ẩn",
+    "tr": "Barınak İnşa Etmek",
+    "de": "Bau des Unterschlupfs",
+    "fr": "Construire le refuge",
+    "es": "Construir el Refugio",
+    "pt": "Construa um abrigo",
+    "it": "Costruisci Rifugio",
+    "ru": "Постройка базы"
+   },
+   "resolution": {
+    "method": "site-evidence",
+    "confidence": "provisional",
+    "candidates": [
+     "370026",
+     "371018"
+    ],
+    "siteVotes": {
+     "370026": 2
+    },
+    "majorityScore": {
+     "370026": 1,
+     "371018": 1
+    }
+   }
+  },
+  "theme_names.unit_training": {
+   "en": "Unit Training",
+   "ids": [
+    "360013"
+   ],
+   "locales": {
+    "en": "Unit Training",
+    "ko": "유닛 훈련",
+    "ja": "兵士を訓練する",
+    "zh": "训练士兵",
+    "zh-Hant": "訓練士兵",
+    "ar": "تدريب الوحدات",
+    "id": "Latih Prajurit",
+    "th": "ฝึกฝนทหาร",
+    "vi": "Huấn Luyện Lính",
+    "tr": "Askerleri Eğit",
+    "de": "Training von Soldaten",
+    "fr": "Former des soldats",
+    "es": "Entrenamiento de Unidad",
+    "pt": "Treinamento de Soldados",
+    "it": "Addestra Unità",
+    "ru": "Тренировка юнитов"
+   },
+   "resolution": {
+    "method": "site-evidence+majority",
+    "confidence": "provisional",
+    "candidates": [
+     "330093",
+     "360013",
+     "371022"
+    ],
+    "siteVotes": {
+     "371022": 1,
+     "360013": 1
+    },
+    "majorityScore": {
+     "330093": 8,
+     "360013": 8,
+     "371022": 3
+    }
+   }
+  },
+  "theme_names.enemy_buster": {
+   "en": "Enemy Buster",
+   "ids": [
+    "370030"
+   ],
+   "locales": {
+    "en": "Enemy Buster",
+    "ko": "적군 격퇴",
+    "ja": "敵軍撃破",
+    "zh": "击败敌军",
+    "zh-Hant": "擊敗敵軍",
+    "ar": "هزيمة الأعداء",
+    "id": "Kalahkan Pasukan Musuh",
+    "th": "เอาชนะศัตรู",
+    "vi": "Đánh bại quân địch",
+    "tr": "Düşmanı Yenmek",
+    "de": "Vernichtung der Feinde",
+    "fr": "Vaincre l'ennemi",
+    "es": "Derrotar Enemigos",
+    "pt": "Derrotar Inimigo",
+    "it": "Sconfiggi nemico",
+    "ru": "Победа над врагом"
+   },
+   "resolution": {
+    "method": "site-evidence",
+    "confidence": "provisional",
+    "candidates": [
+     "370030",
+     "462026"
+    ],
+    "siteVotes": {
+     "370030": 1
+    },
+    "majorityScore": {
+     "370030": 1,
+     "462026": 1
+    }
+   }
+  },
+  "event_names.Capital Clash": {
+   "en": "Capital Clash",
+   "ids": [
+    "250101"
+   ],
+   "locales": {
+    "en": "Capital Clash",
+    "ko": "수도 쟁탈전",
+    "ja": "大統領府争奪戦",
+    "zh": "总统府争霸战",
+    "zh-Hant": "總統府爭霸戰",
+    "ar": "منافسة العاصمة",
+    "id": "Bentrokan Ibu Kota",
+    "th": "ศึกช่วงชิงเมืองหลวง",
+    "vi": "Tranh Bá Thủ Đô",
+    "tr": "Başkent Savaşı",
+    "de": "Hauptstadt-Kampf",
+    "fr": "Bataille de capitale",
+    "es": "Batalla por la Capital",
+    "pt": "Batalha pela capital",
+    "it": "Battaglie per la capitale",
+    "ru": "Борьба за звездное чудо"
+   },
+   "resolution": {
+    "method": "site-evidence+majority",
+    "confidence": "provisional",
+    "candidates": [
+     "250101",
+     "477507",
+     "510000",
+     "550486",
+     "931364"
+    ],
+    "siteVotes": {
+     "250101": 1,
+     "477507": 1,
+     "510000": 1,
+     "550486": 1
+    },
+    "majorityScore": {
+     "250101": 13,
+     "477507": 5,
+     "510000": 12,
+     "550486": 11,
+     "931364": 5
+    }
+   }
+  },
+  "event_names.Armory Assault": {
+   "en": "Armory Assault",
+   "ids": [
+    "475276"
+   ],
+   "locales": {
+    "en": "Armory Assault",
+    "ko": "군 기계고 쟁탈전",
+    "ja": "軍事庫争奪戦",
+    "zh": "军械库争夺战",
+    "zh-Hant": "軍械庫爭奪戰",
+    "ar": "معركة السيطرة على المستودع",
+    "id": "Perang Perebutan Gudang Senjata",
+    "th": "ศึกช่วงชิงคลังอาวุธ",
+    "vi": "Tranh Đoạt Kho Vũ Khí",
+    "tr": "Cephanelik Mücadelesi",
+    "de": "Eroberung der Waffenkammer",
+    "fr": "Lutte de l'armurerie",
+    "es": "Asalto del Arsenal",
+    "pt": "Disputa pelo Arsenal",
+    "it": "Battaglia per l'Armeria"
+   },
+   "resolution": {
+    "method": "majority",
+    "confidence": "provisional",
+    "candidates": [
+     "475276",
+     "550484"
+    ],
+    "siteVotes": {},
+    "majorityScore": {
+     "475276": 12,
+     "550484": 12
+    }
+   }
+  },
+  "official_titles.president": {
+   "en": "President",
+   "ids": [
+    "250045"
+   ],
+   "locales": {
+    "en": "President",
+    "ko": "대통령",
+    "ja": "大統領",
+    "zh": "总统",
+    "zh-Hant": "總統",
+    "ar": "رئيس",
+    "id": "Presiden",
+    "th": "ประธานาธิบดี",
+    "vi": "Tổng Thống",
+    "tr": "Başkan",
+    "de": "Präsident",
+    "fr": "Président",
+    "es": "Presidente",
+    "pt": "Presidente",
+    "it": "Presidente",
+    "ru": "Президент"
+   },
+   "resolution": {
+    "method": "site-evidence",
+    "confidence": "provisional",
+    "candidates": [
+     "250045",
+     "250103"
+    ],
+    "siteVotes": {
+     "250045": 4
+    },
+    "majorityScore": {
+     "250045": 1,
+     "250103": 1
+    }
    }
   }
  }

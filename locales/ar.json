@@ -95,14 +95,14 @@
  },
  "chart_server_time": "وقت الخادم (UTC-02)",
  "theme_names": {
-  "shelter_expansion": "توسيع الملجأ",
+  "shelter_expansion": "بناء ملجأ",
   "hero_initiative": "تدريب الأبطال",
   "unit_training": "تدريب الوحدات",
   "age_of_science": "قم ببحث التقنية",
   "arms_expert": "خبير الاستعداد القتالي",
   "keep_progressing": "التقدم اليومي",
   "holistic_growth": "تطوير شامل",
-  "enemy_buster": "صائد الأعداء",
+  "enemy_buster": "هزيمة الأعداء",
   "day_off": "يوم عطلة"
  },
  "actions": {
@@ -141,12 +141,12 @@
  "event_names": {
   "Frankenstein": "فرانكنشتاين",
   "Zombie Siege": "الزومبي على أبواب المدينة",
-  "Capital Clash": "صراع العاصمة",
-  "Armory Assault": "هجوم الترسانة",
+  "Capital Clash": "منافسة العاصمة",
+  "Armory Assault": "معركة السيطرة على المستودع",
   "BlackGold Battlefield": "ساحة الذهب الأسود"
  },
  "official_titles": {
-  "president": "الرئيس",
+  "president": "رئيس",
   "vice_president": "نائب الرئيس",
   "blade_of_dominion": "سيف الفتح",
   "scale_of_law": "ميزان النظام",

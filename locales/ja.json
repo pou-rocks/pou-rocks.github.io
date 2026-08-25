@@ -95,14 +95,14 @@
  },
  "chart_server_time": "サーバー時間 (UTC-02)",
  "theme_names": {
-  "shelter_expansion": "シェルター拡張",
+  "shelter_expansion": "避難所建設",
   "hero_initiative": "ヒーロー育成",
-  "unit_training": "ユニット訓練",
+  "unit_training": "兵士を訓練する",
   "age_of_science": "科学技術研究",
   "arms_expert": "軍備達人",
   "keep_progressing": "日進月歩",
   "holistic_growth": "全面的な発展",
-  "enemy_buster": "エネミーバスター",
+  "enemy_buster": "敵軍撃破",
   "day_off": "休日"
  },
  "actions": {
@@ -141,8 +141,8 @@
  "event_names": {
   "Frankenstein": "フランケンシュタイン",
   "Zombie Siege": "ゾンビ襲来",
-  "Capital Clash": "首都争奪戦",
-  "Armory Assault": "武器庫襲撃",
+  "Capital Clash": "大統領府争奪戦",
+  "Armory Assault": "軍事庫争奪戦",
   "BlackGold Battlefield": "ブラックゴールド戦場"
  },
  "official_titles": {

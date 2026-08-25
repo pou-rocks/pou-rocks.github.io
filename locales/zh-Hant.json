@@ -125,14 +125,14 @@
  "days": "days",
  "chart_server_time": "Server Time (UTC-02)",
  "theme_names": {
-  "shelter_expansion": "Shelter Expansion",
+  "shelter_expansion": "建設避難所",
   "hero_initiative": "培養英雄",
-  "unit_training": "Unit Training",
+  "unit_training": "訓練士兵",
   "age_of_science": "研究科技",
   "arms_expert": "戰備達人",
   "keep_progressing": "與日俱進",
   "holistic_growth": "全面發展",
-  "enemy_buster": "Enemy Buster",
+  "enemy_buster": "擊敗敵軍",
   "day_off": "Day Off"
  },
  "actions": {
@@ -171,8 +171,8 @@
  "event_names": {
   "Frankenstein": "弗蘭肯斯坦",
   "Zombie Siege": "喪屍臨城",
-  "Capital Clash": "Capital Clash",
-  "Armory Assault": "Armory Assault",
+  "Capital Clash": "總統府爭霸戰",
+  "Armory Assault": "軍械庫爭奪戰",
   "BlackGold Battlefield": "BlackGold Battlefield"
  },
  "event_rounds": {
@@ -193,7 +193,7 @@
   "Day Off": "Alliance Duel rests. Focus purely on SP rotations or prep for Monday."
  },
  "official_titles": {
-  "president": "President",
+  "president": "總統",
   "vice_president": "副總統",
   "blade_of_dominion": "征服之劍",
   "scale_of_law": "秩序天平",

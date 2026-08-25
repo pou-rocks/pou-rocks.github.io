@@ -288,17 +288,28 @@ intact across all 7. Of 59 game-domain keys, 24 bind to a game string by exact E
 | `zh` | 14 | | `ar` | 17 |
 | `ja` | 15 | | | |
 
-Korean is closest to the game; Arabic furthest. **18 of 24 are unambiguous and can be applied
-without further input.** The remaining 6 need an in-game screenshot to bind (rule 4 above):
+Korean is closest to the game; Arabic furthest. All 24 are now applied. The six that map to several string ids were resolved on 2026-08-25 by
+policy (user decision: take the majority, and where there is none, pick one):
 
-| Term | Screen | Worst case |
+1. **Site evidence** — an existing site translation matching a candidate identifies that id.
+   This turned out to be the strongest signal: the original translations were made from what
+   the game actually renders, so they point at the real binding.
+2. **Cross-locale majority** — the id whose value is the most common across all 16 blobs.
+3. **Lowest id** — deterministic tie-break.
+
+| Term | Chosen id | Method |
 |---|---|---|
-| Shelter Expansion | Survival Preparedness themes | 2 candidates |
-| Unit Training | Survival Preparedness themes | 3 |
-| Enemy Buster | Alliance Duel themes | 2 |
-| Capital Clash | Event calendar | **5** (Arabic) |
-| Armory Assault | Event calendar | 2 |
-| President | Alliance officer titles | 2 |
+| `theme_names.shelter_expansion` | `370026` | site evidence (2 votes, 0 against) |
+| `theme_names.unit_training` | `360013` | site evidence + majority |
+| `theme_names.enemy_buster` | `370030` | site evidence |
+| `event_names.Capital Clash` | `250101` | site evidence + majority (13) |
+| `event_names.Armory Assault` | `475276` | majority — a true 12-12 tie, broken by lowest id |
+| `official_titles.president` | `250045` | site evidence (4 of 5 locales) |
+
+All six carry `confidence: provisional` in `game-terms.json`. **An in-game screenshot
+supersedes any of them.** `Armory Assault` is the weakest — nothing distinguished the two
+candidates — and dws-wiki's Traps section warns explicitly that majority-count heuristics lie,
+so treat these as working answers, not settled facts.
 
 **35 of 59 game-domain keys have no exact English match** — almost all `actions.*`
 ("Construction speed-ups", "Kill roamer zombies"). These are site phrasing for SP/AD score
