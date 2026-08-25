@@ -73,7 +73,9 @@
   "evidence": "Bukti",
   "hive_map": "Peta Hive",
   "hive_map_current": "Peta Saat Ini",
-  "hive_map_generator": "Generator Peta Hive"
+  "hive_map_generator": "Generator Peta Hive",
+  "calculator": "Kalkulator",
+  "precision_parts": "Komponen Presisi"
  },
  "events_title": "Event Mendatang",
  "events_caption": "Lihat jadwal event aliansi untuk 14 hari ke depan",

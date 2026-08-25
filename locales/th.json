@@ -92,7 +92,9 @@
   "evidence": "Evidence",
   "hive_map": "Hive Map",
   "hive_map_current": "Current Map",
-  "hive_map_generator": "Hive Map Generator"
+  "hive_map_generator": "Hive Map Generator",
+  "calculator": "Calculator",
+  "precision_parts": "อะไหล่แม่นยำ"
  },
  "hive_current_title": "Current Hive Map",
  "hive_current_subtitle": "The shelter formation currently applied in-game.",

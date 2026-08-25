@@ -73,7 +73,9 @@
   "evidence": "证据",
   "hive_map": "蜂巢地图",
   "hive_map_current": "当前地图",
-  "hive_map_generator": "蜂巢地图生成器"
+  "hive_map_generator": "蜂巢地图生成器",
+  "calculator": "计算器",
+  "precision_parts": "精密零件"
  },
  "events_title": "即将到来的活动",
  "events_caption": "查看未来14天的联盟活动安排",

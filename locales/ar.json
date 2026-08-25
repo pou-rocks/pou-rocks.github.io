@@ -73,7 +73,9 @@
   "evidence": "أدلة",
   "hive_map": "خريطة الخلية",
   "hive_map_current": "الخريطة الحالية",
-  "hive_map_generator": "مولّد خريطة الخلية"
+  "hive_map_generator": "مولّد خريطة الخلية",
+  "calculator": "Calculator",
+  "precision_parts": "الأجزاء الدقيقة"
  },
  "events_title": "الفعاليات القادمة",
  "events_caption": "عرض جدول فعاليات التحالف لـ 14 يومًا القادمة",

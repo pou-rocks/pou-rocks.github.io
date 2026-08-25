@@ -326,6 +326,32 @@ Scope at the 16-locale target: **3,744 UI strings** (16 x 234) and **64 guide do
 (16 x 4). Terminology rules 1-2 bind only the ~24 game nouns per locale; the rest is ordinary
 translation of site-authored prose.
 
+## Calculators
+
+`/calculator/precision-parts/` is a **standalone page**, not a Next.js route — with the source
+gone, new routes cannot be added to the app. It is plain HTML plus vanilla JS that links the
+app's compiled stylesheet, so it inherits the design tokens and reads native.
+
+**Tailwind purged everything the app never used.** 25 utilities the page needed (`bottom-0`,
+`inset-x-0`, `max-w-3xl`, `shrink-0`, `pe-3`, `text-end`, …) simply do not exist in
+`_next/static/css/*.css`; the sticky total bar silently had no position until they were
+defined locally. Any new standalone page must declare its own utilities in a `<style>` block.
+`calculator-css.test.mjs` fails the build if a class has no rule anywhere — keep it passing.
+
+Data is `data/precision-parts.json` (41 KB, 13 KB gzipped), generated from dws-wiki's
+`precision-parts.md` plus the APK: building `name`/`description` are string ids read out of the
+`building` datatable via Lua, then resolved in all 16 locales. `774000` and `893000` share name
+id `100292` — the game labels **both** "Mart" — so the generator appends a numeric suffix when
+names collide within a locale. They are genuinely different buildings (`Accelerate Gathering`
+vs a bounty camp).
+
+The nav gained a `Calculator` dropdown in both the desktop bar and the mobile drawer. Its links
+are plain `<a>`, **not** Next `Link` — a `Link` would attempt client-side routing to a route
+that does not exist and 404 inside the app.
+
+Page chrome is English; building and material names are localized from the game. Localizing the
+chrome needs ~20 strings per locale and a speaker to review them.
+
 ## Known issues
 
 - **All pages share one `<title>`** (`DWS Planner`) and one description. Metadata is defined

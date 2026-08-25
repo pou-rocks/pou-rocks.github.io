@@ -73,7 +73,9 @@
   "evidence": "証拠",
   "hive_map": "ハイブマップ",
   "hive_map_current": "現在のマップ",
-  "hive_map_generator": "ハイブマップ生成"
+  "hive_map_generator": "ハイブマップ生成",
+  "calculator": "計算機",
+  "precision_parts": "精密部品"
  },
  "events_title": "今後のイベント",
  "events_caption": "今後14日間の同盟イベントスケジュール",
