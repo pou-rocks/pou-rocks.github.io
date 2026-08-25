@@ -1,5 +1,5 @@
 {
- "language_name": "العربية",
+ "language_name": "اللغة العربية",
  "planner_title": "[PoU] مخطط دارك وور",
  "planner_caption": "خطّط لدورات استعداد البقاء ونوافذ إنفاق مبارزات التحالف كي تمنحك العناصر نفسها نقاطًا مزدوجة كلما أمكن.",
  "controls_header": "إعدادات المخطط",
@@ -96,12 +96,12 @@
  "chart_server_time": "وقت الخادم (UTC-02)",
  "theme_names": {
   "shelter_expansion": "توسيع الملجأ",
-  "hero_initiative": "مبادرة الأبطال",
+  "hero_initiative": "تدريب الأبطال",
   "unit_training": "تدريب الوحدات",
-  "age_of_science": "عصر العلوم",
-  "arms_expert": "خبير الأسلحة",
-  "keep_progressing": "استمر بالتقدم",
-  "holistic_growth": "نمو شامل",
+  "age_of_science": "قم ببحث التقنية",
+  "arms_expert": "خبير الاستعداد القتالي",
+  "keep_progressing": "التقدم اليومي",
+  "holistic_growth": "تطوير شامل",
   "enemy_buster": "صائد الأعداء",
   "day_off": "يوم عطلة"
  },
@@ -139,8 +139,8 @@
   "lose units in battle": "خسارة الوحدات في المعركة"
  },
  "event_names": {
-  "Frankenstein": "فرانكشتاين",
-  "Zombie Siege": "حصار الزومبي",
+  "Frankenstein": "فرانكنشتاين",
+  "Zombie Siege": "الزومبي على أبواب المدينة",
   "Capital Clash": "صراع العاصمة",
   "Armory Assault": "هجوم الترسانة",
   "BlackGold Battlefield": "ساحة الذهب الأسود"
@@ -148,13 +148,13 @@
  "official_titles": {
   "president": "الرئيس",
   "vice_president": "نائب الرئيس",
-  "blade_of_dominion": "نصل السيادة",
+  "blade_of_dominion": "سيف الفتح",
   "scale_of_law": "ميزان النظام",
-  "grand_marshal": "المارشال الأعلى",
-  "supreme_general": "القائد الأعلى",
-  "secretary_of_construction": "وزير الإنشاءات",
+  "grand_marshal": "المارشال",
+  "supreme_general": "الجنرال الأعلى",
+  "secretary_of_construction": "وزير البناء",
   "secretary_of_agriculture": "وزير الزراعة",
-  "secretary_of_science": "وزير الأبحاث العلمية",
+  "secretary_of_science": "وزير البحث العلمي",
   "secretary_of_security": "وزير الدفاع"
  },
  "guides": {

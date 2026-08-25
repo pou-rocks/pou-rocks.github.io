@@ -1,0 +1,495 @@
+{
+ "apkBuild": "1.250.661",
+ "endonyms": {
+  "en": "English",
+  "ko": "한국어",
+  "ja": "日本語",
+  "zh": "简体中文",
+  "zh-Hant": "繁體中文",
+  "ar": "اللغة العربية",
+  "id": "Bahasa Indonesia",
+  "th": "ไทย",
+  "vi": "Tiếng Việt",
+  "tr": "Türkçe",
+  "de": "Deutsch",
+  "fr": "Français",
+  "es": "Español",
+  "pt": "Português",
+  "it": "Italiano",
+  "ru": "Русский"
+ },
+ "ambiguous": [
+  "event_names.Armory Assault",
+  "event_names.Capital Clash",
+  "official_titles.president",
+  "theme_names.enemy_buster",
+  "theme_names.shelter_expansion",
+  "theme_names.unit_training"
+ ],
+ "unmatched": [
+  "actions.S-class truck escorts",
+  "actions.complete new unit batches",
+  "actions.complete radar missions",
+  "actions.construction speed-ups",
+  "actions.consume advanced tactical rations",
+  "actions.consume advanced training protocols",
+  "actions.consume nutrient potions",
+  "actions.consume potential chips",
+  "actions.consume special ops honor medals",
+  "actions.consume standard training protocols",
+  "actions.design blueprints",
+  "actions.exclusive equipment fragments",
+  "actions.field resource gathering",
+  "actions.finish building upgrades",
+  "actions.finish science tech research",
+  "actions.gears",
+  "actions.hero equipment lucky chests",
+  "actions.hero fragments",
+  "actions.kill boomer zombies",
+  "actions.kill enemy units",
+  "actions.kill roamer zombies",
+  "actions.lose units in battle",
+  "actions.open chip chests",
+  "actions.orange shadow call missions",
+  "actions.power cores",
+  "actions.promote units to higher tiers",
+  "actions.recruitment tickets",
+  "actions.research speed-ups",
+  "actions.titaniums",
+  "actions.training speed-ups",
+  "actions.wisdom medals",
+  "event_names.BlackGold Battlefield",
+  "event_rounds.R1",
+  "event_rounds.R2",
+  "theme_names.day_off"
+ ],
+ "terms": {
+  "theme_names.hero_initiative": {
+   "en": "Hero Initiative",
+   "ids": [
+    "370029"
+   ],
+   "locales": {
+    "en": "Hero Initiative",
+    "ko": "영웅 육성",
+    "ja": "ヒーロー育成",
+    "zh": "培养英雄",
+    "zh-Hant": "培養英雄",
+    "ar": "تدريب الأبطال",
+    "id": "Upgrade Hero",
+    "th": "พัฒนาฮีโร่",
+    "vi": "Bồi Dưỡng Tướng",
+    "tr": "Kahraman Geliştirme",
+    "de": "Entwicklung von Helden",
+    "fr": "Cultiver des héros",
+    "es": "Cultivar héroes",
+    "pt": "Formação de Heróis",
+    "it": "Coltiva eroi",
+    "ru": "Развитие героя"
+   }
+  },
+  "theme_names.age_of_science": {
+   "en": "Age of Science",
+   "ids": [
+    "370024"
+   ],
+   "locales": {
+    "en": "Age of Science",
+    "ko": "과학기술 연구",
+    "ja": "科学技術研究",
+    "zh": "研究科技",
+    "zh-Hant": "研究科技",
+    "ar": "قم ببحث التقنية",
+    "id": "Teliti Teknologi",
+    "th": "วิจัยเทคโนโลยี",
+    "vi": "Nghiên cứu Công Nghệ",
+    "tr": "Teknoloji Araştır",
+    "de": "Forschung der Technologie",
+    "fr": "Recherche de la technologie",
+    "es": "Investigar Tecnologías",
+    "pt": "Tecnologia de Investigação",
+    "it": "Ricerca Tecnologia",
+    "ru": "Исследование технологий"
+   }
+  },
+  "theme_names.arms_expert": {
+   "en": "Arms Expert",
+   "ids": [
+    "371026"
+   ],
+   "locales": {
+    "en": "Arms Expert",
+    "ko": "전쟁 대비 달인",
+    "ja": "軍備達人",
+    "zh": "战备达人",
+    "zh-Hant": "戰備達人",
+    "ar": "خبير الاستعداد القتالي",
+    "id": "Ahli Persenjataan",
+    "th": "คนดังเตรียมสงคราม",
+    "vi": "Cao Thủ Chiến Bị",
+    "tr": "Savaş Ustası",
+    "de": "Bewaffnungsmeister",
+    "fr": "Maître d'armements",
+    "es": "Experto en Armamento",
+    "pt": "Especialista da Guerra",
+    "it": "Esperto di armi",
+    "ru": "Эксперт по вооружению"
+   }
+  },
+  "theme_names.keep_progressing": {
+   "en": "Keep Progressing",
+   "ids": [
+    "371027"
+   ],
+   "locales": {
+    "en": "Keep Progressing",
+    "ko": "매일 향상",
+    "ja": "日進月歩",
+    "zh": "与日俱进",
+    "zh-Hant": "與日俱進",
+    "ar": "التقدم اليومي",
+    "id": "Terus Maju",
+    "th": "พัฒนายิ่งขึ้น",
+    "vi": "Tiến Bộ Không Ngừng",
+    "tr": "Günlük İyileştirme",
+    "de": "Zeitliche Entwicklung",
+    "fr": "évoluer avec le temps",
+    "es": "Seguir Progresando",
+    "pt": "Avançar com o Dia",
+    "it": "Progressione al giorno",
+    "ru": "Прогресс вперед"
+   }
+  },
+  "theme_names.holistic_growth": {
+   "en": "Holistic Growth",
+   "ids": [
+    "370027"
+   ],
+   "locales": {
+    "en": "Holistic Growth",
+    "ko": "전면적 발전",
+    "ja": "全面的な発展",
+    "zh": "全面发展",
+    "zh-Hant": "全面發展",
+    "ar": "تطوير شامل",
+    "id": "Perkembangan Total",
+    "th": "พัฒนาครบด้าน",
+    "vi": "Phát Triển Toàn Diện",
+    "tr": "Genel Gelişim",
+    "de": "Totale Entwicklung",
+    "fr": "Développement complet",
+    "es": "Desarrollo integral",
+    "pt": "Desenvolvimento Global",
+    "it": "Sviluppo completo",
+    "ru": "Общее развитие"
+   }
+  },
+  "event_names.Frankenstein": {
+   "en": "Frankenstein",
+   "ids": [
+    "377065"
+   ],
+   "locales": {
+    "en": "Frankenstein",
+    "ko": "프랑켄슈타인",
+    "ja": "フランケンシュタイン",
+    "zh": "弗兰肯斯坦",
+    "zh-Hant": "弗蘭肯斯坦",
+    "ar": "فرانكنشتاين",
+    "id": "Frankenstein",
+    "th": "แฟรงเกนสไตน์",
+    "vi": "Frankenstein",
+    "tr": "Frankenstein",
+    "de": "Frankenstein",
+    "fr": "Frankenstein",
+    "es": "Frankenstein",
+    "pt": "Frankenstein",
+    "it": "Frankenstein"
+   }
+  },
+  "event_names.Zombie Siege": {
+   "en": "Zombie Siege",
+   "ids": [
+    "372700"
+   ],
+   "locales": {
+    "en": "Zombie Siege",
+    "ko": "좀비 진격",
+    "ja": "ゾンビ襲来",
+    "zh": "丧尸临城",
+    "zh-Hant": "喪屍臨城",
+    "ar": "الزومبي على أبواب المدينة",
+    "id": "Pengepungan Zombie",
+    "th": "เมืองซอมบี้",
+    "vi": "Zombie Vây Thành",
+    "tr": "Zombi Kuşatması",
+    "de": "Zombie-Invasion",
+    "fr": "Invasion de zombies",
+    "es": "Asedio Zombi",
+    "pt": "Zumbis à Vista",
+    "it": "Assedio degli zombie",
+    "ru": "Осада пиратов"
+   }
+  },
+  "event_rounds.Team_A": {
+   "en": "Team A",
+   "ids": [
+    "931298"
+   ],
+   "locales": {
+    "en": "Team A",
+    "ko": "A팀",
+    "ja": "Aチーム",
+    "zh": "A队",
+    "zh-Hant": "A隊",
+    "ar": "الفريق A",
+    "id": "Tim A",
+    "th": "ทีม A",
+    "vi": "Đội A",
+    "tr": "A Takımı",
+    "de": "Team A",
+    "fr": "Équipe A",
+    "es": "Equipo A",
+    "pt": "Equipe A",
+    "it": "Squadra A"
+   }
+  },
+  "event_rounds.Team_B": {
+   "en": "Team B",
+   "ids": [
+    "931299"
+   ],
+   "locales": {
+    "en": "Team B",
+    "ko": "B팀",
+    "ja": "Bチーム",
+    "zh": "B队",
+    "zh-Hant": "B隊",
+    "ar": "الفريق B",
+    "id": "Tim B",
+    "th": "ทีม B",
+    "vi": "Đội B",
+    "tr": "B Takımı",
+    "de": "Team B",
+    "fr": "Équipe B",
+    "es": "Equipo B",
+    "pt": "Equipe B",
+    "it": "Squadra B"
+   }
+  },
+  "official_titles.vice_president": {
+   "en": "Vice President",
+   "ids": [
+    "250061"
+   ],
+   "locales": {
+    "en": "Vice President",
+    "ko": "부통령",
+    "ja": "副大統領",
+    "zh": "副总统",
+    "zh-Hant": "副總統",
+    "ar": "نائب الرئيس",
+    "id": "Wakil Presiden",
+    "th": "รองประธานาธิบดี",
+    "vi": "Phó Tổng Thống",
+    "tr": "Başkan Yardımcısı",
+    "de": "Vizepräsident",
+    "fr": "Vice-Président",
+    "es": "Vicepresidente",
+    "pt": "Vice-Presidente",
+    "it": "Vicepresidente",
+    "ru": "Зам. президента"
+   }
+  },
+  "official_titles.blade_of_dominion": {
+   "en": "Blade of Dominion",
+   "ids": [
+    "477189"
+   ],
+   "locales": {
+    "en": "Blade of Dominion",
+    "ko": "정복의 검",
+    "ja": "征服の剣",
+    "zh": "征服之剑",
+    "zh-Hant": "征服之劍",
+    "ar": "سيف الفتح",
+    "id": "Conquest Sword",
+    "th": "ดาบแห่งการพิชิต",
+    "vi": "Kiếm Chinh Phục",
+    "tr": "Hakimiyet Kılıcı",
+    "de": "Klinge der Herrschaft",
+    "fr": "Épée de Conquête",
+    "es": "Espada de la Conquista.",
+    "pt": "Espada da Conquista",
+    "it": "Spada della Conquista"
+   }
+  },
+  "official_titles.scale_of_law": {
+   "en": "Scale of Law",
+   "ids": [
+    "477190"
+   ],
+   "locales": {
+    "en": "Scale of Law",
+    "ko": "질서의 저울",
+    "ja": "秩序の天秤",
+    "zh": "秩序天平",
+    "zh-Hant": "秩序天平",
+    "ar": "ميزان النظام",
+    "id": "Scales of Order",
+    "th": "ตาชั่งลำดับ",
+    "vi": "Cân Bằng Trật Tự",
+    "tr": "Düzen Terazisi",
+    "de": "Waage der Ordnung",
+    "fr": "Solde de la Commande",
+    "es": "Balanza del Orden",
+    "pt": "Balança da Ordem",
+    "it": "Bilancia del Giudizio"
+   }
+  },
+  "official_titles.grand_marshal": {
+   "en": "Grand Marshal",
+   "ids": [
+    "250062"
+   ],
+   "locales": {
+    "en": "Grand Marshal",
+    "ko": "대원수",
+    "ja": "総司令官",
+    "zh": "大元帅",
+    "zh-Hant": "大元帥",
+    "ar": "المارشال",
+    "id": "Marsekal Agung",
+    "th": "มาสเตอร์",
+    "vi": "Đại Nguyên Soái",
+    "tr": "Mareşal",
+    "de": "Großmarschall",
+    "fr": "Grand maréchal",
+    "es": "Mariscal",
+    "pt": "Marechal",
+    "it": "Gran Maresciallo",
+    "ru": "Командир войн"
+   }
+  },
+  "official_titles.supreme_general": {
+   "en": "Supreme General",
+   "ids": [
+    "250063"
+   ],
+   "locales": {
+    "en": "Supreme General",
+    "ko": "대장군",
+    "ja": "至高将軍",
+    "zh": "至高将军",
+    "zh-Hant": "至高將軍",
+    "ar": "الجنرال الأعلى",
+    "id": "Jenderal Supreme",
+    "th": "จอมพลสูงสุด",
+    "vi": "Tướng Quân Tối Cao",
+    "tr": "Üstün Genel",
+    "de": "Höchster General",
+    "fr": "Général",
+    "es": "General Supremo",
+    "pt": "Supremo Geral",
+    "it": "Generale Supremo",
+    "ru": "Верховный маршал"
+   }
+  },
+  "official_titles.secretary_of_construction": {
+   "en": "Secretary of Construction",
+   "ids": [
+    "250064"
+   ],
+   "locales": {
+    "en": "Secretary of Construction",
+    "ko": "건설부장",
+    "ja": "建設長官",
+    "zh": "建设部长",
+    "zh-Hant": "建設部長",
+    "ar": "وزير البناء",
+    "id": "Menteri Pembangunan",
+    "th": "รัฐมนตรีอาคาร",
+    "vi": "Bộ Trưởng Xây Dựng",
+    "tr": "İnşaat Bakanı",
+    "de": "Bauminister",
+    "fr": "Ministre de la construction",
+    "es": "Ministro de Construcción",
+    "pt": "Ministro da Construção",
+    "it": "Ministro dell'edilizia",
+    "ru": "Министр строительства"
+   }
+  },
+  "official_titles.secretary_of_agriculture": {
+   "en": "Secretary of Agriculture",
+   "ids": [
+    "250065"
+   ],
+   "locales": {
+    "en": "Secretary of Agriculture",
+    "ko": "농업부장",
+    "ja": "農業長官",
+    "zh": "农业部长",
+    "zh-Hant": "農業部長",
+    "ar": "وزير الزراعة",
+    "id": "Menteri Pertanian",
+    "th": "รัฐมนตรีเกษตร",
+    "vi": "Bộ Trưởng Nông Nghiệp",
+    "tr": "Tarım Bakanı",
+    "de": "Landwirtschaftsminister",
+    "fr": "Ministre de l'agriculture",
+    "es": "Ministro de Agricultura",
+    "pt": "Ministro da Agricultura",
+    "it": "Ministro dell'agricoltura",
+    "ru": "Министр с/х"
+   }
+  },
+  "official_titles.secretary_of_science": {
+   "en": "Secretary of Science",
+   "ids": [
+    "250066"
+   ],
+   "locales": {
+    "en": "Secretary of Science",
+    "ko": "과학연구부장",
+    "ja": "科学研究長官",
+    "zh": "科研部长",
+    "zh-Hant": "科研部長",
+    "ar": "وزير البحث العلمي",
+    "id": "Menteri Penelitian",
+    "th": "รัฐมนตรีวิจัย",
+    "vi": "Bộ Trưởng Khoa Học",
+    "tr": "Araştırma Bakanı",
+    "de": "Forschungsminister",
+    "fr": "Ministre Recherche",
+    "es": "Ministro de Investigación",
+    "pt": "Ministro da Ciência",
+    "it": "Ministro della ricerca",
+    "ru": "Министр науки"
+   }
+  },
+  "official_titles.secretary_of_security": {
+   "en": "Secretary of Security",
+   "ids": [
+    "250067"
+   ],
+   "locales": {
+    "en": "Secretary of Security",
+    "ko": "국방부장",
+    "ja": "国防長官",
+    "zh": "国防部长",
+    "zh-Hant": "國防部長",
+    "ar": "وزير الدفاع",
+    "id": "Menteri Pertahanan",
+    "th": "รัฐมนตรีคุ้มครองประเทศ",
+    "vi": "Bộ Trưởng Quốc Phòng",
+    "tr": "Savunma Bakanı",
+    "de": "Verteidigungsminister",
+    "fr": "Ministre de la défense",
+    "es": "Ministro de Defensa",
+    "pt": "Ministro da Defesa",
+    "it": "Ministro della difesa",
+    "ru": "Министр обороны"
+   }
+  }
+ }
+}

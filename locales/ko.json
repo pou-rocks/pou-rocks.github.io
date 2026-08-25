@@ -170,7 +170,7 @@
  },
  "event_names": {
   "Frankenstein": "프랑켄슈타인",
-  "Zombie Siege": "좀비진격",
+  "Zombie Siege": "좀비 진격",
   "Capital Clash": "수도 쟁탈전",
   "Armory Assault": "군기계고 습격",
   "BlackGold Battlefield": "블랙머니전장"
@@ -195,11 +195,11 @@
  "official_titles": {
   "president": "대통령",
   "vice_president": "부통령",
-  "blade_of_dominion": "지배의 검",
+  "blade_of_dominion": "정복의 검",
   "scale_of_law": "질서의 저울",
   "grand_marshal": "대원수",
   "supreme_general": "대장군",
-  "secretary_of_construction": "건축부장",
+  "secretary_of_construction": "건설부장",
   "secretary_of_agriculture": "농업부장",
   "secretary_of_science": "과학연구부장",
   "secretary_of_security": "국방부장"

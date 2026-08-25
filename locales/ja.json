@@ -98,10 +98,10 @@
   "shelter_expansion": "シェルター拡張",
   "hero_initiative": "ヒーロー育成",
   "unit_training": "ユニット訓練",
-  "age_of_science": "科学時代",
-  "arms_expert": "武装エキスパート",
-  "keep_progressing": "着実な前進",
-  "holistic_growth": "総合成長",
+  "age_of_science": "科学技術研究",
+  "arms_expert": "軍備達人",
+  "keep_progressing": "日進月歩",
+  "holistic_growth": "全面的な発展",
   "enemy_buster": "エネミーバスター",
   "day_off": "休日"
  },
@@ -140,7 +140,7 @@
  },
  "event_names": {
   "Frankenstein": "フランケンシュタイン",
-  "Zombie Siege": "ゾンビ襲撃",
+  "Zombie Siege": "ゾンビ襲来",
   "Capital Clash": "首都争奪戦",
   "Armory Assault": "武器庫襲撃",
   "BlackGold Battlefield": "ブラックゴールド戦場"
@@ -148,12 +148,12 @@
  "official_titles": {
   "president": "大統領",
   "vice_president": "副大統領",
-  "blade_of_dominion": "支配の刃",
-  "scale_of_law": "規律の天秤",
-  "grand_marshal": "大元帥",
-  "supreme_general": "大将軍",
+  "blade_of_dominion": "征服の剣",
+  "scale_of_law": "秩序の天秤",
+  "grand_marshal": "総司令官",
+  "supreme_general": "至高将軍",
   "secretary_of_construction": "建設長官",
-  "secretary_of_agriculture": "農務長官",
+  "secretary_of_agriculture": "農業長官",
   "secretary_of_science": "科学研究長官",
   "secretary_of_security": "国防長官"
  },

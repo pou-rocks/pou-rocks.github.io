@@ -1,5 +1,5 @@
 {
- "language_name": "中文",
+ "language_name": "简体中文",
  "planner_title": "[PoU] 黑暗战争生存规划器",
  "planner_caption": "规划你的生存准备轮换和联盟对决消耗窗口，让相同物品尽可能获得双倍积分。",
  "controls_header": "规划器设置",
@@ -96,11 +96,11 @@
  "chart_server_time": "服务器时间 (UTC-02)",
  "theme_names": {
   "shelter_expansion": "庇护所扩建",
-  "hero_initiative": "英雄培养",
+  "hero_initiative": "培养英雄",
   "unit_training": "部队训练",
-  "age_of_science": "科技时代",
-  "arms_expert": "武装专家",
-  "keep_progressing": "持续进步",
+  "age_of_science": "研究科技",
+  "arms_expert": "战备达人",
+  "keep_progressing": "与日俱进",
   "holistic_growth": "全面发展",
   "enemy_buster": "歼敌先锋",
   "day_off": "休息日"
@@ -139,8 +139,8 @@
   "lose units in battle": "战斗损失部队"
  },
  "event_names": {
-  "Frankenstein": "科学怪人",
-  "Zombie Siege": "丧尸围攻",
+  "Frankenstein": "弗兰肯斯坦",
+  "Zombie Siege": "丧尸临城",
   "Capital Clash": "总统冲突",
   "Armory Assault": "军械库袭击",
   "BlackGold Battlefield": "黑金战场"
@@ -148,10 +148,10 @@
  "official_titles": {
   "president": "总统",
   "vice_president": "副总统",
-  "blade_of_dominion": "支配之刃",
-  "scale_of_law": "秩序之秤",
+  "blade_of_dominion": "征服之剑",
+  "scale_of_law": "秩序天平",
   "grand_marshal": "大元帅",
-  "supreme_general": "大将军",
+  "supreme_general": "至高将军",
   "secretary_of_construction": "建设部长",
   "secretary_of_agriculture": "农业部长",
   "secretary_of_science": "科研部长",

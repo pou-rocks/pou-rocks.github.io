@@ -96,12 +96,12 @@
  "chart_server_time": "Waktu Server (UTC-02)",
  "theme_names": {
   "shelter_expansion": "Bangun Shelter",
-  "hero_initiative": "Inisiatif Hero",
+  "hero_initiative": "Upgrade Hero",
   "unit_training": "Pelatihan Unit",
-  "age_of_science": "Era Sains",
+  "age_of_science": "Teliti Teknologi",
   "arms_expert": "Ahli Persenjataan",
-  "keep_progressing": "Terus Berkembang",
-  "holistic_growth": "Pertumbuhan Menyeluruh",
+  "keep_progressing": "Terus Maju",
+  "holistic_growth": "Perkembangan Total",
   "enemy_buster": "Pembasmi Musuh",
   "day_off": "Hari Libur"
  },
@@ -148,13 +148,13 @@
  "official_titles": {
   "president": "Presiden",
   "vice_president": "Wakil Presiden",
-  "blade_of_dominion": "Pedang Dominasi",
-  "scale_of_law": "Timbangan Hukum",
+  "blade_of_dominion": "Conquest Sword",
+  "scale_of_law": "Scales of Order",
   "grand_marshal": "Marsekal Agung",
-  "supreme_general": "Jenderal Tertinggi",
-  "secretary_of_construction": "Menteri Konstruksi",
+  "supreme_general": "Jenderal Supreme",
+  "secretary_of_construction": "Menteri Pembangunan",
   "secretary_of_agriculture": "Menteri Pertanian",
-  "secretary_of_science": "Menteri Riset Sains",
+  "secretary_of_science": "Menteri Penelitian",
   "secretary_of_security": "Menteri Pertahanan"
  },
  "guides": {
