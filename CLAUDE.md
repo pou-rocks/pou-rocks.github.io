@@ -191,8 +191,8 @@ pushes are refused for commits touching `.github/workflows/*` unless the token c
 Pages config: `build_type: workflow`, source `main` `/`, no CNAME, HTTPS enforced,
 `custom_404: true`. Concurrency group `pages-deploy` with `cancel-in-progress`.
 
-**Everything committed is published.** The workflow uploads the whole repo (minus `.git`
-and `.github`). A scratch script, an audit doc, or a stray export committed here becomes a
+**Everything committed is published.** The workflow uploads the whole repo (minus `.git`,
+`.github`, and `CLAUDE.md`, which the strip step removes). A scratch script, an audit doc, or a stray export committed here becomes a
 public URL. Analysis artifacts belong in `../dws-wiki` or a scratch dir, never in this repo.
 
 **`.nojekyll` is load-bearing.** Without it Pages runs Jekyll, which ignores `_next/` for its
