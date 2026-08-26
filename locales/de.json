@@ -94,7 +94,13 @@
   "hive_map_current": "Current Map",
   "hive_map_generator": "Hive Map Generator",
   "calculator": "Rechner",
-  "precision_parts": "Präzisionsteil"
+  "calc_precision_parts": "Präzisionsteil",
+  "calc_vehicle_level": "Vehicle Level",
+  "calc_vehicle_parts": "Vehicle Parts",
+  "calc_hero_weapon": "Hero Weapon",
+  "calc_hero_stars": "Hero Stars",
+  "calc_hero_equipment": "Hero Equipment",
+  "calc_vehicle_chips": "Vehicle Chips"
  },
  "hive_current_title": "Current Hive Map",
  "hive_current_subtitle": "The shelter formation currently applied in-game.",

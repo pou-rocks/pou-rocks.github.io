@@ -94,7 +94,13 @@
   "hive_map_current": "현재 지도",
   "hive_map_generator": "군집 지도 생성기",
   "calculator": "계산기",
-  "precision_parts": "정밀 부품"
+  "calc_precision_parts": "정밀 부품",
+  "calc_vehicle_level": "Vehicle Level",
+  "calc_vehicle_parts": "Vehicle Parts",
+  "calc_hero_weapon": "Hero Weapon",
+  "calc_hero_stars": "Hero Stars",
+  "calc_hero_equipment": "Hero Equipment",
+  "calc_vehicle_chips": "Vehicle Chips"
  },
  "hive_current_title": "현재 군집 지도",
  "hive_current_subtitle": "현재 게임에 적용되어 있는 셸터 배치입니다.",

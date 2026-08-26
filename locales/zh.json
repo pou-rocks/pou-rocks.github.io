@@ -75,7 +75,13 @@
   "hive_map_current": "当前地图",
   "hive_map_generator": "蜂巢地图生成器",
   "calculator": "计算器",
-  "precision_parts": "精密零件"
+  "calc_precision_parts": "精密零件",
+  "calc_vehicle_level": "Vehicle Level",
+  "calc_vehicle_parts": "Vehicle Parts",
+  "calc_hero_weapon": "Hero Weapon",
+  "calc_hero_stars": "Hero Stars",
+  "calc_hero_equipment": "Hero Equipment",
+  "calc_vehicle_chips": "Vehicle Chips"
  },
  "events_title": "即将到来的活动",
  "events_caption": "查看未来14天的联盟活动安排",

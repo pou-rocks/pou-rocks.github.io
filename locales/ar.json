@@ -75,7 +75,13 @@
   "hive_map_current": "الخريطة الحالية",
   "hive_map_generator": "مولّد خريطة الخلية",
   "calculator": "Calculator",
-  "precision_parts": "الأجزاء الدقيقة"
+  "calc_precision_parts": "الأجزاء الدقيقة",
+  "calc_vehicle_level": "Vehicle Level",
+  "calc_vehicle_parts": "Vehicle Parts",
+  "calc_hero_weapon": "Hero Weapon",
+  "calc_hero_stars": "Hero Stars",
+  "calc_hero_equipment": "Hero Equipment",
+  "calc_vehicle_chips": "Vehicle Chips"
  },
  "events_title": "الفعاليات القادمة",
  "events_caption": "عرض جدول فعاليات التحالف لـ 14 يومًا القادمة",

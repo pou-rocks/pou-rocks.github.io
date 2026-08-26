@@ -75,7 +75,13 @@
   "hive_map_current": "Peta Saat Ini",
   "hive_map_generator": "Generator Peta Hive",
   "calculator": "Kalkulator",
-  "precision_parts": "Komponen Presisi"
+  "calc_precision_parts": "Komponen Presisi",
+  "calc_vehicle_level": "Vehicle Level",
+  "calc_vehicle_parts": "Vehicle Parts",
+  "calc_hero_weapon": "Hero Weapon",
+  "calc_hero_stars": "Hero Stars",
+  "calc_hero_equipment": "Hero Equipment",
+  "calc_vehicle_chips": "Vehicle Chips"
  },
  "events_title": "Event Mendatang",
  "events_caption": "Lihat jadwal event aliansi untuk 14 hari ke depan",

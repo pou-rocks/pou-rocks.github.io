@@ -328,29 +328,58 @@ translation of site-authored prose.
 
 ## Calculators
 
-`/calculator/precision-parts/` is a **standalone page**, not a Next.js route — with the source
-gone, new routes cannot be added to the app. It is plain HTML plus vanilla JS that links the
-app's compiled stylesheet, so it inherits the design tokens and reads native.
+Seven calculators live under `/calculator/`, plus a hub at `/calculator/`. They are
+**standalone pages, not Next.js routes** — with the source gone, new routes cannot be added to
+the app. All seven share one engine:
 
-**Tailwind purged everything the app never used.** 25 utilities the page needed (`bottom-0`,
-`inset-x-0`, `max-w-3xl`, `shrink-0`, `pe-3`, `text-end`, …) simply do not exist in
-`_next/static/css/*.css`; the sticky total bar silently had no position until they were
-defined locally. Any new standalone page must declare its own utilities in a `<style>` block.
-`calculator-css.test.mjs` fails the build if a class has no rule anywhere — keep it passing.
+| File | Role |
+|---|---|
+| `calculator/app.js` | engine + every calculator spec, keyed off `<body data-calc>` |
+| `calculator/shell.css` | the Tailwind utilities the app purged |
+| `calculator/<slug>/index.html` | thin shell, generated |
+| `.github/tools/build-calculator-pages.mjs` | generates hub + pages; `CALCULATORS` is the single source of truth |
 
-Data is `data/precision-parts.json` (41 KB, 13 KB gzipped), generated from dws-wiki's
-`precision-parts.md` plus the APK: building `name`/`description` are string ids read out of the
-`building` datatable via Lua, then resolved in all 16 locales. `774000` and `893000` share name
-id `100292` — the game labels **both** "Mart" — so the generator appends a numeric suffix when
-names collide within a locale. They are genuinely different buildings (`Accelerate Gathering`
-vs a bounty camp).
+| Slug | Data | Materials |
+|---|---|---|
+| `precision-parts` | `data/precision-parts.json` | Precision Part |
+| `vehicle-level` | `data/vehicle.json` | Gear (**per press**) |
+| `vehicle-parts` | `data/vehicle.json` | Titanium + Blueprint |
+| `hero-weapon` | `data/hero-weapons.json` | per-hero fragments |
+| `hero-stars` | `data/hero-stars.json` | fragments |
+| `hero-equipment` | `data/hero-equipment.json` | Power Core + Boost Ore + DX-Blueprint |
+| `vehicle-chips` | `data/vehicle-chips.json` | duplicate chips |
 
-The nav gained a `Calculator` dropdown in both the desktop bar and the mobile drawer. Its links
-are plain `<a>`, **not** Next `Link` — a `Link` would attempt client-side routing to a route
-that does not exist and 404 inside the app.
+**Tailwind purged everything the app never used.** Utilities like `bottom-0`, `inset-x-0`,
+`max-w-3xl`, `shrink-0`, `pe-3` do not exist in `_next/static/css/*.css` — the sticky total bar
+silently had no position until they were declared in `shell.css`. `calculator-css.test.mjs`
+fails on any class with no rule anywhere; keep it passing.
 
-Page chrome is English; building and material names are localized from the game. Localizing the
-chrome needs ~20 strings per locale and a speaker to review them.
+Nav links are plain `<a>`, **not** Next `Link` — a `Link` would client-side route to a
+non-existent route and 404 inside the app.
+
+### Traps encoded in the data
+
+- **Vehicle levelling is charged per button press, not per level.** The naive sum of per-press
+  costs is 354,130; the real 1→500 total is **23,035,170**. The calculator shows press counts
+  alongside cost because members cannot derive this by hand.
+- **In-game prices can be lower than config.** dws-wiki verified vehicle L296 showing 760 Gears
+  against config 845 — that is `845 x 0.90`, a Gear-cost buff. Every page carries a note.
+- **Hero star band 0 breaks dws-wiki's rule.** "The last tick of each band is charged at the
+  next band's rate" holds for bands 1-3 (15, 50, 100) but **not band 0**, which ends at 3 while
+  band 1 starts at 5. Pinned by a test so the exception cannot be silently "fixed".
+- `774000` and `893000` share name id `100292` — the game labels **both** "Mart". The generator
+  suffixes duplicates within a locale.
+
+### Not built, deliberately
+
+- **Formation CP** — `K25`/`K26`/`K27` live in `battle_config`, which ships in no bundle. Only
+  a user estimate exists. A CP calculator would be confidently wrong.
+- **Combat factors** — 692 effects with descriptions but no numeric values; a searchable
+  reference, not arithmetic.
+- **Survival Preparedness / Alliance Duel** — already served by the Planner.
+
+Page chrome is English; building, part, weapon, chip and material names are localized from the
+game across all 16 locales.
 
 ## Known issues
 
