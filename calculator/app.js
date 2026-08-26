@@ -129,7 +129,7 @@
       },
       cost: function (d, id, from, to) {
         if (id === 'promote') {
-          var rows = d.promote.rows.filter(function (r) { return r.level > from && r.level <= to })
+          var rows = d.promote.rows.filter(function (r) { return r.level >= from && r.level < to })
           var chunk = 6, steps = []
           for (var i = 0; i < rows.length; i += chunk) {
             var part = rows.slice(i, i + chunk)

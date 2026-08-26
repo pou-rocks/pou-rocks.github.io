@@ -79,6 +79,11 @@ test('hero stars 3 to 5 totals 800 fragments', { skip: !available && 'Chrome not
   assert.ok(digits(r.totals).includes(800), `expected 800 in "${r.totals}"`)
 })
 
+test('hero equipment promotion 0 to 36 totals 3,000 power cores', { skip: !available && 'Chrome not installed' }, async () => {
+  const r = await open('hero-equipment', { calc: { rows: [{ id: 'promote', from: 0, to: 36 }], have: {}, open: true } })
+  assert.ok(digits(r.totals).includes(3000), `expected 3000 in "${r.totals}"`)
+})
+
 test('Arabic flips to RTL without overflowing', { skip: !available && 'Chrome not installed' }, async () => {
   const r = await open('vehicle-parts', { locale: 'ar' })
   assert.equal(r.dir, 'rtl')

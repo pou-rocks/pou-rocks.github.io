@@ -70,6 +70,9 @@ test('hero equipment promote and upgrade reconcile', () => {
   assert.equal(r.reduce((n, x) => n + x.powerCore, 0), d.promote.totals.power_core)
   assert.equal(r.reduce((n, x) => n + x.boostOre, 0), d.promote.totals.boost_ore)
   assert.equal(r.reduce((n, x) => n + x.dxBlueprint, 0), d.promote.totals.dx_blueprint)
+  assert.equal(r[36].powerCore, 0, 'row 36 is a terminal row with no cost')
+  assert.equal(r.slice(0, 36).reduce((n, x) => n + x.powerCore, 0), d.promote.totals.power_core,
+    'rows 0..35 are the real steps; a rank 0->36 span must cover exactly those')
   assert.equal(d.upgrade.curves.length, 5)
   for (const c of d.upgrade.curves)
     assert.equal(c.costPerLevel.reduce((a, b) => a + b, 0), c.total, `quality ${c.quality}`)
