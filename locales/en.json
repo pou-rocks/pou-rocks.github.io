@@ -95,12 +95,12 @@
   "hive_map_generator": "Hive Map Generator",
   "calculator": "Calculators",
   "calc_precision_parts": "Precision Part",
-  "calc_vehicle_level": "Mod Vehicle",
-  "calc_vehicle_parts": "Vehicle Parts",
-  "calc_hero_weapon": "Weapon Improvement",
-  "calc_hero_stars": "Star Level",
+  "calc_vehicle_level": "Mod Vehicle Level",
+  "calc_vehicle_parts": "Mod Vehicle Parts",
+  "calc_hero_weapon": "Hero Exclusive Equipment",
+  "calc_hero_stars": "Hero Star Level",
   "calc_hero_equipment": "Hero Equipment",
-  "calc_vehicle_chips": "Chip"
+  "calc_vehicle_chips": "Mod Vehicle Chip"
  },
  "hive_current_title": "Current Hive Map",
  "hive_current_subtitle": "The shelter formation currently applied in-game.",

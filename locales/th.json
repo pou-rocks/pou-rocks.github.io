@@ -95,12 +95,12 @@
   "hive_map_generator": "Hive Map Generator",
   "calculator": "เครื่องคำนวณ",
   "calc_precision_parts": "อะไหล่แม่นยำ",
-  "calc_vehicle_level": "รถดัดแปลง",
-  "calc_vehicle_parts": "อะไหล่รถ",
-  "calc_hero_weapon": "ดัดแปลงอาวุธ",
-  "calc_hero_stars": "ดาว",
+  "calc_vehicle_level": "เลเวลรถดัดแปลง",
+  "calc_vehicle_parts": "ชิ้นส่วนรถดัดแปลง",
+  "calc_hero_weapon": "อาวุธเฉพาะฮีโร่",
+  "calc_hero_stars": "ระดับดาวฮีโร่",
   "calc_hero_equipment": "อุปกรณ์ฮีโร่",
-  "calc_vehicle_chips": "ชิป"
+  "calc_vehicle_chips": "ชิปรถดัดแปลง"
  },
  "hive_current_title": "Current Hive Map",
  "hive_current_subtitle": "The shelter formation currently applied in-game.",

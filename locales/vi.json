@@ -95,12 +95,12 @@
   "hive_map_generator": "Hive Map Generator",
   "calculator": "Máy Tính",
   "calc_precision_parts": "Linh Kiện Tinh Xảo",
-  "calc_vehicle_level": "Xe Độ",
-  "calc_vehicle_parts": "Linh Kiện Xe",
-  "calc_hero_weapon": "Cải Tiến Vũ Khí",
-  "calc_hero_stars": "Cấp Sao",
+  "calc_vehicle_level": "Cấp Xe Độ",
+  "calc_vehicle_parts": "Phụ Kiện Xe Độ",
+  "calc_hero_weapon": "Vũ Khí Chuyên Dụng Tướng",
+  "calc_hero_stars": "Cấp sao Tướng",
   "calc_hero_equipment": "Trang Bị Tướng",
-  "calc_vehicle_chips": "Chip"
+  "calc_vehicle_chips": "Chip Xe Độ"
  },
  "hive_current_title": "Current Hive Map",
  "hive_current_subtitle": "The shelter formation currently applied in-game.",

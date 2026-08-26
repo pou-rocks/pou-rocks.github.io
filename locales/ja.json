@@ -76,12 +76,12 @@
   "hive_map_generator": "ハイブマップ生成",
   "calculator": "計算機",
   "calc_precision_parts": "精密部品",
-  "calc_vehicle_level": "改造車",
-  "calc_vehicle_parts": "車載部品",
-  "calc_hero_weapon": "武器改良",
-  "calc_hero_stars": "星数",
+  "calc_vehicle_level": "改造車レベル",
+  "calc_vehicle_parts": "改造車部品",
+  "calc_hero_weapon": "ヒーロー専属武器",
+  "calc_hero_stars": "ヒーロー星",
   "calc_hero_equipment": "ヒーロー装備",
-  "calc_vehicle_chips": "チップ"
+  "calc_vehicle_chips": "改造車チップ"
  },
  "events_title": "今後のイベント",
  "events_caption": "今後14日間の同盟イベントスケジュール",

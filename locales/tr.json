@@ -95,12 +95,12 @@
   "hive_map_generator": "Hive Map Generator",
   "calculator": "Hesaplayıcılar",
   "calc_precision_parts": "Hassas Parçalar",
-  "calc_vehicle_level": "Modifiye Araç",
-  "calc_vehicle_parts": "Araç Parçaları",
-  "calc_hero_weapon": "Silah İyileştirmesi",
-  "calc_hero_stars": "Yıldız sayısı",
-  "calc_hero_equipment": "Kahramanın ekipmanı",
-  "calc_vehicle_chips": "Çip"
+  "calc_vehicle_level": "Modifiye Edilmiş Araç Seviyesi",
+  "calc_vehicle_parts": "Modifiye Araç Aksesuarları",
+  "calc_hero_weapon": "Kahramanlara Özel Ekipmanlar",
+  "calc_hero_stars": "Kahraman Yıldız Derecesi",
+  "calc_hero_equipment": "Kahraman Ekipmanı",
+  "calc_vehicle_chips": "Modifiye Araba Çip"
  },
  "hive_current_title": "Current Hive Map",
  "hive_current_subtitle": "The shelter formation currently applied in-game.",

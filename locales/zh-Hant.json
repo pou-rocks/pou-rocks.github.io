@@ -95,12 +95,12 @@
   "hive_map_generator": "Hive Map Generator",
   "calculator": "計算機",
   "calc_precision_parts": "精密零件",
-  "calc_vehicle_level": "改裝車",
-  "calc_vehicle_parts": "車輛部件",
-  "calc_hero_weapon": "武器改良",
-  "calc_hero_stars": "星數",
+  "calc_vehicle_level": "改裝車等級",
+  "calc_vehicle_parts": "改裝車配件",
+  "calc_hero_weapon": "英雄專武",
+  "calc_hero_stars": "英雄星級",
   "calc_hero_equipment": "英雄裝備",
-  "calc_vehicle_chips": "晶片"
+  "calc_vehicle_chips": "改裝車晶片"
  },
  "hive_current_title": "Current Hive Map",
  "hive_current_subtitle": "The shelter formation currently applied in-game.",

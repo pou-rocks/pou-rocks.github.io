@@ -95,12 +95,12 @@
   "hive_map_generator": "Hive Map Generator",
   "calculator": "Calculatrices",
   "calc_precision_parts": "Pièces de précision",
-  "calc_vehicle_level": "Véhicule modifié",
-  "calc_vehicle_parts": "Pièces de véhicules",
-  "calc_hero_weapon": "Amélioration des armes",
-  "calc_hero_stars": "Nombre d'étoiles",
-  "calc_hero_equipment": "Équipement du héros",
-  "calc_vehicle_chips": "Puce"
+  "calc_vehicle_level": "Niveau de véhicule modifié",
+  "calc_vehicle_parts": "Pièces de véhicule modifié",
+  "calc_hero_weapon": "Équipement spécialisé du héros",
+  "calc_hero_stars": "Niveau d'étoile du héros",
+  "calc_hero_equipment": "Équipement de héros",
+  "calc_vehicle_chips": "Puces de véhicule modifié"
  },
  "hive_current_title": "Current Hive Map",
  "hive_current_subtitle": "The shelter formation currently applied in-game.",

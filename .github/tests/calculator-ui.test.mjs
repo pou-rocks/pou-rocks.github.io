@@ -118,7 +118,7 @@ test('chrome is localised, not left in English', { skip: !available && 'Chrome n
   const en = await open('hero-stars', { locale: 'en' })
   const ko = await open('hero-stars', { locale: 'ko' })
   assert.notEqual(ko.chrome, en.chrome, 'Korean chrome is identical to English')
-  assert.match(ko.chrome, /스타 수/, 'title not localised')
+  assert.match(ko.chrome, /영웅 성급/, 'title not localised')
   assert.match(ko.chrome, /초기화/, 'reset button not localised')
   assert.match(ko.chrome, /시작/, 'From label not localised')
   const ascii = ko.chrome.replace(/[|\s]/g, '')

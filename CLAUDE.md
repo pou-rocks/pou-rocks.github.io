@@ -339,6 +339,24 @@ the app. All seven share one engine:
 | `calculator/<slug>/index.html` | thin shell, generated |
 | `.github/tools/build-calculator-pages.mjs` | generates hub + pages; `CALCULATORS` is the single source of truth |
 
+**Calculator names come from one coherent game block, `11300012`-`11300023`** — a UI label set
+that happens to name almost every system we calculate: `11300014` Hero Star Level, `11300017`
+Hero Exclusive Equipment, `11300019` Hero Equipment, `11300020` Mod Vehicle Level, `11300022`
+Mod Vehicle Parts, `11300023` Mod Vehicle Chip. Taking all names from one block keeps the
+register consistent across 16 locales. Prefer it over composing your own phrases, which breaks
+word order in German and Arabic. Russian is absent from this block and falls back to English.
+
+**Position labels use the game's own `Star {0} Rank {1}` template (`129270`).** Hero stars and
+exclusive weapons are both 5-tick ladders, and members sit part-way through a band, so the
+selector must offer every tick. Weapons prefix the red tier with `156005` "Red", giving
+"Red Star 1 Rank 1". Do **not** label ticks with the military rank names in `aps_heroes_rank`
+(Reservist, 2nd Lieutenant IV) - they are a separate title system and members did not recognise
+them.
+
+**Hero equipment promotion levels 0-10 are all rank 0 grade 0**, so rank/grade does not
+uniquely identify a row. The selector uses the level number; rank/grade appears in the
+breakdown instead.
+
 | Slug | Data | Materials |
 |---|---|---|
 | `precision-parts` | `data/precision-parts.json` | Precision Part |

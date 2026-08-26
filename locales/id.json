@@ -76,12 +76,12 @@
   "hive_map_generator": "Generator Peta Hive",
   "calculator": "Kalkulator",
   "calc_precision_parts": "Komponen Presisi",
-  "calc_vehicle_level": "Mobil Modifikasi",
-  "calc_vehicle_parts": "Suku Cadang Kendaraan",
-  "calc_hero_weapon": "Modifikasi Senjata",
-  "calc_hero_stars": "level Bintang",
+  "calc_vehicle_level": "Level Mobil Modifikasi",
+  "calc_vehicle_parts": "Suku Cadang Mobil Modifikasi",
+  "calc_hero_weapon": "Senjata Eksklusif Hero",
+  "calc_hero_stars": "Bintang Hero",
   "calc_hero_equipment": "Perlengkapan Hero",
-  "calc_vehicle_chips": "Chip"
+  "calc_vehicle_chips": "Chip Mobil Modifikasi"
  },
  "events_title": "Event Mendatang",
  "events_caption": "Lihat jadwal event aliansi untuk 14 hari ke depan",

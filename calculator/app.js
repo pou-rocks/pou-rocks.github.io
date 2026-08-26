@@ -5,6 +5,11 @@
   var RTL = ['ar']
   var locale = 'en', data = null, spec = null, state = null, STR = {}
   function t (k) { var m = STR[k]; return (m && (m[locale] || m.en)) || '' }
+  function starTick (star, tick) {
+    var tpl = t('tick')
+    if (tpl && tpl.indexOf('{0}') >= 0) return tpl.replace('{0}', star).replace('{1}', tick)
+    return star + '\u2605 \u00b7 ' + tick
+  }
 
   function pick (m, fb) { return (m && (m[locale] || m.en)) || fb || '' }
   function range (lo, hi) { var a = []; for (var i = lo; i <= hi; i++) a.push(i); return a }
@@ -87,7 +92,16 @@
       entities: function (d) {
         return d.weapons.map(function (x) { return { value: x.group, label: pick(x.names, x.group), desc: x.hero || '' } })
       },
-      levels: function () { return { from: range(0, 51), to: range(1, 52), label: function (i) { return 'Lv.' + i + (i === 26 ? '  · red' : '') } } },
+      levels: function (d) {
+        var red = d.redLevel || 26
+        var label = function (L) {
+          if (L < red) return starTick(Math.floor(L / 5), L % 5)
+          var rel = L - red
+          if (rel > 25) return t('max') || 'Max'
+          return t('red') + ' ' + starTick(Math.floor(rel / 5), rel % 5)
+        }
+        return { from: range(0, 51), to: range(1, 52), label: label }
+      },
       cost: function (d, _id, from, to) {
         var byLevel = {}; d.levels.forEach(function (x) { byLevel[x.level] = x })
         return d.bands.filter(function (b) {
@@ -108,14 +122,8 @@
       entityKey: null,
       materials: function () { return [{ key: 'frag', name: t('fragment') }] },
       entities: null,
-      levels: function (d) {
-        var label = function (g) {
-          if (g >= 25) return '5★'
-          var b = d.bands[Math.floor(g / 5)], t = b && b.ticks && b.ticks[g % 5]
-          var rank = t ? pick(t.rankNames) : ''
-          return Math.floor(g / 5) + '★' + (rank ? '  ·  ' + rank : '  ·  ' + (g % 5) + '/5')
-        }
-        return { from: range(0, 24), to: range(1, 25), label: label }
+      levels: function () {
+        return { from: range(0, 24), to: range(1, 25), label: function (g) { return starTick(Math.floor(g / 5), g % 5) } }
       },
       cost: function (d, _id, from, to) {
         var out = []
@@ -139,20 +147,15 @@
         return [{ key: 'pc', name: pick(d.materials.powerCore) }, { key: 'bo', name: pick(d.materials.boostOre) }, { key: 'dx', name: pick(d.materials.dxBlueprint) }]
       },
       entities: function (d) {
-        var out = [{ value: 'promote', label: t('rank') + ' 0–36', desc: '' }]
+        var out = [{ value: 'promote', label: t('equip_breakthrough'), desc: '' }]
         d.upgrade.curves.forEach(function (c) {
-          out.push({ value: 'upgrade-' + c.quality, label: t('level') + ' 0–' + c.maxLevel + ' · Q' + c.quality, desc: '' })
+          out.push({ value: 'upgrade-' + c.quality, label: 'D' + c.quality + '  ·  ' + t('level') + ' 0–' + c.maxLevel, desc: '' })
         })
         return out
       },
       levelsFor: function (d, id) {
         if (id === 'promote') {
-          var rows = d.promote.rows
-          var label = function (i) {
-            var r = rows[i]
-            return r ? 'R' + r.rank + '  ·  g' + r.grade : 'R' + i
-          }
-          return { from: range(0, 35), to: range(1, 36), label: label }
+          return { from: range(0, 35), to: range(1, 36), label: function (i) { return t('level') + ' ' + i } }
         }
         var q = +id.split('-')[1]
         var c = d.upgrade.curves.filter(function (x) { return x.quality === q })[0]
@@ -164,7 +167,9 @@
           var chunk = 6, steps = []
           for (var i = 0; i < rows.length; i += chunk) {
             var part = rows.slice(i, i + chunk)
-            steps.push({ label: 'Rank ' + part[0].level + '→' + part[part.length - 1].level, detail: '', per: null,
+            var a = part[0], z = part[part.length - 1]
+            steps.push({ label: t('level') + ' ' + a.level + '→' + z.level,
+              detail: 'R' + a.rank + 'g' + a.grade + ' → R' + z.rank + 'g' + z.grade, per: null,
               amounts: { pc: part.reduce(function (n, r) { return n + r.powerCore }, 0),
                          bo: part.reduce(function (n, r) { return n + r.boostOre }, 0),
                          dx: part.reduce(function (n, r) { return n + r.dxBlueprint }, 0) } })
