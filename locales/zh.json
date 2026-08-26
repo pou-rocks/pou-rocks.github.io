@@ -76,12 +76,12 @@
   "hive_map_generator": "蜂巢地图生成器",
   "calculator": "计算器",
   "calc_precision_parts": "精密零件",
-  "calc_vehicle_level": "Vehicle Level",
-  "calc_vehicle_parts": "Vehicle Parts",
-  "calc_hero_weapon": "Hero Weapon",
-  "calc_hero_stars": "Hero Stars",
-  "calc_hero_equipment": "Hero Equipment",
-  "calc_vehicle_chips": "Vehicle Chips"
+  "calc_vehicle_level": "改装车",
+  "calc_vehicle_parts": "车辆部件",
+  "calc_hero_weapon": "武器改良",
+  "calc_hero_stars": "星数",
+  "calc_hero_equipment": "英雄装备",
+  "calc_vehicle_chips": "芯片"
  },
  "events_title": "即将到来的活动",
  "events_caption": "查看未来14天的联盟活动安排",

@@ -29,7 +29,7 @@ const HEADER = `<header class="glass border-b border-dark-border sticky top-0 z-
       <span class="w-9 h-9 rounded-lg bg-accent/20 flex items-center justify-center group-hover:bg-accent/30 transition-colors">
         <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
       </span>
-      <span class="text-lg font-bold text-gradient hidden sm:inline">Calculators</span>
+      <span id="backLabel" class="text-lg font-bold text-gradient hidden sm:inline"></span>
     </a>
     <label class="sr-only" for="lang">Language</label>
     <select id="lang" class="bg-dark-card text-theme-text text-sm rounded-md border border-dark-border px-2 py-1"></select>
@@ -46,18 +46,18 @@ ${HEADER}
   <div id="rows" class="space-y-3"></div>
 
   <div class="flex flex-wrap gap-2 mt-4">
-    <button id="add" class="px-4 py-3 rounded-lg bg-accent text-accent-text text-sm font-semibold hover:opacity-90 transition">+ Add row</button>
-    <button id="reset" class="px-4 py-3 rounded-lg bg-dark-card border border-dark-border text-sm text-theme-muted hover:bg-dark-card-hover transition">Reset</button>
+    <button id="add" class="px-4 py-3 rounded-lg bg-accent text-accent-text text-sm font-semibold hover:opacity-90 transition"></button>
+    <button id="reset" class="px-4 py-3 rounded-lg bg-dark-card border border-dark-border text-sm text-theme-muted hover:bg-dark-card-hover transition"></button>
   </div>
 
   <section class="glass-card mt-6">
-    <h2 class="text-xs uppercase tracking-wide text-theme-muted mb-2">What you already have</h2>
+    <h2 id="ownedLabel" class="text-xs uppercase tracking-wide text-theme-muted mb-2"></h2>
     <div id="have"></div>
   </section>
 
   <section class="mt-6">
     <button id="toggleBreak" class="w-full flex items-center justify-between px-4 py-3 rounded-lg bg-dark-card border border-dark-border text-sm hover:bg-dark-card-hover transition" aria-expanded="false" aria-controls="breakdown">
-      <span>Show breakdown</span>
+      <span></span>
       <svg id="chev" class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
     </button>
     <div id="breakdown" hidden class="mt-3 overflow-x-auto"></div>
@@ -68,7 +68,7 @@ ${HEADER}
 
 <div class="fixed bottom-0 inset-x-0 glass border-t border-dark-border">
   <div class="max-w-3xl mx-auto px-4 py-3">
-    <div class="text-xs uppercase tracking-wide text-theme-muted mb-1">Total needed</div>
+    <div id="totalLabel" class="text-xs uppercase tracking-wide text-theme-muted mb-1"></div>
     <div id="totals" class="space-y-1"></div>
     <div id="extra" class="text-xs text-theme-muted mt-1"></div>
   </div>
@@ -92,16 +92,15 @@ const hub = () => `${HEAD('Calculators')}
   </div>
 </header>
 <main class="max-w-3xl mx-auto px-4 py-6">
-  <h1 class="text-2xl sm:text-3xl font-bold mb-1">Calculators</h1>
-  <p class="text-theme-muted text-sm mb-6">Work out exactly what an upgrade costs before you spend. All figures come straight from the game client.</p>
+  <h1 id="hubTitle" class="text-2xl sm:text-3xl font-bold mb-6"></h1>
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-${CALCULATORS.map(c => `    <a href="/calculator/${c.slug}/" class="glass-card block hover:glow-gold transition">
-      <div class="font-semibold mb-1">${c.label}</div>
-      <div class="text-xs text-theme-muted">${c.blurb}</div>
+${CALCULATORS.map(c => `    <a href="/calculator/${c.slug}/" class="glass-card block hover:glow-gold transition" data-slug="${c.slug}">
+      <div class="font-semibold" data-label>${c.label}</div>
     </a>`).join('\n')}
   </div>
-  <p class="text-xs text-theme-muted mt-8">Figures are the config cost before buffs — in-game prices can be lower.</p>
+  <p id="hubNote" class="text-xs text-theme-muted mt-8"></p>
 </main>
+<script src="/calculator/hub.js"></script>
 </body>
 </html>
 `

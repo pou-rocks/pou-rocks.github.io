@@ -48,7 +48,12 @@ async function open (slug, { locale = 'en', calc = null, width = 390 } = {}) {
     rows:document.querySelectorAll('#rows > div').length,
     title:document.getElementById('title').textContent,
     overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,
-    dir:document.documentElement.dir})`)
+    dir:document.documentElement.dir,
+    chrome:[document.getElementById('title').textContent,
+            document.getElementById('reset').textContent,
+            document.getElementById('ownedLabel').textContent,
+            document.getElementById('totalLabel').textContent,
+            (document.querySelector('#rows label')||{}).textContent||''].join('|')})`)
   await fetch(`http://127.0.0.1:${CDP}/json/close/${tab.id}`); ws.close()
   return { ...JSON.parse(out), logs }
 }
@@ -65,8 +70,18 @@ for (const slug of CALCS) {
 }
 
 test('precision parts reference query still totals 2,600', { skip: !available && 'Chrome not installed' }, async () => {
-  const r = await open('precision-parts', { calc: { rows: [{ id: '400000', from: 5, to: 6 }, { id: '403000', from: 1, to: 2 }], have: {}, open: true } })
+  const r = await open('precision-parts', { calc: { rows: [{ id: '400000', from: 55, to: 60 }, { id: '403000', from: 35, to: 40 }], have: {}, open: true } })
   assert.ok(digits(r.totals).includes(2600), `expected 2600 in "${r.totals}"`)
+})
+
+test('precision parts accepts a part-way building level', { skip: !available && 'Chrome not installed' }, async () => {
+  const r = await open('precision-parts', { calc: { rows: [{ id: '400000', from: 57, to: 60 }], have: {}, open: true } })
+  assert.ok(digits(r.totals).includes(900), `Lv.57 to Lv.60 is 3 x 300 = 900, got "${r.totals}"`)
+})
+
+test('precision parts full span matches the building total', { skip: !available && 'Chrome not installed' }, async () => {
+  const r = await open('precision-parts', { calc: { rows: [{ id: '400000', from: 30, to: 80 }], have: {}, open: true } })
+  assert.ok(digits(r.totals).includes(15800), `expected 15800 in "${r.totals}"`)
 })
 
 test('vehicle level 296 to 350 totals 2,955,130 gears', { skip: !available && 'Chrome not installed' }, async () => {
@@ -75,13 +90,50 @@ test('vehicle level 296 to 350 totals 2,955,130 gears', { skip: !available && 'C
 })
 
 test('hero stars 3 to 5 totals 800 fragments', { skip: !available && 'Chrome not installed' }, async () => {
-  const r = await open('hero-stars', { calc: { rows: [{ id: null, from: 3, to: 5 }], have: {}, open: true } })
+  const r = await open('hero-stars', { calc: { rows: [{ id: null, from: 15, to: 25 }], have: {}, open: true } })
   assert.ok(digits(r.totals).includes(800), `expected 800 in "${r.totals}"`)
+})
+
+test('hero stars can start part-way through a star', { skip: !available && 'Chrome not installed' }, async () => {
+  const r = await open('hero-stars', { calc: { rows: [{ id: null, from: 13, to: 15 }], have: {}, open: true } })
+  assert.ok(digits(r.totals).includes(65), `ticks 13-14 are stages 3-4 of band 2 (15 + 50), got "${r.totals}"`)
+})
+
+test('hero stars full span still totals 955', { skip: !available && 'Chrome not installed' }, async () => {
+  const r = await open('hero-stars', { calc: { rows: [{ id: null, from: 0, to: 25 }], have: {}, open: true } })
+  assert.ok(digits(r.totals).includes(955), `expected 955 in "${r.totals}"`)
+})
+
+test('vehicle chips full span still totals 500 duplicates', { skip: !available && 'Chrome not installed' }, async () => {
+  const r = await open('vehicle-chips', { calc: { rows: [{ id: '141000', from: 0, to: 100 }], have: {}, open: true } })
+  assert.ok(digits(r.totals).includes(500), `expected 500 in "${r.totals}"`)
 })
 
 test('hero equipment promotion 0 to 36 totals 3,000 power cores', { skip: !available && 'Chrome not installed' }, async () => {
   const r = await open('hero-equipment', { calc: { rows: [{ id: 'promote', from: 0, to: 36 }], have: {}, open: true } })
   assert.ok(digits(r.totals).includes(3000), `expected 3000 in "${r.totals}"`)
+})
+
+test('chrome is localised, not left in English', { skip: !available && 'Chrome not installed' }, async () => {
+  const en = await open('hero-stars', { locale: 'en' })
+  const ko = await open('hero-stars', { locale: 'ko' })
+  assert.notEqual(ko.chrome, en.chrome, 'Korean chrome is identical to English')
+  assert.match(ko.chrome, /스타 수/, 'title not localised')
+  assert.match(ko.chrome, /초기화/, 'reset button not localised')
+  assert.match(ko.chrome, /시작/, 'From label not localised')
+  const ascii = ko.chrome.replace(/[|\s]/g, '')
+  assert.ok(!/^[\x00-\x7F]+$/.test(ascii), 'Korean chrome is pure ASCII')
+})
+
+test('every locale renders non-English chrome where one exists', { skip: !available && 'Chrome not installed' }, async () => {
+  const en = await open('vehicle-parts', { locale: 'en' })
+  const same = []
+  for (const loc of ['ko', 'ja', 'zh', 'de', 'vi', 'tr']) {
+    const r = await open('vehicle-parts', { locale: loc })
+    if (r.chrome === en.chrome) same.push(loc)
+    assert.deepEqual(r.logs, [], `console errors in ${loc}`)
+  }
+  assert.deepEqual(same, [], 'locales still showing English chrome')
 })
 
 test('Arabic flips to RTL without overflowing', { skip: !available && 'Chrome not installed' }, async () => {
