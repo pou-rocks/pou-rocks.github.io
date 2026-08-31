@@ -39,6 +39,14 @@ const PICKER = /let d=\[\{code:"en",name:"English"\}[^\]]*\];/
 if (!PICKER.test(src)) throw new Error('language picker array not found')
 const picker = TARGET_LOCALES.map(c => `{code:"${c}",name:"${data.endonyms[c]}"}`).join(',')
 src = src.replace(PICKER, `let d=[${picker}];`)
+
+const INLINE = /let d=JSON\.parse\('(?:\\.|[^'\\])*'\),g=\{en:\{translation:d\}\}/
+if (!INLINE.test(src)) throw new Error('inlined English bundle not found')
+const literal = JSON.stringify(JSON.parse(readFileSync(join(ROOT, 'locales/en.json'), 'utf8')))
+  .replace(/[\\']/g, m => `\\${m}`)
+  .replace(/[^\x20-\x7e]/g, m => `\\u${m.charCodeAt(0).toString(16).padStart(4, '0')}`)
+src = src.replace(INLINE, `let d=JSON.parse('${literal}'),g={en:{translation:d}}`)
+
 writeFileSync(path, src)
 
 console.table(report)

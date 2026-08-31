@@ -288,5 +288,18 @@
  "guides_none": "No guides available yet",
  "guides_none_desc": "Check back soon for new content!",
  "events_next_day": "+1 day",
- "events_day2": "Day 2"
+ "events_day2": "Day 2",
+ "timezone_groups": {
+  "common": "Frequentes",
+  "africa": "África",
+  "america": "América",
+  "antarctica": "Antártida",
+  "arctic": "Ártico",
+  "asia": "Ásia",
+  "atlantic": "Oceano Atlântico",
+  "australia": "Austrália",
+  "europe": "Europa",
+  "indian": "Oceano Índico",
+  "pacific": "Oceano Pacífico"
+ }
 }

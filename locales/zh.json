@@ -288,5 +288,18 @@
   "Holistic Growth": "清理剩余所有资源和加速的好时机。",
   "Enemy Buster": "配合击杀/损失活动集中战斗。",
   "Day Off": "联盟对决休息日，专注于生存准备窗口。"
+ },
+ "timezone_groups": {
+  "common": "常用",
+  "africa": "非洲",
+  "america": "美洲",
+  "antarctica": "南极洲",
+  "arctic": "北极",
+  "asia": "亚洲",
+  "atlantic": "大西洋",
+  "australia": "澳大利亚",
+  "europe": "欧洲",
+  "indian": "印度洋",
+  "pacific": "太平洋"
  }
 }

@@ -288,5 +288,18 @@
   "Holistic Growth": "Hari terbaik untuk menguras sisa sumber daya dan percepat.",
   "Enemy Buster": "Padukan pertempuran dengan event kill/loss untuk hasil maksimum.",
   "Day Off": "Duel Aliansi libur, fokus penuh ke jendela SP."
+ },
+ "timezone_groups": {
+  "common": "Umum",
+  "africa": "Afrika",
+  "america": "Amerika",
+  "antarctica": "Antarktika",
+  "arctic": "Arktik",
+  "asia": "Asia",
+  "atlantic": "Samudra Atlantik",
+  "australia": "Australia",
+  "europe": "Eropa",
+  "indian": "Samudra Hindia",
+  "pacific": "Samudra Pasifik"
  }
 }

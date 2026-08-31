@@ -288,5 +288,18 @@
   "Holistic Growth": "残り資源とスピードアップを整理する絶好の日。",
   "Enemy Buster": "キルや損失イベントに合わせ戦闘を集中。",
   "Day Off": "同盟対決戦などが休み、SPウィンドウに専念。"
+ },
+ "timezone_groups": {
+  "common": "よく使う地域",
+  "africa": "アフリカ",
+  "america": "アメリカ",
+  "antarctica": "南極",
+  "arctic": "北極",
+  "asia": "アジア",
+  "atlantic": "大西洋",
+  "australia": "オーストラリア",
+  "europe": "ヨーロッパ",
+  "indian": "インド洋",
+  "pacific": "太平洋"
  }
 }

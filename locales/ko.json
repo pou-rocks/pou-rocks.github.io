@@ -288,5 +288,18 @@
  "guides_none": "아직 가이드가 없습니다",
  "guides_none_desc": "새로운 콘텐츠를 기대해 주세요!",
  "events_next_day": "+1일",
- "events_day2": "2일차"
+ "events_day2": "2일차",
+ "timezone_groups": {
+  "common": "자주 쓰는 지역",
+  "africa": "아프리카",
+  "america": "아메리카",
+  "antarctica": "남극",
+  "arctic": "북극",
+  "asia": "아시아",
+  "atlantic": "대서양",
+  "australia": "오스트레일리아",
+  "europe": "유럽",
+  "indian": "인도양",
+  "pacific": "태평양"
+ }
 }

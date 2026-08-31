@@ -288,5 +288,18 @@
  "guides_none": "No guides available yet",
  "guides_none_desc": "Check back soon for new content!",
  "events_next_day": "+1 day",
- "events_day2": "Day 2"
+ "events_day2": "Day 2",
+ "timezone_groups": {
+  "common": "Sık kullanılan",
+  "africa": "Afrika",
+  "america": "Amerika",
+  "antarctica": "Antarktika",
+  "arctic": "Arktik",
+  "asia": "Asya",
+  "atlantic": "Atlas Okyanusu",
+  "australia": "Avustralya",
+  "europe": "Avrupa",
+  "indian": "Hint Okyanusu",
+  "pacific": "Pasifik Okyanusu"
+ }
 }

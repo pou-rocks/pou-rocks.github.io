@@ -269,8 +269,36 @@ Red-green still applies: write the failing check first, then patch the bundle.
 Guides: `formation1-power-optimization`, `hero-information`, `hero-orange-equipments`,
 `hero-skills-and-levels`. Each ships all 7 locales inline in its RSC payload.
 
-Header controls: Time Mode (Server = UTC-02 / Local), Timezone (12 zones), Language
-(en, ko, zh, ja, id, tl, ar). Mobile repeats the nav in a drawer plus a labeled settings block.
+Header controls: Time Mode (Server = UTC-02 / Local), Timezone (see below), Language
+(all 16). Mobile repeats the nav in a drawer plus a labeled settings block.
+
+### Timezones
+
+The picker reads `Intl.supportedValuesOf('timeZone')` at runtime — 418 zones in Chrome 151, at
+no payload cost — grouped by IANA region under localized `timezone_groups.*` headings, each
+labelled city plus live offset (`Kolkata (GMT+5:30)`). Three rules hold it together:
+
+1. **The detected and stored zones are always prepended**, ahead of the twelve pinned
+   favourites. Before this, a zone outside those twelve left the `<select>` value matching no
+   option, and it rendered **blank** — `Intl` detects the real zone, so most of the world saw
+   that.
+2. **ICU prefers the *legacy* IANA name.** `supportedValuesOf` yields `Asia/Calcutta`,
+   `Europe/Kiev`, `Asia/Saigon`, `America/Godthab` — and canonicalizes `Asia/Kolkata` *to*
+   `Asia/Calcutta`, so you cannot dodge it by asking for the modern id. `tzRenamed` in the
+   layout chunk relabels the twelve affected zones; values stay the ICU id, only the display
+   changes, and sorting follows the label so Kolkata files under K.
+3. **Labels are the last path segment only** (`Asia/Seoul` → `Seoul`). IANA city names are
+   unique within a region — verified against both Node's and Chrome's ICU — which keeps the
+   widest option at 23 characters, ~190 px, so the mobile drawer does not overflow.
+
+Sub-path zones survive ICU unevenly: `America/Argentina/Buenos_Aires` collapses to
+`America/Buenos_Aires`, but `America/Indiana/Knox` stays. Do not assume either shape.
+
+**English is inlined into the layout chunk** as `let d=JSON.parse('…'),g={en:{translation:d}}`,
+and `C={en:1}` marks it loaded, so **`/locales/en.json` is never fetched**. Editing that file
+alone changes nothing for English readers — and English is `fallbackLng`, so a key missing from
+the inlined copy silently falls back to its default string in *every* locale. Run
+`build-locales.mjs`, which now syncs the inlined bundle; `i18n.test.mjs` fails if they diverge.
 
 The nav is defined only in `_next/static/chunks/app/layout-*.js` — the pre-rendered HTML is a
 loading skeleton, so grepping the `.html` files for nav links finds nothing.

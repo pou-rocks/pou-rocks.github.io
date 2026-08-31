@@ -288,5 +288,18 @@
  "guides_none": "No guides available yet",
  "guides_none_desc": "Check back soon for new content!",
  "events_next_day": "+1 day",
- "events_day2": "Day 2"
+ "events_day2": "Day 2",
+ "timezone_groups": {
+  "common": "Thường dùng",
+  "africa": "Châu Phi",
+  "america": "Châu Mỹ",
+  "antarctica": "Nam Cực",
+  "arctic": "Bắc Cực",
+  "asia": "Châu Á",
+  "atlantic": "Đại Tây Dương",
+  "australia": "Úc",
+  "europe": "Châu Âu",
+  "indian": "Ấn Độ Dương",
+  "pacific": "Thái Bình Dương"
+ }
 }

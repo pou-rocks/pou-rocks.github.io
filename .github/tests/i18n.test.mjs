@@ -1,5 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
+import vm from 'node:vm'
 import { TARGET_LOCALES, RTL_LOCALES, BUDGET, localeFiles, loadLocale,
          layoutChunk, read, bytes, has, flatKeys } from './lib/site.mjs'
 
@@ -56,4 +57,11 @@ test('Arabic is the only RTL locale and is declared', () => {
   const m = src.match(/=\["ar"\]/)
   assert.ok(m, 'RTL locale list not found')
   assert.deepEqual(RTL_LOCALES, ['ar'])
+})
+
+test('the inlined English bundle matches locales/en.json', () => {
+  const m = read(layoutChunk())
+    .match(/let d=JSON\.parse\(('(?:\\.|[^'\\])*')\),g=\{en:\{translation:d\}\}/)
+  assert.ok(m, 'inlined English bundle not found')
+  assert.deepEqual(JSON.parse(vm.runInNewContext(m[1])), loadLocale('en'))
 })
